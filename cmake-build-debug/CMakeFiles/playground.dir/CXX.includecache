@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp
+PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp
+
