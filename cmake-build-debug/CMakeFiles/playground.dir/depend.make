@@ -4,5 +4,6 @@
 CMakeFiles/playground.dir/tmp/PlainBox.cpp.o: ../tmp/PlainBox.cpp
 CMakeFiles/playground.dir/tmp/PlainBox.cpp.o: ../tmp/PlainBox.h
 
+CMakeFiles/playground.dir/tmp/playground.cpp.o: ../tmp/PlainBox.h
 CMakeFiles/playground.dir/tmp/playground.cpp.o: ../tmp/playground.cpp
 

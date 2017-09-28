@@ -4,16 +4,20 @@
 
 #include "PlainBox.h"
 
-PlainBox::PlainBox() {}
+template <class T>
+PlainBox<T>::PlainBox() {}
 
-PlainBox::PlainBox(const ItemType &theItem) {
+template<class T>
+PlainBox<T>::PlainBox(const T& theItem) {
     item = theItem;
 }
 
-void PlainBox::setItem(const ItemType &theItem) {
+template<class T>
+void PlainBox<T>::setItem(const T& theItem) {
     item = theItem;
 }
 
-ItemType PlainBox::getItem() const {
+template<class T>
+T PlainBox<T>::getItem() const {
     return item;
 }

@@ -5,25 +5,23 @@
 #ifndef PROBLEM_SOLVING_PLAINBOX_H
 #define PROBLEM_SOLVING_PLAINBOX_H
 
-typedef double ItemType;
-
+template<class T>
 class PlainBox {
 private:
-    ItemType item;
+    T item;
 public:
     // Default constructor
     PlainBox();
 
     // Parametrized constructor
-    PlainBox(const ItemType& theItem);
+    PlainBox(const T& theItem);
 
     // Method to change the value of the data field
-    void setItem(const ItemType& theItem);
+    void setItem(const T& theItem);
 
     // Method to get the value of the data field
     // labeling all accessor methods with the const declaration is appropriate and a good idea
-    ItemType getItem() const ;
+    T getItem() const ;
 };
-
 
 #endif //PROBLEM_SOLVING_PLAINBOX_H
