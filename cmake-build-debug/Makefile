@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,45 +123,32 @@ playground/fast:
 	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
 .PHONY : playground/fast
 
-#=============================================================================
-# Target rules for targets named Problem_Solving
+tmp/MagicBox.o: tmp/MagicBox.cpp.o
 
-# Build rule for target.
-Problem_Solving: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Problem_Solving
-.PHONY : Problem_Solving
-
-# fast build rule for target.
-Problem_Solving/fast:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
-.PHONY : Problem_Solving/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : tmp/MagicBox.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/main.cpp.o
-.PHONY : main.cpp.o
+tmp/MagicBox.cpp.o:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.o
+.PHONY : tmp/MagicBox.cpp.o
 
-main.i: main.cpp.i
+tmp/MagicBox.i: tmp/MagicBox.cpp.i
 
-.PHONY : main.i
+.PHONY : tmp/MagicBox.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/main.cpp.i
-.PHONY : main.cpp.i
+tmp/MagicBox.cpp.i:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.i
+.PHONY : tmp/MagicBox.cpp.i
 
-main.s: main.cpp.s
+tmp/MagicBox.s: tmp/MagicBox.cpp.s
 
-.PHONY : main.s
+.PHONY : tmp/MagicBox.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/main.cpp.s
-.PHONY : main.cpp.s
+tmp/MagicBox.cpp.s:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.s
+.PHONY : tmp/MagicBox.cpp.s
 
 tmp/PlainBox.o: tmp/PlainBox.cpp.o
 
@@ -189,6 +176,33 @@ tmp/PlainBox.s: tmp/PlainBox.cpp.s
 tmp/PlainBox.cpp.s:
 	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/PlainBox.cpp.s
 .PHONY : tmp/PlainBox.cpp.s
+
+tmp/ToyBox.o: tmp/ToyBox.cpp.o
+
+.PHONY : tmp/ToyBox.o
+
+# target to build an object file
+tmp/ToyBox.cpp.o:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.o
+.PHONY : tmp/ToyBox.cpp.o
+
+tmp/ToyBox.i: tmp/ToyBox.cpp.i
+
+.PHONY : tmp/ToyBox.i
+
+# target to preprocess a source file
+tmp/ToyBox.cpp.i:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.i
+.PHONY : tmp/ToyBox.cpp.i
+
+tmp/ToyBox.s: tmp/ToyBox.cpp.s
+
+.PHONY : tmp/ToyBox.s
+
+# target to generate assembly for a file
+tmp/ToyBox.cpp.s:
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.s
+.PHONY : tmp/ToyBox.cpp.s
 
 tmp/playground.o: tmp/playground.cpp.o
 
@@ -223,16 +237,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... playground"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Problem_Solving"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... playground"
+	@echo "... tmp/MagicBox.o"
+	@echo "... tmp/MagicBox.i"
+	@echo "... tmp/MagicBox.s"
 	@echo "... tmp/PlainBox.o"
 	@echo "... tmp/PlainBox.i"
 	@echo "... tmp/PlainBox.s"
+	@echo "... tmp/ToyBox.o"
+	@echo "... tmp/ToyBox.i"
+	@echo "... tmp/ToyBox.s"
 	@echo "... tmp/playground.o"
 	@echo "... tmp/playground.i"
 	@echo "... tmp/playground.s"

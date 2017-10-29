@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug
 CMakeFiles/playground.dir/all:
 	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/depend
 	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target playground"
 .PHONY : CMakeFiles/playground.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/playground.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/playground.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/playground.dir/rule
@@ -93,43 +93,6 @@ CMakeFiles/playground.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/playground.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Problem_Solving.dir
-
-# All Build rule for target.
-CMakeFiles/Problem_Solving.dir/all:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/depend
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Problem_Solving"
-.PHONY : CMakeFiles/Problem_Solving.dir/all
-
-# Include target in all.
-all: CMakeFiles/Problem_Solving.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Problem_Solving.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Problem_Solving.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Problem_Solving.dir/rule
-
-# Convenience name for target.
-Problem_Solving: CMakeFiles/Problem_Solving.dir/rule
-
-.PHONY : Problem_Solving
-
-# clean rule for target.
-CMakeFiles/Problem_Solving.dir/clean:
-	$(MAKE) -f CMakeFiles/Problem_Solving.dir/build.make CMakeFiles/Problem_Solving.dir/clean
-.PHONY : CMakeFiles/Problem_Solving.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Problem_Solving.dir/clean
 
 .PHONY : clean
 

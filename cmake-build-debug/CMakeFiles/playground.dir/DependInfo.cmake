@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/playground.dir/tmp/MagicBox.cpp.o"
   "/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/playground.dir/tmp/PlainBox.cpp.o"
+  "/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/playground.dir/tmp/ToyBox.cpp.o"
   "/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/playground.dir/tmp/playground.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

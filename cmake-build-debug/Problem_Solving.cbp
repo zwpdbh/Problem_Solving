@@ -17,6 +17,26 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="playground">
 				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
@@ -61,78 +81,26 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Problem_Solving">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Problem_Solving" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Problem_Solving"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Problem_Solving/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Problem_Solving" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Problem_Solving/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/main.cpp">
-			<Option target="Problem_Solving"/>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/BoxInterface.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.h">
+			<Option target="playground"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp">
 			<Option target="playground"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.h">
 			<Option target="playground"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp">

@@ -6,13 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/BoxInterface.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp
+MagicBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.h
+PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+
 /Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp
 PlainBox.h
 /Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
 
 /Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+BoxInterface.h
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/BoxInterface.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp
+ToyBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.h
 PlainBox.h
 /Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp
+string
+-
+iostream
+-
+PlainBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp
+ToyBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp
+MagicBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp
 

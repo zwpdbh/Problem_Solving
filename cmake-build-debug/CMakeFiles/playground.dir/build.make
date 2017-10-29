@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -105,19 +105,71 @@ CMakeFiles/playground.dir/tmp/PlainBox.cpp.o.provides: CMakeFiles/playground.dir
 CMakeFiles/playground.dir/tmp/PlainBox.cpp.o.provides.build: CMakeFiles/playground.dir/tmp/PlainBox.cpp.o
 
 
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.o: CMakeFiles/playground.dir/flags.make
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.o: ../tmp/ToyBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playground.dir/tmp/ToyBox.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playground.dir/tmp/ToyBox.cpp.o -c /Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp
+
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playground.dir/tmp/ToyBox.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp > CMakeFiles/playground.dir/tmp/ToyBox.cpp.i
+
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playground.dir/tmp/ToyBox.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp -o CMakeFiles/playground.dir/tmp/ToyBox.cpp.s
+
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.requires:
+
+.PHONY : CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.requires
+
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.provides: CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.requires
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.provides.build
+.PHONY : CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.provides
+
+CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.provides.build: CMakeFiles/playground.dir/tmp/ToyBox.cpp.o
+
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.o: CMakeFiles/playground.dir/flags.make
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.o: ../tmp/MagicBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/playground.dir/tmp/MagicBox.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playground.dir/tmp/MagicBox.cpp.o -c /Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playground.dir/tmp/MagicBox.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp > CMakeFiles/playground.dir/tmp/MagicBox.cpp.i
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playground.dir/tmp/MagicBox.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp -o CMakeFiles/playground.dir/tmp/MagicBox.cpp.s
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.requires:
+
+.PHONY : CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.requires
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.provides: CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.requires
+	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.provides.build
+.PHONY : CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.provides
+
+CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.provides.build: CMakeFiles/playground.dir/tmp/MagicBox.cpp.o
+
+
 # Object files for target playground
 playground_OBJECTS = \
 "CMakeFiles/playground.dir/tmp/playground.cpp.o" \
-"CMakeFiles/playground.dir/tmp/PlainBox.cpp.o"
+"CMakeFiles/playground.dir/tmp/PlainBox.cpp.o" \
+"CMakeFiles/playground.dir/tmp/ToyBox.cpp.o" \
+"CMakeFiles/playground.dir/tmp/MagicBox.cpp.o"
 
 # External object files for target playground
 playground_EXTERNAL_OBJECTS =
 
 playground: CMakeFiles/playground.dir/tmp/playground.cpp.o
 playground: CMakeFiles/playground.dir/tmp/PlainBox.cpp.o
+playground: CMakeFiles/playground.dir/tmp/ToyBox.cpp.o
+playground: CMakeFiles/playground.dir/tmp/MagicBox.cpp.o
 playground: CMakeFiles/playground.dir/build.make
 playground: CMakeFiles/playground.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable playground"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playground.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +179,8 @@ CMakeFiles/playground.dir/build: playground
 
 CMakeFiles/playground.dir/requires: CMakeFiles/playground.dir/tmp/playground.cpp.o.requires
 CMakeFiles/playground.dir/requires: CMakeFiles/playground.dir/tmp/PlainBox.cpp.o.requires
+CMakeFiles/playground.dir/requires: CMakeFiles/playground.dir/tmp/ToyBox.cpp.o.requires
+CMakeFiles/playground.dir/requires: CMakeFiles/playground.dir/tmp/MagicBox.cpp.o.requires
 
 .PHONY : CMakeFiles/playground.dir/requires
 
