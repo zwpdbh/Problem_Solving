@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/BoxInterface.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/BoxInterface.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/MagicBox.cpp
 MagicBox.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/MagicBox.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/MagicBox.h
 PlainBox.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.cpp
 PlainBox.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.h
 BoxInterface.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/BoxInterface.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/BoxInterface.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/ToyBox.cpp
 ToyBox.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/ToyBox.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/ToyBox.h
 PlainBox.h
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.h
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.h
 
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/playground.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/playground.cpp
 string
 -
 iostream
 -
 PlainBox.cpp
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/PlainBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/PlainBox.cpp
 ToyBox.cpp
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/ToyBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/ToyBox.cpp
 MagicBox.cpp
-/Users/zw/code/C++_Projects/Problem_Solving/tmp/MagicBox.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/MagicBox.cpp
 

@@ -111,125 +111,192 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named playground
+# Target rules for targets named chapter03_playground
 
 # Build rule for target.
-playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 playground
-.PHONY : playground
+chapter03_playground: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter03_playground
+.PHONY : chapter03_playground
 
 # fast build rule for target.
-playground/fast:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-.PHONY : playground/fast
+chapter03_playground/fast:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/build
+.PHONY : chapter03_playground/fast
 
-tmp/MagicBox.o: tmp/MagicBox.cpp.o
+#=============================================================================
+# Target rules for targets named chapter01_playground
 
-.PHONY : tmp/MagicBox.o
+# Build rule for target.
+chapter01_playground: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter01_playground
+.PHONY : chapter01_playground
 
-# target to build an object file
-tmp/MagicBox.cpp.o:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.o
-.PHONY : tmp/MagicBox.cpp.o
+# fast build rule for target.
+chapter01_playground/fast:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
+.PHONY : chapter01_playground/fast
 
-tmp/MagicBox.i: tmp/MagicBox.cpp.i
+chapter01_c++_interlude_01/MagicBox.o: chapter01_c++_interlude_01/MagicBox.cpp.o
 
-.PHONY : tmp/MagicBox.i
-
-# target to preprocess a source file
-tmp/MagicBox.cpp.i:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.i
-.PHONY : tmp/MagicBox.cpp.i
-
-tmp/MagicBox.s: tmp/MagicBox.cpp.s
-
-.PHONY : tmp/MagicBox.s
-
-# target to generate assembly for a file
-tmp/MagicBox.cpp.s:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/MagicBox.cpp.s
-.PHONY : tmp/MagicBox.cpp.s
-
-tmp/PlainBox.o: tmp/PlainBox.cpp.o
-
-.PHONY : tmp/PlainBox.o
+.PHONY : chapter01_c++_interlude_01/MagicBox.o
 
 # target to build an object file
-tmp/PlainBox.cpp.o:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/PlainBox.cpp.o
-.PHONY : tmp/PlainBox.cpp.o
+chapter01_c++_interlude_01/MagicBox.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o
+.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.o
 
-tmp/PlainBox.i: tmp/PlainBox.cpp.i
+chapter01_c++_interlude_01/MagicBox.i: chapter01_c++_interlude_01/MagicBox.cpp.i
 
-.PHONY : tmp/PlainBox.i
+.PHONY : chapter01_c++_interlude_01/MagicBox.i
 
 # target to preprocess a source file
-tmp/PlainBox.cpp.i:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/PlainBox.cpp.i
-.PHONY : tmp/PlainBox.cpp.i
+chapter01_c++_interlude_01/MagicBox.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.i
+.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.i
 
-tmp/PlainBox.s: tmp/PlainBox.cpp.s
+chapter01_c++_interlude_01/MagicBox.s: chapter01_c++_interlude_01/MagicBox.cpp.s
 
-.PHONY : tmp/PlainBox.s
+.PHONY : chapter01_c++_interlude_01/MagicBox.s
 
 # target to generate assembly for a file
-tmp/PlainBox.cpp.s:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/PlainBox.cpp.s
-.PHONY : tmp/PlainBox.cpp.s
+chapter01_c++_interlude_01/MagicBox.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.s
+.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.s
 
-tmp/ToyBox.o: tmp/ToyBox.cpp.o
+chapter01_c++_interlude_01/PlainBox.o: chapter01_c++_interlude_01/PlainBox.cpp.o
 
-.PHONY : tmp/ToyBox.o
+.PHONY : chapter01_c++_interlude_01/PlainBox.o
 
 # target to build an object file
-tmp/ToyBox.cpp.o:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.o
-.PHONY : tmp/ToyBox.cpp.o
+chapter01_c++_interlude_01/PlainBox.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o
+.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.o
 
-tmp/ToyBox.i: tmp/ToyBox.cpp.i
+chapter01_c++_interlude_01/PlainBox.i: chapter01_c++_interlude_01/PlainBox.cpp.i
 
-.PHONY : tmp/ToyBox.i
+.PHONY : chapter01_c++_interlude_01/PlainBox.i
 
 # target to preprocess a source file
-tmp/ToyBox.cpp.i:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.i
-.PHONY : tmp/ToyBox.cpp.i
+chapter01_c++_interlude_01/PlainBox.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.i
+.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.i
 
-tmp/ToyBox.s: tmp/ToyBox.cpp.s
+chapter01_c++_interlude_01/PlainBox.s: chapter01_c++_interlude_01/PlainBox.cpp.s
 
-.PHONY : tmp/ToyBox.s
+.PHONY : chapter01_c++_interlude_01/PlainBox.s
 
 # target to generate assembly for a file
-tmp/ToyBox.cpp.s:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/ToyBox.cpp.s
-.PHONY : tmp/ToyBox.cpp.s
+chapter01_c++_interlude_01/PlainBox.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.s
+.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.s
 
-tmp/playground.o: tmp/playground.cpp.o
+chapter01_c++_interlude_01/ToyBox.o: chapter01_c++_interlude_01/ToyBox.cpp.o
 
-.PHONY : tmp/playground.o
+.PHONY : chapter01_c++_interlude_01/ToyBox.o
 
 # target to build an object file
-tmp/playground.cpp.o:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/playground.cpp.o
-.PHONY : tmp/playground.cpp.o
+chapter01_c++_interlude_01/ToyBox.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o
+.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.o
 
-tmp/playground.i: tmp/playground.cpp.i
+chapter01_c++_interlude_01/ToyBox.i: chapter01_c++_interlude_01/ToyBox.cpp.i
 
-.PHONY : tmp/playground.i
+.PHONY : chapter01_c++_interlude_01/ToyBox.i
 
 # target to preprocess a source file
-tmp/playground.cpp.i:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/playground.cpp.i
-.PHONY : tmp/playground.cpp.i
+chapter01_c++_interlude_01/ToyBox.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.i
+.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.i
 
-tmp/playground.s: tmp/playground.cpp.s
+chapter01_c++_interlude_01/ToyBox.s: chapter01_c++_interlude_01/ToyBox.cpp.s
 
-.PHONY : tmp/playground.s
+.PHONY : chapter01_c++_interlude_01/ToyBox.s
 
 # target to generate assembly for a file
-tmp/playground.cpp.s:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/tmp/playground.cpp.s
-.PHONY : tmp/playground.cpp.s
+chapter01_c++_interlude_01/ToyBox.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.s
+.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.s
+
+chapter01_c++_interlude_01/main.o: chapter01_c++_interlude_01/main.cpp.o
+
+.PHONY : chapter01_c++_interlude_01/main.o
+
+# target to build an object file
+chapter01_c++_interlude_01/main.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.o
+.PHONY : chapter01_c++_interlude_01/main.cpp.o
+
+chapter01_c++_interlude_01/main.i: chapter01_c++_interlude_01/main.cpp.i
+
+.PHONY : chapter01_c++_interlude_01/main.i
+
+# target to preprocess a source file
+chapter01_c++_interlude_01/main.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.i
+.PHONY : chapter01_c++_interlude_01/main.cpp.i
+
+chapter01_c++_interlude_01/main.s: chapter01_c++_interlude_01/main.cpp.s
+
+.PHONY : chapter01_c++_interlude_01/main.s
+
+# target to generate assembly for a file
+chapter01_c++_interlude_01/main.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.s
+.PHONY : chapter01_c++_interlude_01/main.cpp.s
+
+chapter03_array-based_implementations/ArrayBag.o: chapter03_array-based_implementations/ArrayBag.cpp.o
+
+.PHONY : chapter03_array-based_implementations/ArrayBag.o
+
+# target to build an object file
+chapter03_array-based_implementations/ArrayBag.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.o
+.PHONY : chapter03_array-based_implementations/ArrayBag.cpp.o
+
+chapter03_array-based_implementations/ArrayBag.i: chapter03_array-based_implementations/ArrayBag.cpp.i
+
+.PHONY : chapter03_array-based_implementations/ArrayBag.i
+
+# target to preprocess a source file
+chapter03_array-based_implementations/ArrayBag.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.i
+.PHONY : chapter03_array-based_implementations/ArrayBag.cpp.i
+
+chapter03_array-based_implementations/ArrayBag.s: chapter03_array-based_implementations/ArrayBag.cpp.s
+
+.PHONY : chapter03_array-based_implementations/ArrayBag.s
+
+# target to generate assembly for a file
+chapter03_array-based_implementations/ArrayBag.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.s
+.PHONY : chapter03_array-based_implementations/ArrayBag.cpp.s
+
+chapter03_array-based_implementations/main.o: chapter03_array-based_implementations/main.cpp.o
+
+.PHONY : chapter03_array-based_implementations/main.o
+
+# target to build an object file
+chapter03_array-based_implementations/main.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.o
+.PHONY : chapter03_array-based_implementations/main.cpp.o
+
+chapter03_array-based_implementations/main.i: chapter03_array-based_implementations/main.cpp.i
+
+.PHONY : chapter03_array-based_implementations/main.i
+
+# target to preprocess a source file
+chapter03_array-based_implementations/main.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.i
+.PHONY : chapter03_array-based_implementations/main.cpp.i
+
+chapter03_array-based_implementations/main.s: chapter03_array-based_implementations/main.cpp.s
+
+.PHONY : chapter03_array-based_implementations/main.s
+
+# target to generate assembly for a file
+chapter03_array-based_implementations/main.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.s
+.PHONY : chapter03_array-based_implementations/main.cpp.s
 
 # Help Target
 help:
@@ -239,19 +306,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... playground"
-	@echo "... tmp/MagicBox.o"
-	@echo "... tmp/MagicBox.i"
-	@echo "... tmp/MagicBox.s"
-	@echo "... tmp/PlainBox.o"
-	@echo "... tmp/PlainBox.i"
-	@echo "... tmp/PlainBox.s"
-	@echo "... tmp/ToyBox.o"
-	@echo "... tmp/ToyBox.i"
-	@echo "... tmp/ToyBox.s"
-	@echo "... tmp/playground.o"
-	@echo "... tmp/playground.i"
-	@echo "... tmp/playground.s"
+	@echo "... chapter03_playground"
+	@echo "... chapter01_playground"
+	@echo "... chapter01_c++_interlude_01/MagicBox.o"
+	@echo "... chapter01_c++_interlude_01/MagicBox.i"
+	@echo "... chapter01_c++_interlude_01/MagicBox.s"
+	@echo "... chapter01_c++_interlude_01/PlainBox.o"
+	@echo "... chapter01_c++_interlude_01/PlainBox.i"
+	@echo "... chapter01_c++_interlude_01/PlainBox.s"
+	@echo "... chapter01_c++_interlude_01/ToyBox.o"
+	@echo "... chapter01_c++_interlude_01/ToyBox.i"
+	@echo "... chapter01_c++_interlude_01/ToyBox.s"
+	@echo "... chapter01_c++_interlude_01/main.o"
+	@echo "... chapter01_c++_interlude_01/main.i"
+	@echo "... chapter01_c++_interlude_01/main.s"
+	@echo "... chapter03_array-based_implementations/ArrayBag.o"
+	@echo "... chapter03_array-based_implementations/ArrayBag.i"
+	@echo "... chapter03_array-based_implementations/ArrayBag.s"
+	@echo "... chapter03_array-based_implementations/main.o"
+	@echo "... chapter03_array-based_implementations/main.i"
+	@echo "... chapter03_array-based_implementations/main.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/firstCmake.dir/playground.cpp.o CMakeFiles/firstCmake.dir/PlainBox.cpp.o CMakeFiles/firstCmake.dir/ToyBox.cpp.o  -o ../bin/firstCmake 

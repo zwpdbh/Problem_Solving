@@ -48,5 +48,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/playground.dir/DependInfo.cmake"
+  "CMakeFiles/chapter03_playground.dir/DependInfo.cmake"
+  "CMakeFiles/chapter01_playground.dir/DependInfo.cmake"
   )

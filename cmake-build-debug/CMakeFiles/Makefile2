@@ -60,39 +60,76 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C++_Projects/Problem_Solving
 CMAKE_BINARY_DIR = /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/playground.dir
+# Target rules for target CMakeFiles/chapter03_playground.dir
 
 # All Build rule for target.
-CMakeFiles/playground.dir/all:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/depend
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target playground"
-.PHONY : CMakeFiles/playground.dir/all
+CMakeFiles/chapter03_playground.dir/all:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/depend
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target chapter03_playground"
+.PHONY : CMakeFiles/chapter03_playground.dir/all
 
 # Include target in all.
-all: CMakeFiles/playground.dir/all
+all: CMakeFiles/chapter03_playground.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/playground.dir/all
+CMakeFiles/chapter03_playground.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chapter03_playground.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/playground.dir/rule
+.PHONY : CMakeFiles/chapter03_playground.dir/rule
 
 # Convenience name for target.
-playground: CMakeFiles/playground.dir/rule
+chapter03_playground: CMakeFiles/chapter03_playground.dir/rule
 
-.PHONY : playground
-
-# clean rule for target.
-CMakeFiles/playground.dir/clean:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/clean
-.PHONY : CMakeFiles/playground.dir/clean
+.PHONY : chapter03_playground
 
 # clean rule for target.
-clean: CMakeFiles/playground.dir/clean
+CMakeFiles/chapter03_playground.dir/clean:
+	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/clean
+.PHONY : CMakeFiles/chapter03_playground.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chapter03_playground.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chapter01_playground.dir
+
+# All Build rule for target.
+CMakeFiles/chapter01_playground.dir/all:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/depend
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target chapter01_playground"
+.PHONY : CMakeFiles/chapter01_playground.dir/all
+
+# Include target in all.
+all: CMakeFiles/chapter01_playground.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chapter01_playground.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chapter01_playground.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/chapter01_playground.dir/rule
+
+# Convenience name for target.
+chapter01_playground: CMakeFiles/chapter01_playground.dir/rule
+
+.PHONY : chapter01_playground
+
+# clean rule for target.
+CMakeFiles/chapter01_playground.dir/clean:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/clean
+.PHONY : CMakeFiles/chapter01_playground.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chapter01_playground.dir/clean
 
 .PHONY : clean
 

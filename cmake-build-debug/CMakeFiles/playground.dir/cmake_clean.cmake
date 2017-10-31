@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/playground.dir/tmp/playground.cpp.o"
-  "CMakeFiles/playground.dir/tmp/PlainBox.cpp.o"
-  "CMakeFiles/playground.dir/tmp/ToyBox.cpp.o"
-  "CMakeFiles/playground.dir/tmp/MagicBox.cpp.o"
+  "CMakeFiles/playground.dir/chapter01_c++_interlude_01/playground.cpp.o"
+  "CMakeFiles/playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o"
+  "CMakeFiles/playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o"
+  "CMakeFiles/playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o"
   "playground.pdb"
   "playground"
 )

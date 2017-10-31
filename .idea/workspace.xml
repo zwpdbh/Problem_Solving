@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Problem_Solving" targetName="playground" />
+      <config projectName="Problem_Solving" targetName="chapter03_playground" />
+      <config projectName="Problem_Solving" targetName="chapter01_playground" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,27 +13,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1381897-1b29-4c6b-8ba1-6cbeebb5b302" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/CXX.includecache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/depend.internal" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/main.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/PlainBox.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/PlainBox.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/playground.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/playground.cpp.o" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/MagicBox.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/PlainBox.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/ToyBox.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/tmp/playground.cpp.o" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/BoxInterface.h" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/BoxInterface.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/CMakeLists.txt" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/CMakeLists.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/MagicBox.cpp" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/MagicBox.h" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/PlainBox.cpp" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/PlainBox.h" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/ToyBox.cpp" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/ToyBox.h" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/bin/firstCmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/bin/firstCmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeCache.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CMakeSystem.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CompilerIdC/a.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/CMakeOutput.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/Makefile.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/Makefile2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/TargetDirectories.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/cmake.check_cache" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/cmake.check_cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/feature_tests.bin" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/feature_tests.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/feature_tests.cxx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/CXX.includecache" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/CXX.includecache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/DependInfo.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/PlainBox.cpp.o" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/PlainBox.cpp.o" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/ToyBox.cpp.o" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/ToyBox.cpp.o" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/build.make" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/build.make" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/cmake_clean.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/depend.internal" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/depend.internal" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/depend.make" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/depend.make" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/flags.make" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/flags.make" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/link.txt" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/link.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/playground.cpp.o" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/playground.cpp.o" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/firstCmake.dir/progress.make" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/firstCmake.dir/progress.make" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/CMakeFiles/progress.marks" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/Makefile" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/build/cmake_install.cmake" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/build/cmake_install.cmake" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tmp/playground.cpp" afterPath="$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/playground" afterPath="$PROJECT_DIR$/cmake-build-debug/playground" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Problem_Solving.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" />
@@ -41,10 +75,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/PlainBox.h" afterPath="$PROJECT_DIR$/tmp/PlainBox.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/playground.cpp" afterPath="$PROJECT_DIR$/tmp/playground.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,79 +95,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MagicBox.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/MagicBox.h">
+      <file leaf-file-name="ArrayBag.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="80">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
-                <element signature="e#146#155#0" expanded="true" />
+                <element signature="e#153#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MagicBox.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/MagicBox.cpp">
+      <file leaf-file-name="BagInterface.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BagInterface.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="231">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <element signature="e#106#115#0" expanded="true" />
-                <element signature="e#384#393#0" expanded="true" />
-                <element signature="e#499#508#0" expanded="true" />
+                <element signature="e#150#159#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playground.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+      <file leaf-file-name="ArrayBag.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="1120">
+              <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
               <folding>
-                <element signature="e#42#59#0" expanded="true" />
+                <element signature="e#74#83#0" expanded="true" />
+                <element signature="e#174#183#0" expanded="true" />
+                <element signature="e#400#409#0" expanded="true" />
+                <element signature="e#614#623#0" expanded="true" />
+                <element signature="e#700#709#0" expanded="true" />
+                <element signature="e#785#794#0" expanded="true" />
+                <element signature="e#1163#1172#0" expanded="true" />
+                <element signature="e#1466#1475#0" expanded="true" />
+                <element signature="e#1538#1547#0" expanded="true" />
+                <element signature="e#1829#1838#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PlainBox.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+        <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlainBox.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#204#213#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoxInterface.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/BoxInterface.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="e#131#140#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remove</find>
+      <find>getFrequencyOf</find>
+      <find>getCurrentSize</find>
+      <find>clear</find>
+      <find>toVector</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -144,13 +179,19 @@
       <list>
         <option value="$PROJECT_DIR$/tmp/ToyBox.cpp" />
         <option value="$PROJECT_DIR$/tmp/ToyBox.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tmp/MagicBox.h" />
         <option value="$PROJECT_DIR$/tmp/MagicBox.cpp" />
         <option value="$PROJECT_DIR$/tmp/BoxInterface.h" />
         <option value="$PROJECT_DIR$/tmp/playground.cpp" />
         <option value="$PROJECT_DIR$/tmp/PlainBox.cpp" />
         <option value="$PROJECT_DIR$/tmp/PlainBox.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter03_array-based_implementations/main.cpp" />
+        <option value="$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.h" />
+        <option value="$PROJECT_DIR$/BagInterface.h" />
+        <option value="$PROJECT_DIR$/chapter01_c++_interlude_01/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.cpp" />
+        <option value="$PROJECT_DIR$/chapter03_array-based_implementations/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -160,11 +201,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
-    <option name="y" value="276" />
-    <option name="width" value="1244" />
-    <option name="height" value="512" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="320" />
+    <option name="width" value="1440" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -194,7 +235,12 @@
             <path>
               <item name="Problem_Solving" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter01_c++_interlude_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter03_array-based_implementations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,16 +264,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.playground">
+  <component name="RunManager" selected="Application.chapter03_playground">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="playground" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="playground">
+    <configuration name="chapter01_playground" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="chapter01_playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="chapter01_playground">
       <envs />
     </configuration>
-    <list size="2">
+    <configuration name="chapter03_playground" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="chapter03_playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="chapter03_playground">
+      <envs />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.playground" />
+      <item index="1" class="java.lang.String" itemvalue="Application.chapter01_playground" />
+      <item index="2" class="java.lang.String" itemvalue="Application.chapter03_playground" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -251,24 +301,27 @@
       <workItem from="1509147458283" duration="969000" />
       <workItem from="1509223059700" duration="1162000" />
       <workItem from="1509251933708" duration="592000" />
-      <workItem from="1509268171622" duration="2046000" />
+      <workItem from="1509268171622" duration="2097000" />
+      <workItem from="1509273362539" duration="69000" />
+      <workItem from="1509327344035" duration="524000" />
+      <workItem from="1509357732663" duration="10766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14423000" />
+    <option name="totallyTimeSpent" value="25833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="276" width="1244" height="512" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34109816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30329043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23450135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -280,7 +333,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="190" y="447" width="1044" height="312" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -295,71 +348,109 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#42#59#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#204#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/BoxInterface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#131#140#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="e#146#155#0" expanded="true" />
+            <element signature="e#146#155#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#42#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#106#115#0" expanded="true" />
-            <element signature="e#384#393#0" expanded="true" />
-            <element signature="e#499#508#0" expanded="true" />
+            <element signature="e#106#115#0" expanded="false" />
+            <element signature="e#384#393#0" expanded="false" />
+            <element signature="e#499#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#146#155#0" expanded="true" />
+            <element signature="e#146#155#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#106#115#0" expanded="true" />
-            <element signature="e#384#393#0" expanded="true" />
-            <element signature="e#499#508#0" expanded="true" />
+            <element signature="e#106#115#0" expanded="false" />
+            <element signature="e#384#393#0" expanded="false" />
+            <element signature="e#499#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#42#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -372,29 +463,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#146#155#0" expanded="true" />
+            <element signature="e#146#155#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#106#115#0" expanded="true" />
-            <element signature="e#384#393#0" expanded="true" />
-            <element signature="e#499#508#0" expanded="true" />
+            <element signature="e#106#115#0" expanded="false" />
+            <element signature="e#384#393#0" expanded="false" />
+            <element signature="e#499#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -407,20 +498,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
@@ -428,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
@@ -441,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
@@ -451,12 +539,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#42#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,20 +556,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
@@ -489,7 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
@@ -502,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
@@ -512,12 +597,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#42#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,20 +614,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
@@ -550,20 +632,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
@@ -571,20 +650,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
@@ -592,15 +668,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#75#84#0" expanded="false" />
-            <element signature="e#121#130#0" expanded="false" />
-            <element signature="e#204#213#0" expanded="true" />
-            <element signature="e#291#300#0" expanded="false" />
+            <element signature="e#204#213#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -626,92 +699,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#195#204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#146#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/ToyBox.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#71#80#0" expanded="false" />
-            <element signature="e#156#165#0" expanded="false" />
-            <element signature="e#265#274#0" expanded="false" />
-            <element signature="e#427#436#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/MagicBox.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="220">
           <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <element signature="e#106#115#0" expanded="true" />
-            <element signature="e#384#393#0" expanded="true" />
-            <element signature="e#499#508#0" expanded="true" />
+            <element signature="e#106#115#0" expanded="false" />
+            <element signature="e#384#393#0" expanded="false" />
+            <element signature="e#499#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/BoxInterface.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/MagicBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#146#155#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#204#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/BoxInterface.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <element signature="e#131#140#0" expanded="true" />
+            <element signature="e#131#140#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="354">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <element signature="e#204#213#0" expanded="true" />
+            <element signature="e#42#59#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/playground.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/ToyBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#43#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/PlainBox.h">
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="e#74#83#0" expanded="true" />
+            <element signature="e#174#183#0" expanded="true" />
+            <element signature="e#400#409#0" expanded="true" />
+            <element signature="e#614#623#0" expanded="true" />
+            <element signature="e#700#709#0" expanded="true" />
+            <element signature="e#785#794#0" expanded="true" />
+            <element signature="e#1163#1172#0" expanded="true" />
+            <element signature="e#1466#1475#0" expanded="true" />
+            <element signature="e#1538#1547#0" expanded="true" />
+            <element signature="e#1829#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03_array-based_implementations/ArrayBag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#153#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BagInterface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="e#150#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter01_c++_interlude_01/PlainBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding />
         </state>
       </provider>
