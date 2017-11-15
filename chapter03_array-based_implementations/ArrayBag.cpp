@@ -3,6 +3,7 @@
 //
 
 #include "ArrayBag.h"
+
 template <class T>
 ArrayBag<T>::ArrayBag() {
     itemCount = 0;

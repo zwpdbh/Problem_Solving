@@ -111,17 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named chapter03_playground
+# Target rules for targets named class_Inheritance_03
 
 # Build rule for target.
-chapter03_playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chapter03_playground
-.PHONY : chapter03_playground
+class_Inheritance_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 class_Inheritance_03
+.PHONY : class_Inheritance_03
 
 # fast build rule for target.
-chapter03_playground/fast:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/build
-.PHONY : chapter03_playground/fast
+class_Inheritance_03/fast:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/build
+.PHONY : class_Inheritance_03/fast
+
+#=============================================================================
+# Target rules for targets named class_Inheritance_01
+
+# Build rule for target.
+class_Inheritance_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 class_Inheritance_01
+.PHONY : class_Inheritance_01
+
+# fast build rule for target.
+class_Inheritance_01/fast:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/build
+.PHONY : class_Inheritance_01/fast
+
+#=============================================================================
+# Target rules for targets named class_template
+
+# Build rule for target.
+class_template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 class_template
+.PHONY : class_template
+
+# fast build rule for target.
+class_template/fast:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/build
+.PHONY : class_template/fast
 
 #=============================================================================
 # Target rules for targets named chapter01_playground
@@ -135,6 +161,45 @@ chapter01_playground: cmake_check_build_system
 chapter01_playground/fast:
 	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
 .PHONY : chapter01_playground/fast
+
+#=============================================================================
+# Target rules for targets named virtual_method_in_class
+
+# Build rule for target.
+virtual_method_in_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 virtual_method_in_class
+.PHONY : virtual_method_in_class
+
+# fast build rule for target.
+virtual_method_in_class/fast:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/build
+.PHONY : virtual_method_in_class/fast
+
+#=============================================================================
+# Target rules for targets named classes_and_dynamic_memeory_allocation
+
+# Build rule for target.
+classes_and_dynamic_memeory_allocation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes_and_dynamic_memeory_allocation
+.PHONY : classes_and_dynamic_memeory_allocation
+
+# fast build rule for target.
+classes_and_dynamic_memeory_allocation/fast:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
+.PHONY : classes_and_dynamic_memeory_allocation/fast
+
+#=============================================================================
+# Target rules for targets named chapter03_main
+
+# Build rule for target.
+chapter03_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter03_main
+.PHONY : chapter03_main
+
+# fast build rule for target.
+chapter03_main/fast:
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/build
+.PHONY : chapter03_main/fast
 
 chapter01_c++_interlude_01/MagicBox.o: chapter01_c++_interlude_01/MagicBox.cpp.o
 
@@ -250,7 +315,7 @@ chapter03_array-based_implementations/ArrayBag.o: chapter03_array-based_implemen
 
 # target to build an object file
 chapter03_array-based_implementations/ArrayBag.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.o
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/ArrayBag.cpp.o
 .PHONY : chapter03_array-based_implementations/ArrayBag.cpp.o
 
 chapter03_array-based_implementations/ArrayBag.i: chapter03_array-based_implementations/ArrayBag.cpp.i
@@ -259,7 +324,7 @@ chapter03_array-based_implementations/ArrayBag.i: chapter03_array-based_implemen
 
 # target to preprocess a source file
 chapter03_array-based_implementations/ArrayBag.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.i
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/ArrayBag.cpp.i
 .PHONY : chapter03_array-based_implementations/ArrayBag.cpp.i
 
 chapter03_array-based_implementations/ArrayBag.s: chapter03_array-based_implementations/ArrayBag.cpp.s
@@ -268,7 +333,7 @@ chapter03_array-based_implementations/ArrayBag.s: chapter03_array-based_implemen
 
 # target to generate assembly for a file
 chapter03_array-based_implementations/ArrayBag.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/ArrayBag.cpp.s
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/ArrayBag.cpp.s
 .PHONY : chapter03_array-based_implementations/ArrayBag.cpp.s
 
 chapter03_array-based_implementations/main.o: chapter03_array-based_implementations/main.cpp.o
@@ -277,7 +342,7 @@ chapter03_array-based_implementations/main.o: chapter03_array-based_implementati
 
 # target to build an object file
 chapter03_array-based_implementations/main.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.o
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/main.cpp.o
 .PHONY : chapter03_array-based_implementations/main.cpp.o
 
 chapter03_array-based_implementations/main.i: chapter03_array-based_implementations/main.cpp.i
@@ -286,7 +351,7 @@ chapter03_array-based_implementations/main.i: chapter03_array-based_implementati
 
 # target to preprocess a source file
 chapter03_array-based_implementations/main.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.i
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/main.cpp.i
 .PHONY : chapter03_array-based_implementations/main.cpp.i
 
 chapter03_array-based_implementations/main.s: chapter03_array-based_implementations/main.cpp.s
@@ -295,8 +360,332 @@ chapter03_array-based_implementations/main.s: chapter03_array-based_implementati
 
 # target to generate assembly for a file
 chapter03_array-based_implementations/main.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter03_playground.dir/build.make CMakeFiles/chapter03_playground.dir/chapter03_array-based_implementations/main.cpp.s
+	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/chapter03_array-based_implementations/main.cpp.s
 .PHONY : chapter03_array-based_implementations/main.cpp.s
+
+class_Inheritance/RatedPlayer.o: class_Inheritance/RatedPlayer.cpp.o
+
+.PHONY : class_Inheritance/RatedPlayer.o
+
+# target to build an object file
+class_Inheritance/RatedPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/RatedPlayer.cpp.o
+.PHONY : class_Inheritance/RatedPlayer.cpp.o
+
+class_Inheritance/RatedPlayer.i: class_Inheritance/RatedPlayer.cpp.i
+
+.PHONY : class_Inheritance/RatedPlayer.i
+
+# target to preprocess a source file
+class_Inheritance/RatedPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/RatedPlayer.cpp.i
+.PHONY : class_Inheritance/RatedPlayer.cpp.i
+
+class_Inheritance/RatedPlayer.s: class_Inheritance/RatedPlayer.cpp.s
+
+.PHONY : class_Inheritance/RatedPlayer.s
+
+# target to generate assembly for a file
+class_Inheritance/RatedPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/RatedPlayer.cpp.s
+.PHONY : class_Inheritance/RatedPlayer.cpp.s
+
+class_Inheritance/TableTennisPlayer.o: class_Inheritance/TableTennisPlayer.cpp.o
+
+.PHONY : class_Inheritance/TableTennisPlayer.o
+
+# target to build an object file
+class_Inheritance/TableTennisPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/TableTennisPlayer.cpp.o
+.PHONY : class_Inheritance/TableTennisPlayer.cpp.o
+
+class_Inheritance/TableTennisPlayer.i: class_Inheritance/TableTennisPlayer.cpp.i
+
+.PHONY : class_Inheritance/TableTennisPlayer.i
+
+# target to preprocess a source file
+class_Inheritance/TableTennisPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/TableTennisPlayer.cpp.i
+.PHONY : class_Inheritance/TableTennisPlayer.cpp.i
+
+class_Inheritance/TableTennisPlayer.s: class_Inheritance/TableTennisPlayer.cpp.s
+
+.PHONY : class_Inheritance/TableTennisPlayer.s
+
+# target to generate assembly for a file
+class_Inheritance/TableTennisPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/TableTennisPlayer.cpp.s
+.PHONY : class_Inheritance/TableTennisPlayer.cpp.s
+
+class_Inheritance/dma.o: class_Inheritance/dma.cpp.o
+
+.PHONY : class_Inheritance/dma.o
+
+# target to build an object file
+class_Inheritance/dma.cpp.o:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/dma.cpp.o
+.PHONY : class_Inheritance/dma.cpp.o
+
+class_Inheritance/dma.i: class_Inheritance/dma.cpp.i
+
+.PHONY : class_Inheritance/dma.i
+
+# target to preprocess a source file
+class_Inheritance/dma.cpp.i:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/dma.cpp.i
+.PHONY : class_Inheritance/dma.cpp.i
+
+class_Inheritance/dma.s: class_Inheritance/dma.cpp.s
+
+.PHONY : class_Inheritance/dma.s
+
+# target to generate assembly for a file
+class_Inheritance/dma.cpp.s:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/dma.cpp.s
+.PHONY : class_Inheritance/dma.cpp.s
+
+class_Inheritance/main.o: class_Inheritance/main.cpp.o
+
+.PHONY : class_Inheritance/main.o
+
+# target to build an object file
+class_Inheritance/main.cpp.o:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/main.cpp.o
+.PHONY : class_Inheritance/main.cpp.o
+
+class_Inheritance/main.i: class_Inheritance/main.cpp.i
+
+.PHONY : class_Inheritance/main.i
+
+# target to preprocess a source file
+class_Inheritance/main.cpp.i:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/main.cpp.i
+.PHONY : class_Inheritance/main.cpp.i
+
+class_Inheritance/main.s: class_Inheritance/main.cpp.s
+
+.PHONY : class_Inheritance/main.s
+
+# target to generate assembly for a file
+class_Inheritance/main.cpp.s:
+	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/class_Inheritance/main.cpp.s
+.PHONY : class_Inheritance/main.cpp.s
+
+class_Inheritance/main_dma.o: class_Inheritance/main_dma.cpp.o
+
+.PHONY : class_Inheritance/main_dma.o
+
+# target to build an object file
+class_Inheritance/main_dma.cpp.o:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/main_dma.cpp.o
+.PHONY : class_Inheritance/main_dma.cpp.o
+
+class_Inheritance/main_dma.i: class_Inheritance/main_dma.cpp.i
+
+.PHONY : class_Inheritance/main_dma.i
+
+# target to preprocess a source file
+class_Inheritance/main_dma.cpp.i:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/main_dma.cpp.i
+.PHONY : class_Inheritance/main_dma.cpp.i
+
+class_Inheritance/main_dma.s: class_Inheritance/main_dma.cpp.s
+
+.PHONY : class_Inheritance/main_dma.s
+
+# target to generate assembly for a file
+class_Inheritance/main_dma.cpp.s:
+	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/class_Inheritance/main_dma.cpp.s
+.PHONY : class_Inheritance/main_dma.cpp.s
+
+class_Inheritance/virtual_methods_in_class/Brass.o: class_Inheritance/virtual_methods_in_class/Brass.cpp.o
+
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.o
+
+# target to build an object file
+class_Inheritance/virtual_methods_in_class/Brass.cpp.o:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/Brass.cpp.o
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.cpp.o
+
+class_Inheritance/virtual_methods_in_class/Brass.i: class_Inheritance/virtual_methods_in_class/Brass.cpp.i
+
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.i
+
+# target to preprocess a source file
+class_Inheritance/virtual_methods_in_class/Brass.cpp.i:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/Brass.cpp.i
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.cpp.i
+
+class_Inheritance/virtual_methods_in_class/Brass.s: class_Inheritance/virtual_methods_in_class/Brass.cpp.s
+
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.s
+
+# target to generate assembly for a file
+class_Inheritance/virtual_methods_in_class/Brass.cpp.s:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/Brass.cpp.s
+.PHONY : class_Inheritance/virtual_methods_in_class/Brass.cpp.s
+
+class_Inheritance/virtual_methods_in_class/BrassPlus.o: class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.o
+
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.o
+
+# target to build an object file
+class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.o:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.o
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.o
+
+class_Inheritance/virtual_methods_in_class/BrassPlus.i: class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.i
+
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.i
+
+# target to preprocess a source file
+class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.i:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.i
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.i
+
+class_Inheritance/virtual_methods_in_class/BrassPlus.s: class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.s
+
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.s
+
+# target to generate assembly for a file
+class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.s:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.s
+.PHONY : class_Inheritance/virtual_methods_in_class/BrassPlus.cpp.s
+
+class_Inheritance/virtual_methods_in_class/main.o: class_Inheritance/virtual_methods_in_class/main.cpp.o
+
+.PHONY : class_Inheritance/virtual_methods_in_class/main.o
+
+# target to build an object file
+class_Inheritance/virtual_methods_in_class/main.cpp.o:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/main.cpp.o
+.PHONY : class_Inheritance/virtual_methods_in_class/main.cpp.o
+
+class_Inheritance/virtual_methods_in_class/main.i: class_Inheritance/virtual_methods_in_class/main.cpp.i
+
+.PHONY : class_Inheritance/virtual_methods_in_class/main.i
+
+# target to preprocess a source file
+class_Inheritance/virtual_methods_in_class/main.cpp.i:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/main.cpp.i
+.PHONY : class_Inheritance/virtual_methods_in_class/main.cpp.i
+
+class_Inheritance/virtual_methods_in_class/main.s: class_Inheritance/virtual_methods_in_class/main.cpp.s
+
+.PHONY : class_Inheritance/virtual_methods_in_class/main.s
+
+# target to generate assembly for a file
+class_Inheritance/virtual_methods_in_class/main.cpp.s:
+	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/class_Inheritance/virtual_methods_in_class/main.cpp.s
+.PHONY : class_Inheritance/virtual_methods_in_class/main.cpp.s
+
+class_template/main.o: class_template/main.cpp.o
+
+.PHONY : class_template/main.o
+
+# target to build an object file
+class_template/main.cpp.o:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/main.cpp.o
+.PHONY : class_template/main.cpp.o
+
+class_template/main.i: class_template/main.cpp.i
+
+.PHONY : class_template/main.i
+
+# target to preprocess a source file
+class_template/main.cpp.i:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/main.cpp.i
+.PHONY : class_template/main.cpp.i
+
+class_template/main.s: class_template/main.cpp.s
+
+.PHONY : class_template/main.s
+
+# target to generate assembly for a file
+class_template/main.cpp.s:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/main.cpp.s
+.PHONY : class_template/main.cpp.s
+
+class_template/stacktp.o: class_template/stacktp.cpp.o
+
+.PHONY : class_template/stacktp.o
+
+# target to build an object file
+class_template/stacktp.cpp.o:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/stacktp.cpp.o
+.PHONY : class_template/stacktp.cpp.o
+
+class_template/stacktp.i: class_template/stacktp.cpp.i
+
+.PHONY : class_template/stacktp.i
+
+# target to preprocess a source file
+class_template/stacktp.cpp.i:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/stacktp.cpp.i
+.PHONY : class_template/stacktp.cpp.i
+
+class_template/stacktp.s: class_template/stacktp.cpp.s
+
+.PHONY : class_template/stacktp.s
+
+# target to generate assembly for a file
+class_template/stacktp.cpp.s:
+	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/class_template/stacktp.cpp.s
+.PHONY : class_template/stacktp.cpp.s
+
+classes_and_dynamic_memeory_allocation/StringBag.o: classes_and_dynamic_memeory_allocation/StringBag.cpp.o
+
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.o
+
+# target to build an object file
+classes_and_dynamic_memeory_allocation/StringBag.cpp.o:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/StringBag.cpp.o
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.cpp.o
+
+classes_and_dynamic_memeory_allocation/StringBag.i: classes_and_dynamic_memeory_allocation/StringBag.cpp.i
+
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.i
+
+# target to preprocess a source file
+classes_and_dynamic_memeory_allocation/StringBag.cpp.i:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/StringBag.cpp.i
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.cpp.i
+
+classes_and_dynamic_memeory_allocation/StringBag.s: classes_and_dynamic_memeory_allocation/StringBag.cpp.s
+
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.s
+
+# target to generate assembly for a file
+classes_and_dynamic_memeory_allocation/StringBag.cpp.s:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/StringBag.cpp.s
+.PHONY : classes_and_dynamic_memeory_allocation/StringBag.cpp.s
+
+classes_and_dynamic_memeory_allocation/main.o: classes_and_dynamic_memeory_allocation/main.cpp.o
+
+.PHONY : classes_and_dynamic_memeory_allocation/main.o
+
+# target to build an object file
+classes_and_dynamic_memeory_allocation/main.cpp.o:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/main.cpp.o
+.PHONY : classes_and_dynamic_memeory_allocation/main.cpp.o
+
+classes_and_dynamic_memeory_allocation/main.i: classes_and_dynamic_memeory_allocation/main.cpp.i
+
+.PHONY : classes_and_dynamic_memeory_allocation/main.i
+
+# target to preprocess a source file
+classes_and_dynamic_memeory_allocation/main.cpp.i:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/main.cpp.i
+.PHONY : classes_and_dynamic_memeory_allocation/main.cpp.i
+
+classes_and_dynamic_memeory_allocation/main.s: classes_and_dynamic_memeory_allocation/main.cpp.s
+
+.PHONY : classes_and_dynamic_memeory_allocation/main.s
+
+# target to generate assembly for a file
+classes_and_dynamic_memeory_allocation/main.cpp.s:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/main.cpp.s
+.PHONY : classes_and_dynamic_memeory_allocation/main.cpp.s
 
 # Help Target
 help:
@@ -306,8 +695,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... chapter03_playground"
+	@echo "... class_Inheritance_03"
+	@echo "... class_Inheritance_01"
+	@echo "... class_template"
 	@echo "... chapter01_playground"
+	@echo "... virtual_method_in_class"
+	@echo "... classes_and_dynamic_memeory_allocation"
+	@echo "... chapter03_main"
 	@echo "... chapter01_c++_interlude_01/MagicBox.o"
 	@echo "... chapter01_c++_interlude_01/MagicBox.i"
 	@echo "... chapter01_c++_interlude_01/MagicBox.s"
@@ -326,6 +720,42 @@ help:
 	@echo "... chapter03_array-based_implementations/main.o"
 	@echo "... chapter03_array-based_implementations/main.i"
 	@echo "... chapter03_array-based_implementations/main.s"
+	@echo "... class_Inheritance/RatedPlayer.o"
+	@echo "... class_Inheritance/RatedPlayer.i"
+	@echo "... class_Inheritance/RatedPlayer.s"
+	@echo "... class_Inheritance/TableTennisPlayer.o"
+	@echo "... class_Inheritance/TableTennisPlayer.i"
+	@echo "... class_Inheritance/TableTennisPlayer.s"
+	@echo "... class_Inheritance/dma.o"
+	@echo "... class_Inheritance/dma.i"
+	@echo "... class_Inheritance/dma.s"
+	@echo "... class_Inheritance/main.o"
+	@echo "... class_Inheritance/main.i"
+	@echo "... class_Inheritance/main.s"
+	@echo "... class_Inheritance/main_dma.o"
+	@echo "... class_Inheritance/main_dma.i"
+	@echo "... class_Inheritance/main_dma.s"
+	@echo "... class_Inheritance/virtual_methods_in_class/Brass.o"
+	@echo "... class_Inheritance/virtual_methods_in_class/Brass.i"
+	@echo "... class_Inheritance/virtual_methods_in_class/Brass.s"
+	@echo "... class_Inheritance/virtual_methods_in_class/BrassPlus.o"
+	@echo "... class_Inheritance/virtual_methods_in_class/BrassPlus.i"
+	@echo "... class_Inheritance/virtual_methods_in_class/BrassPlus.s"
+	@echo "... class_Inheritance/virtual_methods_in_class/main.o"
+	@echo "... class_Inheritance/virtual_methods_in_class/main.i"
+	@echo "... class_Inheritance/virtual_methods_in_class/main.s"
+	@echo "... class_template/main.o"
+	@echo "... class_template/main.i"
+	@echo "... class_template/main.s"
+	@echo "... class_template/stacktp.o"
+	@echo "... class_template/stacktp.i"
+	@echo "... class_template/stacktp.s"
+	@echo "... classes_and_dynamic_memeory_allocation/StringBag.o"
+	@echo "... classes_and_dynamic_memeory_allocation/StringBag.i"
+	@echo "... classes_and_dynamic_memeory_allocation/StringBag.s"
+	@echo "... classes_and_dynamic_memeory_allocation/main.o"
+	@echo "... classes_and_dynamic_memeory_allocation/main.i"
+	@echo "... classes_and_dynamic_memeory_allocation/main.s"
 .PHONY : help
 
 

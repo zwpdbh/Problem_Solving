@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/Brass.cpp
+Brass.h
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/Brass.h
+iostream
+-
+
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/Brass.h
+string
+-
+
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/BrassPlus.cpp
+BrassPlus.h
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/BrassPlus.h
+iostream
+-
+
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/BrassPlus.h
+Brass.h
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/Brass.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/main_02.cpp
+BrassPlus.h
+/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/BrassPlus.h
+iostream
+-
+
