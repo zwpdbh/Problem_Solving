@@ -346,9 +346,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/BoxInterface.h">
-			<Option target="chapter01_playground"/>
-		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/MagicBox.cpp">
 			<Option target="chapter01_playground"/>
 		</Unit>
