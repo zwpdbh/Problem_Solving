@@ -153,12 +153,37 @@ CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o.pr
 CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o.provides.build: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o
 
 
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o: CMakeFiles/chapter01_playground.dir/flags.make
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o: ../interface_and_template_and_inheritance/ArrayBag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o -c /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/ArrayBag.cpp
+
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/ArrayBag.cpp > CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.i
+
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/ArrayBag.cpp -o CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.s
+
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.requires:
+
+.PHONY : CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.requires
+
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.provides: CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.requires
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.provides.build
+.PHONY : CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.provides
+
+CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.provides.build: CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o
+
+
 # Object files for target chapter01_playground
 chapter01_playground_OBJECTS = \
 "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.o" \
 "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o" \
 "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o" \
-"CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o"
+"CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o" \
+"CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o"
 
 # External object files for target chapter01_playground
 chapter01_playground_EXTERNAL_OBJECTS =
@@ -167,9 +192,10 @@ chapter01_playground: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlud
 chapter01_playground: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o
 chapter01_playground: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o
 chapter01_playground: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o
+chapter01_playground: CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o
 chapter01_playground: CMakeFiles/chapter01_playground.dir/build.make
 chapter01_playground: CMakeFiles/chapter01_playground.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable chapter01_playground"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable chapter01_playground"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chapter01_playground.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +207,7 @@ CMakeFiles/chapter01_playground.dir/requires: CMakeFiles/chapter01_playground.di
 CMakeFiles/chapter01_playground.dir/requires: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o.requires
 CMakeFiles/chapter01_playground.dir/requires: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o.requires
 CMakeFiles/chapter01_playground.dir/requires: CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o.requires
+CMakeFiles/chapter01_playground.dir/requires: CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o.requires
 
 .PHONY : CMakeFiles/chapter01_playground.dir/requires
 

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o"
   "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o"
   "CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o"
+  "CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o"
   "chapter01_playground.pdb"
   "chapter01_playground"
 )

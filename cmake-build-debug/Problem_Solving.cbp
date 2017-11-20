@@ -17,6 +17,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Interface_and_template_and_inheritance">
+				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Interface_and_template_and_inheritance"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Interface_and_template_and_inheritance/fast">
+				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 Interface_and_template_and_inheritance/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option type="4"/>
@@ -32,226 +76,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_Inheritance_03">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_Inheritance_03" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_Inheritance_03"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_Inheritance_03/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_Inheritance_03" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_Inheritance_03/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_Inheritance_01">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_Inheritance_01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_Inheritance_01"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_Inheritance_01/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_Inheritance_01" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_Inheritance_01/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_template">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_template" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_template"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="class_template/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/class_template" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_template/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="chapter01_playground">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter01_playground" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter01_playground"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="chapter01_playground/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter01_playground" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter01_playground/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="virtual_method_in_class">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/virtual_method_in_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual_method_in_class"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="virtual_method_in_class/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/virtual_method_in_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 virtual_method_in_class/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -301,8 +125,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="chapter03_main">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter03_main" prefix_auto="0" extension_auto="0"/>
+			<Target title="chapter01_playground">
+				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter01_playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -317,14 +141,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter03_main"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter01_playground"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="chapter03_main/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter03_main" prefix_auto="0" extension_auto="0"/>
+			<Target title="chapter01_playground/fast">
+				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/chapter01_playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -339,7 +163,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter03_main/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 chapter01_playground/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -367,63 +191,6 @@
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter01_c++_interlude_01/main.cpp">
 			<Option target="chapter01_playground"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter03_array-based_implementations/ArrayBag.cpp">
-			<Option target="chapter03_main"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter03_array-based_implementations/ArrayBag.h">
-			<Option target="chapter03_main"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/chapter03_array-based_implementations/main.cpp">
-			<Option target="chapter03_main"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/RatedPlayer.cpp">
-			<Option target="class_Inheritance_01"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/RatedPlayer.h">
-			<Option target="class_Inheritance_01"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/TableTennisPlayer.cpp">
-			<Option target="class_Inheritance_01"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/TableTennisPlayer.h">
-			<Option target="class_Inheritance_01"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/dma.cpp">
-			<Option target="class_Inheritance_03"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/dma.h">
-			<Option target="class_Inheritance_03"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/main.cpp">
-			<Option target="class_Inheritance_01"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/main_dma.cpp">
-			<Option target="class_Inheritance_03"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/virtual_methods_in_class/Brass.cpp">
-			<Option target="virtual_method_in_class"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/virtual_methods_in_class/Brass.h">
-			<Option target="virtual_method_in_class"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/virtual_methods_in_class/BrassPlus.cpp">
-			<Option target="virtual_method_in_class"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/virtual_methods_in_class/BrassPlus.h">
-			<Option target="virtual_method_in_class"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_Inheritance/virtual_methods_in_class/main.cpp">
-			<Option target="virtual_method_in_class"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_template/main.cpp">
-			<Option target="class_template"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_template/stacktp.cpp">
-			<Option target="class_template"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/class_template/stacktp.h">
-			<Option target="class_template"/>
-		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/StringBag.cpp">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
 		</Unit>
@@ -432,6 +199,19 @@
 		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/main.cpp">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/ArrayBag.cpp">
+			<Option target="chapter01_playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/ArrayBag.h">
+			<Option target="Interface_and_template_and_inheritance"/>
+			<Option target="chapter01_playground"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/BagInterface.h">
+			<Option target="Interface_and_template_and_inheritance"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/main.cpp">
+			<Option target="Interface_and_template_and_inheritance"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

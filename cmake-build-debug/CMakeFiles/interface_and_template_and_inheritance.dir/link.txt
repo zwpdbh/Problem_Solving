@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o  -o Interface_and_template_and_inheritance 

@@ -49,23 +49,23 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C++_Projects/Problem_Solving
 CMAKE_BINARY_DIR = /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/class_template.dir/depend.make
+include CMakeFiles/chapter03_virtual_class_and_template.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/class_template.dir/progress.make
+include CMakeFiles/chapter03_virtual_class_and_template.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/class_template.dir/flags.make
+include CMakeFiles/chapter03_virtual_class_and_template.dir/flags.make
 
-CMakeFiles/class_template.dir/requires:
+CMakeFiles/chapter03_virtual_class_and_template.dir/requires:
 
-.PHONY : CMakeFiles/class_template.dir/requires
+.PHONY : CMakeFiles/chapter03_virtual_class_and_template.dir/requires
 
-CMakeFiles/class_template.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/class_template.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/class_template.dir/clean
+CMakeFiles/chapter03_virtual_class_and_template.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/chapter03_virtual_class_and_template.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/chapter03_virtual_class_and_template.dir/clean
 
-CMakeFiles/class_template.dir/depend:
-	cd /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C++_Projects/Problem_Solving /Users/zw/code/C++_Projects/Problem_Solving /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/class_template.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/class_template.dir/depend
+CMakeFiles/chapter03_virtual_class_and_template.dir/depend:
+	cd /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C++_Projects/Problem_Solving /Users/zw/code/C++_Projects/Problem_Solving /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/chapter03_virtual_class_and_template.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/chapter03_virtual_class_and_template.dir/depend
 

@@ -60,187 +60,39 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C++_Projects/Problem_Solving
 CMAKE_BINARY_DIR = /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/class_Inheritance_03.dir
+# Target rules for target CMakeFiles/Interface_and_template_and_inheritance.dir
 
 # All Build rule for target.
-CMakeFiles/class_Inheritance_03.dir/all:
-	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/depend
-	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target class_Inheritance_03"
-.PHONY : CMakeFiles/class_Inheritance_03.dir/all
+CMakeFiles/Interface_and_template_and_inheritance.dir/all:
+	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/depend
+	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Interface_and_template_and_inheritance"
+.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/all
 
 # Include target in all.
-all: CMakeFiles/class_Inheritance_03.dir/all
+all: CMakeFiles/Interface_and_template_and_inheritance.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/class_Inheritance_03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/class_Inheritance_03.dir/all
+CMakeFiles/Interface_and_template_and_inheritance.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Interface_and_template_and_inheritance.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/class_Inheritance_03.dir/rule
+.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/rule
 
 # Convenience name for target.
-class_Inheritance_03: CMakeFiles/class_Inheritance_03.dir/rule
+Interface_and_template_and_inheritance: CMakeFiles/Interface_and_template_and_inheritance.dir/rule
 
-.PHONY : class_Inheritance_03
-
-# clean rule for target.
-CMakeFiles/class_Inheritance_03.dir/clean:
-	$(MAKE) -f CMakeFiles/class_Inheritance_03.dir/build.make CMakeFiles/class_Inheritance_03.dir/clean
-.PHONY : CMakeFiles/class_Inheritance_03.dir/clean
+.PHONY : Interface_and_template_and_inheritance
 
 # clean rule for target.
-clean: CMakeFiles/class_Inheritance_03.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/class_Inheritance_01.dir
-
-# All Build rule for target.
-CMakeFiles/class_Inheritance_01.dir/all:
-	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/depend
-	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12 "Built target class_Inheritance_01"
-.PHONY : CMakeFiles/class_Inheritance_01.dir/all
-
-# Include target in all.
-all: CMakeFiles/class_Inheritance_01.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/class_Inheritance_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/class_Inheritance_01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/class_Inheritance_01.dir/rule
-
-# Convenience name for target.
-class_Inheritance_01: CMakeFiles/class_Inheritance_01.dir/rule
-
-.PHONY : class_Inheritance_01
+CMakeFiles/Interface_and_template_and_inheritance.dir/clean:
+	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/clean
+.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/clean
 
 # clean rule for target.
-CMakeFiles/class_Inheritance_01.dir/clean:
-	$(MAKE) -f CMakeFiles/class_Inheritance_01.dir/build.make CMakeFiles/class_Inheritance_01.dir/clean
-.PHONY : CMakeFiles/class_Inheritance_01.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/class_Inheritance_01.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/class_template.dir
-
-# All Build rule for target.
-CMakeFiles/class_template.dir/all:
-	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/depend
-	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target class_template"
-.PHONY : CMakeFiles/class_template.dir/all
-
-# Include target in all.
-all: CMakeFiles/class_template.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/class_template.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/class_template.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/class_template.dir/rule
-
-# Convenience name for target.
-class_template: CMakeFiles/class_template.dir/rule
-
-.PHONY : class_template
-
-# clean rule for target.
-CMakeFiles/class_template.dir/clean:
-	$(MAKE) -f CMakeFiles/class_template.dir/build.make CMakeFiles/class_template.dir/clean
-.PHONY : CMakeFiles/class_template.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/class_template.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/chapter01_playground.dir
-
-# All Build rule for target.
-CMakeFiles/chapter01_playground.dir/all:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/depend
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target chapter01_playground"
-.PHONY : CMakeFiles/chapter01_playground.dir/all
-
-# Include target in all.
-all: CMakeFiles/chapter01_playground.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/chapter01_playground.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chapter01_playground.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/chapter01_playground.dir/rule
-
-# Convenience name for target.
-chapter01_playground: CMakeFiles/chapter01_playground.dir/rule
-
-.PHONY : chapter01_playground
-
-# clean rule for target.
-CMakeFiles/chapter01_playground.dir/clean:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/clean
-.PHONY : CMakeFiles/chapter01_playground.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/chapter01_playground.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/virtual_method_in_class.dir
-
-# All Build rule for target.
-CMakeFiles/virtual_method_in_class.dir/all:
-	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/depend
-	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=22,23,24,25 "Built target virtual_method_in_class"
-.PHONY : CMakeFiles/virtual_method_in_class.dir/all
-
-# Include target in all.
-all: CMakeFiles/virtual_method_in_class.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/virtual_method_in_class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/virtual_method_in_class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/virtual_method_in_class.dir/rule
-
-# Convenience name for target.
-virtual_method_in_class: CMakeFiles/virtual_method_in_class.dir/rule
-
-.PHONY : virtual_method_in_class
-
-# clean rule for target.
-CMakeFiles/virtual_method_in_class.dir/clean:
-	$(MAKE) -f CMakeFiles/virtual_method_in_class.dir/build.make CMakeFiles/virtual_method_in_class.dir/clean
-.PHONY : CMakeFiles/virtual_method_in_class.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/virtual_method_in_class.dir/clean
+clean: CMakeFiles/Interface_and_template_and_inheritance.dir/clean
 
 .PHONY : clean
 
@@ -251,7 +103,7 @@ clean: CMakeFiles/virtual_method_in_class.dir/clean
 CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all:
 	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/depend
 	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target classes_and_dynamic_memeory_allocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target classes_and_dynamic_memeory_allocation"
 .PHONY : CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all
 
 # Include target in all.
@@ -282,39 +134,39 @@ clean: CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/chapter03_main.dir
+# Target rules for target CMakeFiles/chapter01_playground.dir
 
 # All Build rule for target.
-CMakeFiles/chapter03_main.dir/all:
-	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/depend
-	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=6,7,8 "Built target chapter03_main"
-.PHONY : CMakeFiles/chapter03_main.dir/all
+CMakeFiles/chapter01_playground.dir/all:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/depend
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target chapter01_playground"
+.PHONY : CMakeFiles/chapter01_playground.dir/all
 
 # Include target in all.
-all: CMakeFiles/chapter03_main.dir/all
+all: CMakeFiles/chapter01_playground.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/chapter03_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chapter03_main.dir/all
+CMakeFiles/chapter01_playground.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chapter01_playground.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/chapter03_main.dir/rule
+.PHONY : CMakeFiles/chapter01_playground.dir/rule
 
 # Convenience name for target.
-chapter03_main: CMakeFiles/chapter03_main.dir/rule
+chapter01_playground: CMakeFiles/chapter01_playground.dir/rule
 
-.PHONY : chapter03_main
-
-# clean rule for target.
-CMakeFiles/chapter03_main.dir/clean:
-	$(MAKE) -f CMakeFiles/chapter03_main.dir/build.make CMakeFiles/chapter03_main.dir/clean
-.PHONY : CMakeFiles/chapter03_main.dir/clean
+.PHONY : chapter01_playground
 
 # clean rule for target.
-clean: CMakeFiles/chapter03_main.dir/clean
+CMakeFiles/chapter01_playground.dir/clean:
+	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/clean
+.PHONY : CMakeFiles/chapter01_playground.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chapter01_playground.dir/clean
 
 .PHONY : clean
 
