@@ -57,38 +57,38 @@ include CMakeFiles/Interface_and_template_and_inheritance.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Interface_and_template_and_inheritance.dir/flags.make
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o: CMakeFiles/Interface_and_template_and_inheritance.dir/flags.make
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o: ../interface_and_template_and_inheritance/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o -c /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/main.cpp
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o: CMakeFiles/Interface_and_template_and_inheritance.dir/flags.make
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o: ../Interface_and_template_and_inheritance/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o -c /Users/zw/code/C++_Projects/Problem_Solving/Interface_and_template_and_inheritance/main.cpp
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/main.cpp > CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.i
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C++_Projects/Problem_Solving/Interface_and_template_and_inheritance/main.cpp > CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.i
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/main.cpp -o CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.s
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C++_Projects/Problem_Solving/Interface_and_template_and_inheritance/main.cpp -o CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.s
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.requires:
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.requires
+.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.requires
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.provides: CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.provides
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.provides: CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.provides
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.provides.build: CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o
+CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.provides.build: CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o
 
 
 # Object files for target Interface_and_template_and_inheritance
 Interface_and_template_and_inheritance_OBJECTS = \
-"CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o"
+"CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o"
 
 # External object files for target Interface_and_template_and_inheritance
 Interface_and_template_and_inheritance_EXTERNAL_OBJECTS =
 
-Interface_and_template_and_inheritance: CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o
+Interface_and_template_and_inheritance: CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o
 Interface_and_template_and_inheritance: CMakeFiles/Interface_and_template_and_inheritance.dir/build.make
 Interface_and_template_and_inheritance: CMakeFiles/Interface_and_template_and_inheritance.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Interface_and_template_and_inheritance"
@@ -99,7 +99,7 @@ CMakeFiles/Interface_and_template_and_inheritance.dir/build: Interface_and_templ
 
 .PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/build
 
-CMakeFiles/Interface_and_template_and_inheritance.dir/requires: CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o.requires
+CMakeFiles/Interface_and_template_and_inheritance.dir/requires: CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Interface_and_template_and_inheritance.dir/requires
 

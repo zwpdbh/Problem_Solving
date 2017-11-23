@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.cpp
+ArrayBag.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h
+BagInterface.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/BagInterface.h
+ArrayBag.cpp
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.cpp
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/BagInterface.h
+vector
+-
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/main.cpp
+iostream
+-
+ArrayBag.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/BagInterface.h
+vector
+-
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h
+BagInterface.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/BagInterface.h
+Node.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/Node.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/Node.h
+
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp
+LinkedBag.h
+/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h
+string
+-
+iostream
+-
+

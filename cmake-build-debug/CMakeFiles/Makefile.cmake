@@ -48,7 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Interface_and_template_and_inheritance.dir/DependInfo.cmake"
+  "CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/DependInfo.cmake"
+  "CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/DependInfo.cmake"
+  "CMakeFiles/ch04_link-based_implementations.dir/DependInfo.cmake"
   "CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake"
-  "CMakeFiles/chapter01_playground.dir/DependInfo.cmake"
   )

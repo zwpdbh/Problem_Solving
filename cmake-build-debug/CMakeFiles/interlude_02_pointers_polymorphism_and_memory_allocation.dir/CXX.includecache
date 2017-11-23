@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp
+iostream
+-
+

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/code/C++_Projects/Problem_Solving/interface_and_template_and_inheritance/main.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o"
+  "/Users/zw/code/C++_Projects/Problem_Solving/Interface_and_template_and_inheritance/main.cpp" "/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles/Interface_and_template_and_inheritance.dir/Interface_and_template_and_inheritance/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

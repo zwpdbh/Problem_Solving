@@ -111,17 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Interface_and_template_and_inheritance
+# Target rules for targets named ch01_03_interface_and_template_and_inheritance
 
 # Build rule for target.
-Interface_and_template_and_inheritance: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Interface_and_template_and_inheritance
-.PHONY : Interface_and_template_and_inheritance
+ch01_03_interface_and_template_and_inheritance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_03_interface_and_template_and_inheritance
+.PHONY : ch01_03_interface_and_template_and_inheritance
 
 # fast build rule for target.
-Interface_and_template_and_inheritance/fast:
-	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/build
-.PHONY : Interface_and_template_and_inheritance/fast
+ch01_03_interface_and_template_and_inheritance/fast:
+	$(MAKE) -f CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build
+.PHONY : ch01_03_interface_and_template_and_inheritance/fast
+
+#=============================================================================
+# Target rules for targets named interlude_02_pointers_polymorphism_and_memory_allocation
+
+# Build rule for target.
+interlude_02_pointers_polymorphism_and_memory_allocation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation
+
+# fast build rule for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/fast:
+	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/fast
+
+#=============================================================================
+# Target rules for targets named ch04_link-based_implementations
+
+# Build rule for target.
+ch04_link-based_implementations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch04_link-based_implementations
+.PHONY : ch04_link-based_implementations
+
+# fast build rule for target.
+ch04_link-based_implementations/fast:
+	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/build
+.PHONY : ch04_link-based_implementations/fast
 
 #=============================================================================
 # Target rules for targets named classes_and_dynamic_memeory_allocation
@@ -136,126 +162,59 @@ classes_and_dynamic_memeory_allocation/fast:
 	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
 .PHONY : classes_and_dynamic_memeory_allocation/fast
 
-#=============================================================================
-# Target rules for targets named chapter01_playground
+ch01_03_interface_and_template_and_inheritance/main.o: ch01_03_interface_and_template_and_inheritance/main.cpp.o
 
-# Build rule for target.
-chapter01_playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chapter01_playground
-.PHONY : chapter01_playground
-
-# fast build rule for target.
-chapter01_playground/fast:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/build
-.PHONY : chapter01_playground/fast
-
-chapter01_c++_interlude_01/MagicBox.o: chapter01_c++_interlude_01/MagicBox.cpp.o
-
-.PHONY : chapter01_c++_interlude_01/MagicBox.o
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.o
 
 # target to build an object file
-chapter01_c++_interlude_01/MagicBox.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.o
-.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.o
+ch01_03_interface_and_template_and_inheritance/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/ch01_03_interface_and_template_and_inheritance/main.cpp.o
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.cpp.o
 
-chapter01_c++_interlude_01/MagicBox.i: chapter01_c++_interlude_01/MagicBox.cpp.i
+ch01_03_interface_and_template_and_inheritance/main.i: ch01_03_interface_and_template_and_inheritance/main.cpp.i
 
-.PHONY : chapter01_c++_interlude_01/MagicBox.i
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.i
 
 # target to preprocess a source file
-chapter01_c++_interlude_01/MagicBox.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.i
-.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.i
+ch01_03_interface_and_template_and_inheritance/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/ch01_03_interface_and_template_and_inheritance/main.cpp.i
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.cpp.i
 
-chapter01_c++_interlude_01/MagicBox.s: chapter01_c++_interlude_01/MagicBox.cpp.s
+ch01_03_interface_and_template_and_inheritance/main.s: ch01_03_interface_and_template_and_inheritance/main.cpp.s
 
-.PHONY : chapter01_c++_interlude_01/MagicBox.s
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.s
 
 # target to generate assembly for a file
-chapter01_c++_interlude_01/MagicBox.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/MagicBox.cpp.s
-.PHONY : chapter01_c++_interlude_01/MagicBox.cpp.s
+ch01_03_interface_and_template_and_inheritance/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/ch01_03_interface_and_template_and_inheritance/main.cpp.s
+.PHONY : ch01_03_interface_and_template_and_inheritance/main.cpp.s
 
-chapter01_c++_interlude_01/PlainBox.o: chapter01_c++_interlude_01/PlainBox.cpp.o
+ch04_link-based_implementations/main.o: ch04_link-based_implementations/main.cpp.o
 
-.PHONY : chapter01_c++_interlude_01/PlainBox.o
+.PHONY : ch04_link-based_implementations/main.o
 
 # target to build an object file
-chapter01_c++_interlude_01/PlainBox.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.o
-.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.o
+ch04_link-based_implementations/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/ch04_link-based_implementations/main.cpp.o
+.PHONY : ch04_link-based_implementations/main.cpp.o
 
-chapter01_c++_interlude_01/PlainBox.i: chapter01_c++_interlude_01/PlainBox.cpp.i
+ch04_link-based_implementations/main.i: ch04_link-based_implementations/main.cpp.i
 
-.PHONY : chapter01_c++_interlude_01/PlainBox.i
-
-# target to preprocess a source file
-chapter01_c++_interlude_01/PlainBox.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.i
-.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.i
-
-chapter01_c++_interlude_01/PlainBox.s: chapter01_c++_interlude_01/PlainBox.cpp.s
-
-.PHONY : chapter01_c++_interlude_01/PlainBox.s
-
-# target to generate assembly for a file
-chapter01_c++_interlude_01/PlainBox.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/PlainBox.cpp.s
-.PHONY : chapter01_c++_interlude_01/PlainBox.cpp.s
-
-chapter01_c++_interlude_01/ToyBox.o: chapter01_c++_interlude_01/ToyBox.cpp.o
-
-.PHONY : chapter01_c++_interlude_01/ToyBox.o
-
-# target to build an object file
-chapter01_c++_interlude_01/ToyBox.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.o
-.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.o
-
-chapter01_c++_interlude_01/ToyBox.i: chapter01_c++_interlude_01/ToyBox.cpp.i
-
-.PHONY : chapter01_c++_interlude_01/ToyBox.i
+.PHONY : ch04_link-based_implementations/main.i
 
 # target to preprocess a source file
-chapter01_c++_interlude_01/ToyBox.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.i
-.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.i
+ch04_link-based_implementations/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/ch04_link-based_implementations/main.cpp.i
+.PHONY : ch04_link-based_implementations/main.cpp.i
 
-chapter01_c++_interlude_01/ToyBox.s: chapter01_c++_interlude_01/ToyBox.cpp.s
+ch04_link-based_implementations/main.s: ch04_link-based_implementations/main.cpp.s
 
-.PHONY : chapter01_c++_interlude_01/ToyBox.s
-
-# target to generate assembly for a file
-chapter01_c++_interlude_01/ToyBox.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/ToyBox.cpp.s
-.PHONY : chapter01_c++_interlude_01/ToyBox.cpp.s
-
-chapter01_c++_interlude_01/main.o: chapter01_c++_interlude_01/main.cpp.o
-
-.PHONY : chapter01_c++_interlude_01/main.o
-
-# target to build an object file
-chapter01_c++_interlude_01/main.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.o
-.PHONY : chapter01_c++_interlude_01/main.cpp.o
-
-chapter01_c++_interlude_01/main.i: chapter01_c++_interlude_01/main.cpp.i
-
-.PHONY : chapter01_c++_interlude_01/main.i
-
-# target to preprocess a source file
-chapter01_c++_interlude_01/main.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.i
-.PHONY : chapter01_c++_interlude_01/main.cpp.i
-
-chapter01_c++_interlude_01/main.s: chapter01_c++_interlude_01/main.cpp.s
-
-.PHONY : chapter01_c++_interlude_01/main.s
+.PHONY : ch04_link-based_implementations/main.s
 
 # target to generate assembly for a file
-chapter01_c++_interlude_01/main.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/chapter01_c++_interlude_01/main.cpp.s
-.PHONY : chapter01_c++_interlude_01/main.cpp.s
+ch04_link-based_implementations/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/ch04_link-based_implementations/main.cpp.s
+.PHONY : ch04_link-based_implementations/main.cpp.s
 
 classes_and_dynamic_memeory_allocation/StringBag.o: classes_and_dynamic_memeory_allocation/StringBag.cpp.o
 
@@ -311,59 +270,32 @@ classes_and_dynamic_memeory_allocation/main.cpp.s:
 	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/classes_and_dynamic_memeory_allocation/main.cpp.s
 .PHONY : classes_and_dynamic_memeory_allocation/main.cpp.s
 
-interface_and_template_and_inheritance/ArrayBag.o: interface_and_template_and_inheritance/ArrayBag.cpp.o
+interlude_02_pointers_polymorphism_and_memory_allocation/main.o: interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.o
 
-.PHONY : interface_and_template_and_inheritance/ArrayBag.o
-
-# target to build an object file
-interface_and_template_and_inheritance/ArrayBag.cpp.o:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.o
-.PHONY : interface_and_template_and_inheritance/ArrayBag.cpp.o
-
-interface_and_template_and_inheritance/ArrayBag.i: interface_and_template_and_inheritance/ArrayBag.cpp.i
-
-.PHONY : interface_and_template_and_inheritance/ArrayBag.i
-
-# target to preprocess a source file
-interface_and_template_and_inheritance/ArrayBag.cpp.i:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.i
-.PHONY : interface_and_template_and_inheritance/ArrayBag.cpp.i
-
-interface_and_template_and_inheritance/ArrayBag.s: interface_and_template_and_inheritance/ArrayBag.cpp.s
-
-.PHONY : interface_and_template_and_inheritance/ArrayBag.s
-
-# target to generate assembly for a file
-interface_and_template_and_inheritance/ArrayBag.cpp.s:
-	$(MAKE) -f CMakeFiles/chapter01_playground.dir/build.make CMakeFiles/chapter01_playground.dir/interface_and_template_and_inheritance/ArrayBag.cpp.s
-.PHONY : interface_and_template_and_inheritance/ArrayBag.cpp.s
-
-interface_and_template_and_inheritance/main.o: interface_and_template_and_inheritance/main.cpp.o
-
-.PHONY : interface_and_template_and_inheritance/main.o
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.o
 
 # target to build an object file
-interface_and_template_and_inheritance/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.o
-.PHONY : interface_and_template_and_inheritance/main.cpp.o
+interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.o:
+	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.o
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.o
 
-interface_and_template_and_inheritance/main.i: interface_and_template_and_inheritance/main.cpp.i
+interlude_02_pointers_polymorphism_and_memory_allocation/main.i: interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.i
 
-.PHONY : interface_and_template_and_inheritance/main.i
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.i
 
 # target to preprocess a source file
-interface_and_template_and_inheritance/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.i
-.PHONY : interface_and_template_and_inheritance/main.cpp.i
+interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.i:
+	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.i
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.i
 
-interface_and_template_and_inheritance/main.s: interface_and_template_and_inheritance/main.cpp.s
+interlude_02_pointers_polymorphism_and_memory_allocation/main.s: interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.s
 
-.PHONY : interface_and_template_and_inheritance/main.s
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.s
 
 # target to generate assembly for a file
-interface_and_template_and_inheritance/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Interface_and_template_and_inheritance.dir/build.make CMakeFiles/Interface_and_template_and_inheritance.dir/interface_and_template_and_inheritance/main.cpp.s
-.PHONY : interface_and_template_and_inheritance/main.cpp.s
+interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.s:
+	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.s
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp.s
 
 # Help Target
 help:
@@ -371,35 +303,27 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Interface_and_template_and_inheritance"
 	@echo "... rebuild_cache"
+	@echo "... ch01_03_interface_and_template_and_inheritance"
+	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"
 	@echo "... edit_cache"
+	@echo "... ch04_link-based_implementations"
 	@echo "... classes_and_dynamic_memeory_allocation"
-	@echo "... chapter01_playground"
-	@echo "... chapter01_c++_interlude_01/MagicBox.o"
-	@echo "... chapter01_c++_interlude_01/MagicBox.i"
-	@echo "... chapter01_c++_interlude_01/MagicBox.s"
-	@echo "... chapter01_c++_interlude_01/PlainBox.o"
-	@echo "... chapter01_c++_interlude_01/PlainBox.i"
-	@echo "... chapter01_c++_interlude_01/PlainBox.s"
-	@echo "... chapter01_c++_interlude_01/ToyBox.o"
-	@echo "... chapter01_c++_interlude_01/ToyBox.i"
-	@echo "... chapter01_c++_interlude_01/ToyBox.s"
-	@echo "... chapter01_c++_interlude_01/main.o"
-	@echo "... chapter01_c++_interlude_01/main.i"
-	@echo "... chapter01_c++_interlude_01/main.s"
+	@echo "... ch01_03_interface_and_template_and_inheritance/main.o"
+	@echo "... ch01_03_interface_and_template_and_inheritance/main.i"
+	@echo "... ch01_03_interface_and_template_and_inheritance/main.s"
+	@echo "... ch04_link-based_implementations/main.o"
+	@echo "... ch04_link-based_implementations/main.i"
+	@echo "... ch04_link-based_implementations/main.s"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.o"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.i"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.s"
 	@echo "... classes_and_dynamic_memeory_allocation/main.o"
 	@echo "... classes_and_dynamic_memeory_allocation/main.i"
 	@echo "... classes_and_dynamic_memeory_allocation/main.s"
-	@echo "... interface_and_template_and_inheritance/ArrayBag.o"
-	@echo "... interface_and_template_and_inheritance/ArrayBag.i"
-	@echo "... interface_and_template_and_inheritance/ArrayBag.s"
-	@echo "... interface_and_template_and_inheritance/main.o"
-	@echo "... interface_and_template_and_inheritance/main.i"
-	@echo "... interface_and_template_and_inheritance/main.s"
+	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation/main.o"
+	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation/main.i"
+	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation/main.s"
 .PHONY : help
 
 
