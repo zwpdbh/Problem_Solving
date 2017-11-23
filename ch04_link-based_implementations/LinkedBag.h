@@ -15,6 +15,7 @@ private:
     int itemCount;
 
     Node<T>* getPointerTo(const T& target) const;
+    void fillVector(std::vector<T>& bagContents, Node<T>* curPtr) const;
 public:
     LinkedBag();
     LinkedBag(const LinkedBag<T>& aBag); // copy constructor
@@ -27,7 +28,7 @@ public:
     int getFrequencyOf(const T& anEntry) const;
     bool contains(const T& anEntry) const;
     std::vector<T> toVector() const;
-
+    std::vector<T> recursiveToVector() const;
 };
 
 /*implementation part*/
@@ -186,4 +187,19 @@ Node<T>* LinkedBag<T>::getPointerTo(const T &target) const {
     return currPtr;
 }
 
+template <class T>
+std::vector<T> LinkedBag<T>::recursiveToVector() const {
+    std::vector<T> bagContents;
+    // fill the bag recursively
+
+    return bagContents;
+}
+
+template <class T>
+void LinkedBag<T>::fillVector(std::vector<T> &bagContents, Node<T> *curPtr) const {
+    if (curPtr != nullptr) {
+        bagContents.push_back(curPtr->getItem());
+        fillVector(bagContents, curPtr->getNext());
+    }
+}
 #endif //PROBLEM_SOLVING_LINKEDBAG_H
