@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ch05_recursion_problems
+
+# Build rule for target.
+ch05_recursion_problems: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch05_recursion_problems
+.PHONY : ch05_recursion_problems
+
+# fast build rule for target.
+ch05_recursion_problems/fast:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/build
+.PHONY : ch05_recursion_problems/fast
+
+#=============================================================================
 # Target rules for targets named ch01_03_interface_and_template_and_inheritance
 
 # Build rule for target.
@@ -124,19 +137,6 @@ ch01_03_interface_and_template_and_inheritance/fast:
 .PHONY : ch01_03_interface_and_template_and_inheritance/fast
 
 #=============================================================================
-# Target rules for targets named interlude_02_pointers_polymorphism_and_memory_allocation
-
-# Build rule for target.
-interlude_02_pointers_polymorphism_and_memory_allocation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation
-
-# fast build rule for target.
-interlude_02_pointers_polymorphism_and_memory_allocation/fast:
-	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/fast
-
-#=============================================================================
 # Target rules for targets named ch04_link-based_implementations
 
 # Build rule for target.
@@ -148,6 +148,19 @@ ch04_link-based_implementations: cmake_check_build_system
 ch04_link-based_implementations/fast:
 	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/build
 .PHONY : ch04_link-based_implementations/fast
+
+#=============================================================================
+# Target rules for targets named interlude_02_pointers_polymorphism_and_memory_allocation
+
+# Build rule for target.
+interlude_02_pointers_polymorphism_and_memory_allocation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation
+
+# fast build rule for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/fast:
+	$(MAKE) -f CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/fast
 
 #=============================================================================
 # Target rules for targets named classes_and_dynamic_memeory_allocation
@@ -215,6 +228,60 @@ ch04_link-based_implementations/main.s: ch04_link-based_implementations/main.cpp
 ch04_link-based_implementations/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ch04_link-based_implementations.dir/build.make CMakeFiles/ch04_link-based_implementations.dir/ch04_link-based_implementations/main.cpp.s
 .PHONY : ch04_link-based_implementations/main.cpp.s
+
+ch05_recursion_problems/lib.o: ch05_recursion_problems/lib.cpp.o
+
+.PHONY : ch05_recursion_problems/lib.o
+
+# target to build an object file
+ch05_recursion_problems/lib.cpp.o:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/lib.cpp.o
+.PHONY : ch05_recursion_problems/lib.cpp.o
+
+ch05_recursion_problems/lib.i: ch05_recursion_problems/lib.cpp.i
+
+.PHONY : ch05_recursion_problems/lib.i
+
+# target to preprocess a source file
+ch05_recursion_problems/lib.cpp.i:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/lib.cpp.i
+.PHONY : ch05_recursion_problems/lib.cpp.i
+
+ch05_recursion_problems/lib.s: ch05_recursion_problems/lib.cpp.s
+
+.PHONY : ch05_recursion_problems/lib.s
+
+# target to generate assembly for a file
+ch05_recursion_problems/lib.cpp.s:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/lib.cpp.s
+.PHONY : ch05_recursion_problems/lib.cpp.s
+
+ch05_recursion_problems/main.o: ch05_recursion_problems/main.cpp.o
+
+.PHONY : ch05_recursion_problems/main.o
+
+# target to build an object file
+ch05_recursion_problems/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/main.cpp.o
+.PHONY : ch05_recursion_problems/main.cpp.o
+
+ch05_recursion_problems/main.i: ch05_recursion_problems/main.cpp.i
+
+.PHONY : ch05_recursion_problems/main.i
+
+# target to preprocess a source file
+ch05_recursion_problems/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/main.cpp.i
+.PHONY : ch05_recursion_problems/main.cpp.i
+
+ch05_recursion_problems/main.s: ch05_recursion_problems/main.cpp.s
+
+.PHONY : ch05_recursion_problems/main.s
+
+# target to generate assembly for a file
+ch05_recursion_problems/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch05_recursion_problems.dir/build.make CMakeFiles/ch05_recursion_problems.dir/ch05_recursion_problems/main.cpp.s
+.PHONY : ch05_recursion_problems/main.cpp.s
 
 classes_and_dynamic_memeory_allocation/StringBag.o: classes_and_dynamic_memeory_allocation/StringBag.cpp.o
 
@@ -304,10 +371,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ch05_recursion_problems"
 	@echo "... ch01_03_interface_and_template_and_inheritance"
-	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"
-	@echo "... edit_cache"
 	@echo "... ch04_link-based_implementations"
+	@echo "... edit_cache"
+	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"
 	@echo "... classes_and_dynamic_memeory_allocation"
 	@echo "... ch01_03_interface_and_template_and_inheritance/main.o"
 	@echo "... ch01_03_interface_and_template_and_inheritance/main.i"
@@ -315,6 +383,12 @@ help:
 	@echo "... ch04_link-based_implementations/main.o"
 	@echo "... ch04_link-based_implementations/main.i"
 	@echo "... ch04_link-based_implementations/main.s"
+	@echo "... ch05_recursion_problems/lib.o"
+	@echo "... ch05_recursion_problems/lib.i"
+	@echo "... ch05_recursion_problems/lib.s"
+	@echo "... ch05_recursion_problems/main.o"
+	@echo "... ch05_recursion_problems/main.i"
+	@echo "... ch05_recursion_problems/main.s"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.o"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.i"
 	@echo "... classes_and_dynamic_memeory_allocation/StringBag.s"

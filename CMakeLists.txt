@@ -29,4 +29,10 @@ add_executable(
         ch04_link-based_implementations/main.cpp
         ch04_link-based_implementations/Node.h
         ch04_link-based_implementations/BagInterface.h
-        ch04_link-based_implementations/LinkedBag.h)
+        ch04_link-based_implementations/LinkedBag.h
+        ch04_link-based_implementations/ArrayBag.h
+)
+
+add_executable(
+        ch05_recursion_problems
+        ch05_recursion_problems/main.cpp ch05_recursion_problems/lib.cpp ch05_recursion_problems/lib.h)
