@@ -5,306 +5,361 @@
 		<Option title="Problem_Solving"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ch01_03_interface_and_template_and_inheritance\;CMake Files\ch04_link-based_implementations\;CMake Files\ch05_recursion_problems\;CMake Files\classes_and_dynamic_memeory_allocation\;CMake Files\interlude_02_pointers_polymorphism_and_memory_allocation\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch05_recursion_problems">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch05_recursion_problems"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch05_recursion_problems/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch05_recursion_problems/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch01_03_interface_and_template_and_inheritance">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch01_03_interface_and_template_and_inheritance"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch01_03_interface_and_template_and_inheritance/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch01_03_interface_and_template_and_inheritance/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch04_link-based_implementations">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch04_link-based_implementations"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ch04_link-based_implementations/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch04_link-based_implementations/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="interlude_02_pointers_polymorphism_and_memory_allocation">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+			<Target title="ch01_03_interface_and_template_and_inheritance">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch01_03_interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 interlude_02_pointers_polymorphism_and_memory_allocation"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 ch01_03_interface_and_template_and_inheritance"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="interlude_02_pointers_polymorphism_and_memory_allocation/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+			<Target title="ch01_03_interface_and_template_and_inheritance/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch01_03_interface_and_template_and_inheritance" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 interlude_02_pointers_polymorphism_and_memory_allocation/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 ch01_03_interface_and_template_and_inheritance/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch04_link-based_implementations">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch04_link-based_implementations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 ch04_link-based_implementations"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch04_link-based_implementations/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch04_link-based_implementations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 ch04_link-based_implementations/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch05_recursion_problems">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_recursion_problems"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch05_recursion_problems/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_recursion_problems/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="classes_and_dynamic_memeory_allocation">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/classes_and_dynamic_memeory_allocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes_and_dynamic_memeory_allocation"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 classes_and_dynamic_memeory_allocation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="classes_and_dynamic_memeory_allocation/fast">
-				<Option output="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/classes_and_dynamic_memeory_allocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 classes_and_dynamic_memeory_allocation/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C++_Projects/Problem_Solving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 classes_and_dynamic_memeory_allocation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interlude_02_pointers_polymorphism_and_memory_allocation">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/interlude_02_pointers_polymorphism_and_memory_allocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 interlude_02_pointers_polymorphism_and_memory_allocation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="interlude_02_pointers_polymorphism_and_memory_allocation/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/interlude_02_pointers_polymorphism_and_memory_allocation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Problem_Solving"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/x86_64-apple-darwin17.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 interlude_02_pointers_polymorphism_and_memory_allocation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/BagInterface.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/BagInterface.h">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/main.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/main.cpp">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/ArrayBag.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/ArrayBag.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/BagInterface.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/BagInterface.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/Node.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/Node.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp">
 			<Option target="ch05_recursion_problems"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch05_recursion_problems/lib.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.h">
 			<Option target="ch05_recursion_problems"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp">
 			<Option target="ch05_recursion_problems"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/StringBag.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/StringBag.cpp">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/StringBag.h">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/StringBag.h">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/main.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/main.cpp">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp">
 			<Option target="interlude_02_pointers_polymorphism_and_memory_allocation"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C++_Projects/Problem_Solving/CMakeLists.txt">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch01_03_interface_and_template_and_inheritance\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch04_link-based_implementations\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch05_recursion_problems\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\classes_and_dynamic_memeory_allocation\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\interlude_02_pointers_polymorphism_and_memory_allocation\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

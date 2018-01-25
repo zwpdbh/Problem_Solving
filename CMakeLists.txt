@@ -1,38 +1,26 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.9)
 project(Problem_Solving)
+
+set(CMAKE_C_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/gcc-7)
+set(CMAKE_CXX_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/g++-7)
 
 set(CMAKE_CXX_STANDARD 11)
 
-#set(SOURCE_FILES main.cpp)
-#add_executable(Problem_Solving ${SOURCE_FILES})
+# set the output folder where your program will be created
+set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR})
+# CMAKE_SOURCE_DIR is where cmake was started, the top level source directory
+# CMAKE_BINARY_DIR is the same as CMAKE_SOURCE_DIR, otherwise this is the top level directory of your build tree
+
+include_directories("${PROJECT_SOURCE_DIR}")
+# contains the full path to the root of your project source directory (for example, to the nearest directory where
+# CMakeLists.txt contains the PROJECT() command)
 
 
-add_executable(
-        classes_and_dynamic_memeory_allocation
-        classes_and_dynamic_memeory_allocation/StringBag.cpp
-        classes_and_dynamic_memeory_allocation/main.cpp)
+add_subdirectory(ch01_03_interface_and_template_and_inheritance)
+add_subdirectory(ch04_link-based_implementations)
+add_subdirectory(ch05_recursion_problems)
+add_subdirectory(classes_and_dynamic_memeory_allocation)
+add_subdirectory(interlude_02_pointers_polymorphism_and_memory_allocation)
 
-
-add_executable(
-        ch01_03_interface_and_template_and_inheritance
-        ch01_03_interface_and_template_and_inheritance/BagInterface.h
-        ch01_03_interface_and_template_and_inheritance/ArrayBag.h
-        ch01_03_interface_and_template_and_inheritance/main.cpp)
-
-
-add_executable(
-        interlude_02_pointers_polymorphism_and_memory_allocation
-        interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp)
-
-add_executable(
-        ch04_link-based_implementations
-        ch04_link-based_implementations/main.cpp
-        ch04_link-based_implementations/Node.h
-        ch04_link-based_implementations/BagInterface.h
-        ch04_link-based_implementations/LinkedBag.h
-        ch04_link-based_implementations/ArrayBag.h
-)
-
-add_executable(
-        ch05_recursion_problems
-        ch05_recursion_problems/main.cpp ch05_recursion_problems/lib.cpp ch05_recursion_problems/lib.h)
