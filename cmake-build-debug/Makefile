@@ -159,8 +159,34 @@ classes_and_dynamic_memeory_allocation: cmake_check_build_system
 
 # fast build rule for target.
 classes_and_dynamic_memeory_allocation/fast:
-	$(MAKE) -f classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
 .PHONY : classes_and_dynamic_memeory_allocation/fast
+
+#=============================================================================
+# Target rules for targets named plainbox_demo
+
+# Build rule for target.
+plainbox_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plainbox_demo
+.PHONY : plainbox_demo
+
+# fast build rule for target.
+plainbox_demo/fast:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build
+.PHONY : plainbox_demo/fast
+
+#=============================================================================
+# Target rules for targets named problem_of_early_binding
+
+# Build rule for target.
+problem_of_early_binding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 problem_of_early_binding
+.PHONY : problem_of_early_binding
+
+# fast build rule for target.
+problem_of_early_binding/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
+.PHONY : problem_of_early_binding/fast
 
 #=============================================================================
 # Target rules for targets named interlude_02_pointers_polymorphism_and_memory_allocation
@@ -175,6 +201,19 @@ interlude_02_pointers_polymorphism_and_memory_allocation/fast:
 	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/fast
 
+#=============================================================================
+# Target rules for targets named array_based
+
+# Build rule for target.
+array_based: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array_based
+.PHONY : array_based
+
+# fast build rule for target.
+array_based/fast:
+	$(MAKE) -f ch07_stack_implementations/CMakeFiles/array_based.dir/build.make ch07_stack_implementations/CMakeFiles/array_based.dir/build
+.PHONY : array_based/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,7 +226,10 @@ help:
 	@echo "... ch04_link-based_implementations"
 	@echo "... ch05_recursion_problems"
 	@echo "... classes_and_dynamic_memeory_allocation"
+	@echo "... plainbox_demo"
+	@echo "... problem_of_early_binding"
 	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"
+	@echo "... array_based"
 .PHONY : help
 
 

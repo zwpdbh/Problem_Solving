@@ -106,8 +106,8 @@ LinkedBag<T>::LinkedBag(const LinkedBag<T>& aBag) {
 //
 //        Node<T>* newChainPtr = headPtr->getNext();
 //        while (origChainPtr != nullptr) {
-//            T item = origChainPtr->getItem();
-//            Node<T>* newNodePtr = new Node<T>(item);
+//            T items = origChainPtr->getItem();
+//            Node<T>* newNodePtr = new Node<T>(items);
 //            newChainPtr->setNext(newNodePtr);
 //            newChainPtr = newChainPtr->getNext();
 //
@@ -122,7 +122,7 @@ bool LinkedBag<T>::remove(const T &anEntry) {
     Node<T>* entryNodePtr = getPointerTo(anEntry);
     bool canRemoveItem = (!isEmpty() && entryNodePtr != nullptr);
     if (canRemoveItem) {
-        // copy the first node item into this one and delete the first node
+        // copy the first node items into this one and delete the first node
         entryNodePtr->setItem(headPtr->getItem());
 
         Node<T>* nodeToBeDeletedPtr = headPtr;

@@ -21,6 +21,6 @@ include_directories("${PROJECT_SOURCE_DIR}")
 add_subdirectory(ch01_03_interface_and_template_and_inheritance)
 add_subdirectory(ch04_link-based_implementations)
 add_subdirectory(ch05_recursion_problems)
-add_subdirectory(classes_and_dynamic_memeory_allocation)
+add_subdirectory(interlude_01_C++_classes)
 add_subdirectory(interlude_02_pointers_polymorphism_and_memory_allocation)
-
+add_subdirectory(ch07_stack_implementations)

@@ -17,7 +17,21 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 
+# This chapter shows the differences between early binding and late binding (which is an aspect of polymorphism)
+# It is a way to communicate to the compiler that the code to execute should not be determined until the program is
+# running.
+
+# we allocate memory for a variable on the free store(heep) by using the new operator
+# the new operator returns the memory address of the variable in the free store so the program can use it.
+# This memory address must be placed in a special type of variable called a pointer variable.
+
 add_executable(
         interlude_02_pointers_polymorphism_and_memory_allocation
+        ../interfaces/BagInterface.h
         main.cpp
+)
+
+add_executable(
+        problem_of_early_binding
+        a_problem_main.cpp
 )

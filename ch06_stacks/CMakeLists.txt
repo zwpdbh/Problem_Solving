@@ -16,8 +16,3 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # contains the full path to the root of your project source directory (for example, to the nearest directory where
 # CMakeLists.txt contains the PROJECT() command)
 
-
-add_executable(
-        classes_and_dynamic_memeory_allocation
-        StringBag.cpp
-        main.cpp)

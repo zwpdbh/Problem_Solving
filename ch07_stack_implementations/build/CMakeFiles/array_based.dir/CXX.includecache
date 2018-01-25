@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.cpp
+ArrayStack.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.h
+cassert
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.h
+../interfaces/StackInterface.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interfaces/StackInterface.h
+ArrayStack.cpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.cpp
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/main.cpp
+iostream
+-
+string
+-
+ArrayStack.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.h
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interfaces/StackInterface.h
+

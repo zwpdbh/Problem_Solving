@@ -31,10 +31,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../ch01_03_interface_and_template_and_inheritance/CMakeLists.txt"
   "../ch04_link-based_implementations/CMakeLists.txt"
   "../ch05_recursion_problems/CMakeLists.txt"
-  "../classes_and_dynamic_memeory_allocation/CMakeLists.txt"
+  "../ch07_stack_implementations/CMakeLists.txt"
   "CMakeFiles/3.9.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeSystem.cmake"
+  "../interlude_01_C++_classes/CMakeLists.txt"
   "../interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt"
   )
 
@@ -50,8 +51,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ch01_03_interface_and_template_and_inheritance/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ch04_link-based_implementations/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ch05_recursion_problems/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "classes_and_dynamic_memeory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "interlude_01_C++_classes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ch07_stack_implementations/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -59,6 +61,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/DependInfo.cmake"
   "ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/DependInfo.cmake"
   "ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/DependInfo.cmake"
-  "classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake"
+  "interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake"
+  "interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/DependInfo.cmake"
+  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake"
   "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/DependInfo.cmake"
+  "ch07_stack_implementations/CMakeFiles/array_based.dir/DependInfo.cmake"
   )

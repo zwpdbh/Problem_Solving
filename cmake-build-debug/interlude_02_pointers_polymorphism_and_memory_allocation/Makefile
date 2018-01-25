@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
+
+# Convenience name for target.
+problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
+
+.PHONY : problem_of_early_binding
+
+# fast build rule for target.
+problem_of_early_binding/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
+.PHONY : problem_of_early_binding/fast
+
+# Convenience name for target.
 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule
@@ -124,6 +139,33 @@ interlude_02_pointers_polymorphism_and_memory_allocation: interlude_02_pointers_
 interlude_02_pointers_polymorphism_and_memory_allocation/fast:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/fast
+
+a_problem_main.o: a_problem_main.cpp.o
+
+.PHONY : a_problem_main.o
+
+# target to build an object file
+a_problem_main.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/a_problem_main.cpp.o
+.PHONY : a_problem_main.cpp.o
+
+a_problem_main.i: a_problem_main.cpp.i
+
+.PHONY : a_problem_main.i
+
+# target to preprocess a source file
+a_problem_main.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/a_problem_main.cpp.i
+.PHONY : a_problem_main.cpp.i
+
+a_problem_main.s: a_problem_main.cpp.s
+
+.PHONY : a_problem_main.s
+
+# target to generate assembly for a file
+a_problem_main.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/a_problem_main.cpp.s
+.PHONY : a_problem_main.cpp.s
 
 main.o: main.cpp.o
 
@@ -160,7 +202,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... problem_of_early_binding"
 	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"
+	@echo "... a_problem_main.o"
+	@echo "... a_problem_main.i"
+	@echo "... a_problem_main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
