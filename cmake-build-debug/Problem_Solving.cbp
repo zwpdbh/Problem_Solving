@@ -301,16 +301,10 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/ArrayBag.h">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/BagInterface.h">
-			<Option target="ch01_03_interface_and_template_and_inheritance"/>
-		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/main.cpp">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/ArrayBag.h">
-			<Option target="ch04_link-based_implementations"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/BagInterface.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h">
@@ -339,6 +333,10 @@
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/classes_and_dynamic_memeory_allocation/main.cpp">
 			<Option target="classes_and_dynamic_memeory_allocation"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interfaces/BagInterface.h">
+			<Option target="ch01_03_interface_and_template_and_inheritance"/>
+			<Option target="ch04_link-based_implementations"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp">
 			<Option target="interlude_02_pointers_polymorphism_and_memory_allocation"/>

@@ -5,7 +5,7 @@
 #ifndef PROBLEM_SOLVING_ARRAYBAG_H
 #define PROBLEM_SOLVING_ARRAYBAG_H
 
-#include "BagInterface.h"
+#include "interfaces/BagInterface.h"
 
 template <class T>
 class ArrayBag : public BagInterface<T> {

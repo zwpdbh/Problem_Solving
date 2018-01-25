@@ -19,7 +19,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 add_executable(
         ch01_03_interface_and_template_and_inheritance
-        BagInterface.h
+        ../interfaces/BagInterface.h
         ArrayBag.h
         main.cpp
 )

@@ -5,7 +5,7 @@
 #ifndef PROBLEM_SOLVING_LINKEDBAG_H
 #define PROBLEM_SOLVING_LINKEDBAG_H
 
-#include "BagInterface.h"
+#include "interfaces/BagInterface.h"
 #include "Node.h"
 
 template <class T>

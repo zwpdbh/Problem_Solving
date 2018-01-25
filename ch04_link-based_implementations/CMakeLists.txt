@@ -20,7 +20,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 add_executable(
         ch04_link-based_implementations
         ArrayBag.h
-        BagInterface.h
+        ../interfaces/BagInterface.h
         LinkedBag.h
         main.cpp
         Node.h
