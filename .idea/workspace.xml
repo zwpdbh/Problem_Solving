@@ -20,50 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1381897-1b29-4c6b-8ba1-6cbeebb5b302" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.cpp" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.cpp" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/bin/demo_why_declare_method_as_virtual" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/bin/demo_why_declare_method_as_virtual" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/bin/magicbox_demo" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/bin/magicbox_demo" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/demo_why_declare_method_as_virtual.dir/demo_why_declare_method_as_virtual.cpp.o" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/demo_why_declare_method_as_virtual.dir/demo_why_declare_method_as_virtual.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/CXX.includecache" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/demo_magicbox.cpp.o" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/demo_magicbox.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/depend.internal" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/depend.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/magicbox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/plainbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/plainbox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/toybox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/toybox_demo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/Makefile" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/demo_magicbox.cpp" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/demo_magicbox.cpp" />
-      <change beforePath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt" afterPath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/a_problem_main.cpp" afterPath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp" />
-      <change beforePath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/main.cpp" afterPath="" />
-    </list>
+    <list default="true" id="a1381897-1b29-4c6b-8ba1-6cbeebb5b302" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,8 +41,8 @@
       <file leaf-file-name="demo_problem_of_type_is_determined_during_compile.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="95">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -396,12 +353,12 @@
       <workItem from="1511475665133" duration="549000" />
       <workItem from="1511581271304" duration="2576000" />
       <workItem from="1511751813822" duration="4000" />
-      <workItem from="1516866233214" duration="12133000" />
+      <workItem from="1516866233214" duration="12206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93815000" />
+    <option name="totallyTimeSpent" value="93888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="430" width="1440" height="430" extended-state="0" />
@@ -790,7 +747,7 @@
         <state relative-caret-position="48">
           <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <element signature="e#190#206#0" expanded="true" />
+            <element signature="e#190#206#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,7 +757,7 @@
         <state relative-caret-position="-98">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
+            <element signature="e#43#62#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="95">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
