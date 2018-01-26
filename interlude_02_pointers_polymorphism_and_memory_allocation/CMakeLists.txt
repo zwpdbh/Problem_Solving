@@ -28,8 +28,37 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 # demo shows the problem of early binding
 add_executable(
-        problem_of_early_binding
+        demo_problem_of_early_binding
         ../interlude_01_C++_classes/PlainBox.h
         ../interlude_01_C++_classes/MagicBox.h
-        demo_problem_of_type_is_determined_during_compile.cpp
+        demo_problem_of_early_binding.cpp
+)
+# We need a way to communicate to the compiler that the code to execute should not be determined until
+# the program is running. This is called late binding, which is an aspect of polymorphism.
+# we need two tools: pointer variables and virtual methods
+
+# demo shows the use of new operator to allocate memory for a variable on the free store (heap) instead of on stack.
+add_executable(
+        demo_shows_using_new_operator_to_allocate_memory_on_heap
+        demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp
+)
+
+# demo shows best option for preventing a memory leak: is to not use a function to return a pointer to a newly created object.
+# Instead, you should define a class that has a method for this task. The class takes responsibility for deleting the object
+# in the free store and ensures that there is no memory leak.
+add_executable(
+        demo_shows_good_practise_of_good_memory
+        demo_shows_good_practise_of_good_memory.cpp
+        GoodMemory.h
+        GoodMemory.cpp
+)
+
+# demo shows late binding
+# 1) declare the method we want to late binding as virtual method to communicate to the compiler that the code
+#    to execute should not be determined until the program is running.
+# 2) to fully implement late binding, we must create the variables in the heap using pointers to reference them.
+add_executable(
+        demo_shows_late_binding
+        PlainBox.h
+        demo_shows_late_binding.cpp
 )

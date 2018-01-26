@@ -60,39 +60,150 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_0
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/problem_of_early_binding.dir
+# Target rules for target CMakeFiles/demo_problem_of_early_binding.dir
 
 # All Build rule for target.
-CMakeFiles/problem_of_early_binding.dir/all:
-	$(MAKE) -f CMakeFiles/problem_of_early_binding.dir/build.make CMakeFiles/problem_of_early_binding.dir/depend
-	$(MAKE) -f CMakeFiles/problem_of_early_binding.dir/build.make CMakeFiles/problem_of_early_binding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=1,2 "Built target problem_of_early_binding"
-.PHONY : CMakeFiles/problem_of_early_binding.dir/all
+CMakeFiles/demo_problem_of_early_binding.dir/all:
+	$(MAKE) -f CMakeFiles/demo_problem_of_early_binding.dir/build.make CMakeFiles/demo_problem_of_early_binding.dir/depend
+	$(MAKE) -f CMakeFiles/demo_problem_of_early_binding.dir/build.make CMakeFiles/demo_problem_of_early_binding.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=1,2 "Built target demo_problem_of_early_binding"
+.PHONY : CMakeFiles/demo_problem_of_early_binding.dir/all
 
 # Include target in all.
-all: CMakeFiles/problem_of_early_binding.dir/all
+all: CMakeFiles/demo_problem_of_early_binding.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/problem_of_early_binding.dir/rule: cmake_check_build_system
+CMakeFiles/demo_problem_of_early_binding.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/problem_of_early_binding.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo_problem_of_early_binding.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 0
-.PHONY : CMakeFiles/problem_of_early_binding.dir/rule
+.PHONY : CMakeFiles/demo_problem_of_early_binding.dir/rule
 
 # Convenience name for target.
-problem_of_early_binding: CMakeFiles/problem_of_early_binding.dir/rule
+demo_problem_of_early_binding: CMakeFiles/demo_problem_of_early_binding.dir/rule
 
-.PHONY : problem_of_early_binding
-
-# clean rule for target.
-CMakeFiles/problem_of_early_binding.dir/clean:
-	$(MAKE) -f CMakeFiles/problem_of_early_binding.dir/build.make CMakeFiles/problem_of_early_binding.dir/clean
-.PHONY : CMakeFiles/problem_of_early_binding.dir/clean
+.PHONY : demo_problem_of_early_binding
 
 # clean rule for target.
-clean: CMakeFiles/problem_of_early_binding.dir/clean
+CMakeFiles/demo_problem_of_early_binding.dir/clean:
+	$(MAKE) -f CMakeFiles/demo_problem_of_early_binding.dir/build.make CMakeFiles/demo_problem_of_early_binding.dir/clean
+.PHONY : CMakeFiles/demo_problem_of_early_binding.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/demo_problem_of_early_binding.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo_shows_late_binding.dir
+
+# All Build rule for target.
+CMakeFiles/demo_shows_late_binding.dir/all:
+	$(MAKE) -f CMakeFiles/demo_shows_late_binding.dir/build.make CMakeFiles/demo_shows_late_binding.dir/depend
+	$(MAKE) -f CMakeFiles/demo_shows_late_binding.dir/build.make CMakeFiles/demo_shows_late_binding.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=6,7 "Built target demo_shows_late_binding"
+.PHONY : CMakeFiles/demo_shows_late_binding.dir/all
+
+# Include target in all.
+all: CMakeFiles/demo_shows_late_binding.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo_shows_late_binding.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo_shows_late_binding.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 0
+.PHONY : CMakeFiles/demo_shows_late_binding.dir/rule
+
+# Convenience name for target.
+demo_shows_late_binding: CMakeFiles/demo_shows_late_binding.dir/rule
+
+.PHONY : demo_shows_late_binding
+
+# clean rule for target.
+CMakeFiles/demo_shows_late_binding.dir/clean:
+	$(MAKE) -f CMakeFiles/demo_shows_late_binding.dir/build.make CMakeFiles/demo_shows_late_binding.dir/clean
+.PHONY : CMakeFiles/demo_shows_late_binding.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/demo_shows_late_binding.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo_shows_good_practise_of_good_memory.dir
+
+# All Build rule for target.
+CMakeFiles/demo_shows_good_practise_of_good_memory.dir/all:
+	$(MAKE) -f CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make CMakeFiles/demo_shows_good_practise_of_good_memory.dir/depend
+	$(MAKE) -f CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=3,4,5 "Built target demo_shows_good_practise_of_good_memory"
+.PHONY : CMakeFiles/demo_shows_good_practise_of_good_memory.dir/all
+
+# Include target in all.
+all: CMakeFiles/demo_shows_good_practise_of_good_memory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo_shows_good_practise_of_good_memory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 0
+.PHONY : CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule
+
+# Convenience name for target.
+demo_shows_good_practise_of_good_memory: CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule
+
+.PHONY : demo_shows_good_practise_of_good_memory
+
+# clean rule for target.
+CMakeFiles/demo_shows_good_practise_of_good_memory.dir/clean:
+	$(MAKE) -f CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make CMakeFiles/demo_shows_good_practise_of_good_memory.dir/clean
+.PHONY : CMakeFiles/demo_shows_good_practise_of_good_memory.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/demo_shows_good_practise_of_good_memory.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir
+
+# All Build rule for target.
+CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/all:
+	$(MAKE) -f CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/depend
+	$(MAKE) -f CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=8,9 "Built target demo_shows_using_new_operator_to_allocate_memory_on_heap"
+.PHONY : CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/all
+
+# Include target in all.
+all: CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles 0
+.PHONY : CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule
+
+# Convenience name for target.
+demo_shows_using_new_operator_to_allocate_memory_on_heap: CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule
+
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap
+
+# clean rule for target.
+CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/clean:
+	$(MAKE) -f CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/clean
+.PHONY : CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/clean
 
 .PHONY : clean
 

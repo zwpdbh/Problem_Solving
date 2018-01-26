@@ -43,5 +43,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake"
+  "CMakeFiles/demo_problem_of_early_binding.dir/DependInfo.cmake"
+  "CMakeFiles/demo_shows_late_binding.dir/DependInfo.cmake"
+  "CMakeFiles/demo_shows_good_practise_of_good_memory.dir/DependInfo.cmake"
+  "CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/DependInfo.cmake"
   )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o"
+  "CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o"
   "../../bin/problem_of_early_binding.pdb"
   "../../bin/problem_of_early_binding"
 )

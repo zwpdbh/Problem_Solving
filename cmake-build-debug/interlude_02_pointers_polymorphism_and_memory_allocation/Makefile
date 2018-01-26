@@ -111,46 +111,199 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/rule
 
 # Convenience name for target.
-problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/rule
+demo_problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/rule
 
-.PHONY : problem_of_early_binding
+.PHONY : demo_problem_of_early_binding
 
 # fast build rule for target.
-problem_of_early_binding/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
-.PHONY : problem_of_early_binding/fast
+demo_problem_of_early_binding/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build
+.PHONY : demo_problem_of_early_binding/fast
 
-demo_problem_of_type_is_determined_during_compile.o: demo_problem_of_type_is_determined_during_compile.cpp.o
+# Convenience name for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/rule
 
-.PHONY : demo_problem_of_type_is_determined_during_compile.o
+# Convenience name for target.
+demo_shows_late_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/rule
+
+.PHONY : demo_shows_late_binding
+
+# fast build rule for target.
+demo_shows_late_binding/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build
+.PHONY : demo_shows_late_binding/fast
+
+# Convenience name for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule
+
+# Convenience name for target.
+demo_shows_good_practise_of_good_memory: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/rule
+
+.PHONY : demo_shows_good_practise_of_good_memory
+
+# fast build rule for target.
+demo_shows_good_practise_of_good_memory/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build
+.PHONY : demo_shows_good_practise_of_good_memory/fast
+
+# Convenience name for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule
+
+# Convenience name for target.
+demo_shows_using_new_operator_to_allocate_memory_on_heap: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/rule
+
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap
+
+# fast build rule for target.
+demo_shows_using_new_operator_to_allocate_memory_on_heap/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap/fast
+
+GoodMemory.o: GoodMemory.cpp.o
+
+.PHONY : GoodMemory.o
 
 # target to build an object file
-demo_problem_of_type_is_determined_during_compile.cpp.o:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o
-.PHONY : demo_problem_of_type_is_determined_during_compile.cpp.o
+GoodMemory.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/GoodMemory.cpp.o
+.PHONY : GoodMemory.cpp.o
 
-demo_problem_of_type_is_determined_during_compile.i: demo_problem_of_type_is_determined_during_compile.cpp.i
+GoodMemory.i: GoodMemory.cpp.i
 
-.PHONY : demo_problem_of_type_is_determined_during_compile.i
+.PHONY : GoodMemory.i
 
 # target to preprocess a source file
-demo_problem_of_type_is_determined_during_compile.cpp.i:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i
-.PHONY : demo_problem_of_type_is_determined_during_compile.cpp.i
+GoodMemory.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/GoodMemory.cpp.i
+.PHONY : GoodMemory.cpp.i
 
-demo_problem_of_type_is_determined_during_compile.s: demo_problem_of_type_is_determined_during_compile.cpp.s
+GoodMemory.s: GoodMemory.cpp.s
 
-.PHONY : demo_problem_of_type_is_determined_during_compile.s
+.PHONY : GoodMemory.s
 
 # target to generate assembly for a file
-demo_problem_of_type_is_determined_during_compile.cpp.s:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s
-.PHONY : demo_problem_of_type_is_determined_during_compile.cpp.s
+GoodMemory.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/GoodMemory.cpp.s
+.PHONY : GoodMemory.cpp.s
+
+demo_problem_of_early_binding.o: demo_problem_of_early_binding.cpp.o
+
+.PHONY : demo_problem_of_early_binding.o
+
+# target to build an object file
+demo_problem_of_early_binding.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o
+.PHONY : demo_problem_of_early_binding.cpp.o
+
+demo_problem_of_early_binding.i: demo_problem_of_early_binding.cpp.i
+
+.PHONY : demo_problem_of_early_binding.i
+
+# target to preprocess a source file
+demo_problem_of_early_binding.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i
+.PHONY : demo_problem_of_early_binding.cpp.i
+
+demo_problem_of_early_binding.s: demo_problem_of_early_binding.cpp.s
+
+.PHONY : demo_problem_of_early_binding.s
+
+# target to generate assembly for a file
+demo_problem_of_early_binding.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s
+.PHONY : demo_problem_of_early_binding.cpp.s
+
+demo_shows_good_practise_of_good_memory.o: demo_shows_good_practise_of_good_memory.cpp.o
+
+.PHONY : demo_shows_good_practise_of_good_memory.o
+
+# target to build an object file
+demo_shows_good_practise_of_good_memory.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/demo_shows_good_practise_of_good_memory.cpp.o
+.PHONY : demo_shows_good_practise_of_good_memory.cpp.o
+
+demo_shows_good_practise_of_good_memory.i: demo_shows_good_practise_of_good_memory.cpp.i
+
+.PHONY : demo_shows_good_practise_of_good_memory.i
+
+# target to preprocess a source file
+demo_shows_good_practise_of_good_memory.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/demo_shows_good_practise_of_good_memory.cpp.i
+.PHONY : demo_shows_good_practise_of_good_memory.cpp.i
+
+demo_shows_good_practise_of_good_memory.s: demo_shows_good_practise_of_good_memory.cpp.s
+
+.PHONY : demo_shows_good_practise_of_good_memory.s
+
+# target to generate assembly for a file
+demo_shows_good_practise_of_good_memory.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/demo_shows_good_practise_of_good_memory.cpp.s
+.PHONY : demo_shows_good_practise_of_good_memory.cpp.s
+
+demo_shows_late_binding.o: demo_shows_late_binding.cpp.o
+
+.PHONY : demo_shows_late_binding.o
+
+# target to build an object file
+demo_shows_late_binding.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/demo_shows_late_binding.cpp.o
+.PHONY : demo_shows_late_binding.cpp.o
+
+demo_shows_late_binding.i: demo_shows_late_binding.cpp.i
+
+.PHONY : demo_shows_late_binding.i
+
+# target to preprocess a source file
+demo_shows_late_binding.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/demo_shows_late_binding.cpp.i
+.PHONY : demo_shows_late_binding.cpp.i
+
+demo_shows_late_binding.s: demo_shows_late_binding.cpp.s
+
+.PHONY : demo_shows_late_binding.s
+
+# target to generate assembly for a file
+demo_shows_late_binding.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/demo_shows_late_binding.cpp.s
+.PHONY : demo_shows_late_binding.cpp.s
+
+demo_shows_using_new_operator_to_allocate_memory_on_heap.o: demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.o
+
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.o
+
+# target to build an object file
+demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.o
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.o
+
+demo_shows_using_new_operator_to_allocate_memory_on_heap.i: demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.i
+
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.i
+
+# target to preprocess a source file
+demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.i
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.i
+
+demo_shows_using_new_operator_to_allocate_memory_on_heap.s: demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s
+
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.s
+
+# target to generate assembly for a file
+demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s
 
 # Help Target
 help:
@@ -158,12 +311,27 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... demo_problem_of_early_binding"
+	@echo "... demo_shows_late_binding"
 	@echo "... rebuild_cache"
+	@echo "... demo_shows_good_practise_of_good_memory"
+	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap"
 	@echo "... edit_cache"
-	@echo "... problem_of_early_binding"
-	@echo "... demo_problem_of_type_is_determined_during_compile.o"
-	@echo "... demo_problem_of_type_is_determined_during_compile.i"
-	@echo "... demo_problem_of_type_is_determined_during_compile.s"
+	@echo "... GoodMemory.o"
+	@echo "... GoodMemory.i"
+	@echo "... GoodMemory.s"
+	@echo "... demo_problem_of_early_binding.o"
+	@echo "... demo_problem_of_early_binding.i"
+	@echo "... demo_problem_of_early_binding.s"
+	@echo "... demo_shows_good_practise_of_good_memory.o"
+	@echo "... demo_shows_good_practise_of_good_memory.i"
+	@echo "... demo_shows_good_practise_of_good_memory.s"
+	@echo "... demo_shows_late_binding.o"
+	@echo "... demo_shows_late_binding.i"
+	@echo "... demo_shows_late_binding.s"
+	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.o"
+	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.i"
+	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.s"
 .PHONY : help
 
 

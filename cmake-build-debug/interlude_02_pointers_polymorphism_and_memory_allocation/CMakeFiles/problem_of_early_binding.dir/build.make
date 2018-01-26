@@ -57,38 +57,38 @@ include interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/prob
 # Include the compile flags for this target's objects.
 include interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/flags.make
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/flags.make
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o: ../interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/flags.make
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o: ../interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp > CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp > CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires:
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires:
 
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
-	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides.build
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides.build
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides.build: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides.build: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o
 
 
 # Object files for target problem_of_early_binding
 problem_of_early_binding_OBJECTS = \
-"CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o"
+"CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o"
 
 # External object files for target problem_of_early_binding
 problem_of_early_binding_EXTERNAL_OBJECTS =
 
-../bin/problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o
+../bin/problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o
 ../bin/problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make
 ../bin/problem_of_early_binding: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/problem_of_early_binding"
@@ -99,7 +99,7 @@ interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_e
 
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
 
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/requires: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/requires: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
 
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/requires
 

@@ -57,38 +57,38 @@ include CMakeFiles/problem_of_early_binding.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/problem_of_early_binding.dir/flags.make
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o: CMakeFiles/problem_of_early_binding.dir/flags.make
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o: ../demo_problem_of_type_is_determined_during_compile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o: CMakeFiles/problem_of_early_binding.dir/flags.make
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o: ../demo_problem_of_early_binding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o"
+	/usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp > CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.i
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i"
+	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp > CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.i
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s"
-	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_type_is_determined_during_compile.cpp -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.s
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s"
+	/usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/demo_problem_of_early_binding.cpp -o CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.s
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires:
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires:
 
-.PHONY : CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
+.PHONY : CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
-	$(MAKE) -f CMakeFiles/problem_of_early_binding.dir/build.make CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides.build
-.PHONY : CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
+	$(MAKE) -f CMakeFiles/problem_of_early_binding.dir/build.make CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides.build
+.PHONY : CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides
 
-CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.provides.build: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o
+CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.provides.build: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o
 
 
 # Object files for target problem_of_early_binding
 problem_of_early_binding_OBJECTS = \
-"CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o"
+"CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o"
 
 # External object files for target problem_of_early_binding
 problem_of_early_binding_EXTERNAL_OBJECTS =
 
-../bin/problem_of_early_binding: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o
+../bin/problem_of_early_binding: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o
 ../bin/problem_of_early_binding: CMakeFiles/problem_of_early_binding.dir/build.make
 ../bin/problem_of_early_binding: CMakeFiles/problem_of_early_binding.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/problem_of_early_binding"
@@ -99,7 +99,7 @@ CMakeFiles/problem_of_early_binding.dir/build: ../bin/problem_of_early_binding
 
 .PHONY : CMakeFiles/problem_of_early_binding.dir/build
 
-CMakeFiles/problem_of_early_binding.dir/requires: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_type_is_determined_during_compile.cpp.o.requires
+CMakeFiles/problem_of_early_binding.dir/requires: CMakeFiles/problem_of_early_binding.dir/demo_problem_of_early_binding.cpp.o.requires
 
 .PHONY : CMakeFiles/problem_of_early_binding.dir/requires
 

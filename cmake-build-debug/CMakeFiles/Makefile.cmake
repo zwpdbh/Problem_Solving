@@ -66,6 +66,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/DependInfo.cmake"
   "interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/DependInfo.cmake"
   "interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/DependInfo.cmake"
-  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake"
+  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/DependInfo.cmake"
+  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/DependInfo.cmake"
+  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/DependInfo.cmake"
+  "interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/DependInfo.cmake"
   "ch07_stack_implementations/CMakeFiles/array_based.dir/DependInfo.cmake"
   )

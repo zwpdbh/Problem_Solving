@@ -215,17 +215,56 @@ plainbox_demo/fast:
 .PHONY : plainbox_demo/fast
 
 #=============================================================================
-# Target rules for targets named problem_of_early_binding
+# Target rules for targets named demo_problem_of_early_binding
 
 # Build rule for target.
-problem_of_early_binding: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 problem_of_early_binding
-.PHONY : problem_of_early_binding
+demo_problem_of_early_binding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_problem_of_early_binding
+.PHONY : demo_problem_of_early_binding
 
 # fast build rule for target.
-problem_of_early_binding/fast:
-	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
-.PHONY : problem_of_early_binding/fast
+demo_problem_of_early_binding/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build
+.PHONY : demo_problem_of_early_binding/fast
+
+#=============================================================================
+# Target rules for targets named demo_shows_late_binding
+
+# Build rule for target.
+demo_shows_late_binding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_shows_late_binding
+.PHONY : demo_shows_late_binding
+
+# fast build rule for target.
+demo_shows_late_binding/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build
+.PHONY : demo_shows_late_binding/fast
+
+#=============================================================================
+# Target rules for targets named demo_shows_good_practise_of_good_memory
+
+# Build rule for target.
+demo_shows_good_practise_of_good_memory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_shows_good_practise_of_good_memory
+.PHONY : demo_shows_good_practise_of_good_memory
+
+# fast build rule for target.
+demo_shows_good_practise_of_good_memory/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build
+.PHONY : demo_shows_good_practise_of_good_memory/fast
+
+#=============================================================================
+# Target rules for targets named demo_shows_using_new_operator_to_allocate_memory_on_heap
+
+# Build rule for target.
+demo_shows_using_new_operator_to_allocate_memory_on_heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_shows_using_new_operator_to_allocate_memory_on_heap
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap
+
+# fast build rule for target.
+demo_shows_using_new_operator_to_allocate_memory_on_heap/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build
+.PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap/fast
 
 #=============================================================================
 # Target rules for targets named array_based
@@ -256,7 +295,10 @@ help:
 	@echo "... magicbox_demo"
 	@echo "... toybox_demo"
 	@echo "... plainbox_demo"
-	@echo "... problem_of_early_binding"
+	@echo "... demo_problem_of_early_binding"
+	@echo "... demo_shows_late_binding"
+	@echo "... demo_shows_good_practise_of_good_memory"
+	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap"
 	@echo "... array_based"
 .PHONY : help
 
