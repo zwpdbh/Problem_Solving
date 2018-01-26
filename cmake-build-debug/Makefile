@@ -150,17 +150,43 @@ ch05_recursion_problems/fast:
 .PHONY : ch05_recursion_problems/fast
 
 #=============================================================================
-# Target rules for targets named classes_and_dynamic_memeory_allocation
+# Target rules for targets named toybox_demo
 
 # Build rule for target.
-classes_and_dynamic_memeory_allocation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 classes_and_dynamic_memeory_allocation
-.PHONY : classes_and_dynamic_memeory_allocation
+toybox_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 toybox_demo
+.PHONY : toybox_demo
 
 # fast build rule for target.
-classes_and_dynamic_memeory_allocation/fast:
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
-.PHONY : classes_and_dynamic_memeory_allocation/fast
+toybox_demo/fast:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build
+.PHONY : toybox_demo/fast
+
+#=============================================================================
+# Target rules for targets named magicbox_demo
+
+# Build rule for target.
+magicbox_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 magicbox_demo
+.PHONY : magicbox_demo
+
+# fast build rule for target.
+magicbox_demo/fast:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build
+.PHONY : magicbox_demo/fast
+
+#=============================================================================
+# Target rules for targets named demo_why_declare_method_as_virtual
+
+# Build rule for target.
+demo_why_declare_method_as_virtual: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_why_declare_method_as_virtual
+.PHONY : demo_why_declare_method_as_virtual
+
+# fast build rule for target.
+demo_why_declare_method_as_virtual/fast:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build
+.PHONY : demo_why_declare_method_as_virtual/fast
 
 #=============================================================================
 # Target rules for targets named plainbox_demo
@@ -225,7 +251,9 @@ help:
 	@echo "... ch01_03_interface_and_template_and_inheritance"
 	@echo "... ch04_link-based_implementations"
 	@echo "... ch05_recursion_problems"
-	@echo "... classes_and_dynamic_memeory_allocation"
+	@echo "... toybox_demo"
+	@echo "... magicbox_demo"
+	@echo "... demo_why_declare_method_as_virtual"
 	@echo "... plainbox_demo"
 	@echo "... problem_of_early_binding"
 	@echo "... interlude_02_pointers_polymorphism_and_memory_allocation"

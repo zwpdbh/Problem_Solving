@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Problem_Solving" targetName="classes_and_dynamic_memeory_allocation" />
+      <config projectName="Problem_Solving" targetName="toybox_demo" />
+      <config projectName="Problem_Solving" targetName="magicbox_demo" />
       <config projectName="Problem_Solving" targetName="problem_of_early_binding" />
       <config projectName="Problem_Solving" targetName="ch01_03_interface_and_template_and_inheritance" />
       <config projectName="Problem_Solving" targetName="ch05_recursion_problems" />
@@ -10,6 +11,7 @@
       <config projectName="Problem_Solving" targetName="plainbox_demo" />
       <config projectName="Problem_Solving" targetName="ch04_link-based_implementations" />
       <config projectName="Problem_Solving" targetName="array_based" />
+      <config projectName="Problem_Solving" targetName="demo_why_declare_method_as_virtual" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -20,28 +22,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a1381897-1b29-4c6b-8ba1-6cbeebb5b302" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/ch01_03_interface_and_template_and_inheritance/ArrayBag.h" afterPath="$PROJECT_DIR$/ch01_03_interface_and_template_and_inheritance/ArrayBag.h" />
-      <change beforePath="$PROJECT_DIR$/ch04_link-based_implementations/LinkedBag.h" afterPath="$PROJECT_DIR$/ch04_link-based_implementations/LinkedBag.h" />
-      <change beforePath="$PROJECT_DIR$/classes_and_dynamic_memeory_allocation/CMakeLists.txt" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/classes_and_dynamic_memeory_allocation/StringBag.cpp" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/StringBag.cpp" />
-      <change beforePath="$PROJECT_DIR$/classes_and_dynamic_memeory_allocation/StringBag.h" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/StringBag.h" />
-      <change beforePath="$PROJECT_DIR$/classes_and_dynamic_memeory_allocation/main.cpp" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" />
-      <change beforePath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt" afterPath="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/plainbox_demo.dir/progress.make" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/plainbox_demo.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/interlude_01_C++_classes/build/Makefile" afterPath="$PROJECT_DIR$/interlude_01_C++_classes/build/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +58,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo_plainbox.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_plainbox.cpp">
+      <file leaf-file-name="MagicBox.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="43">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
+              <folding>
+                <element signature="e#199#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo_magicbox.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_magicbox.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BagInterface.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaces/BagInterface.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#150#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo_why_declare_method_as_virtual.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_why_declare_method_as_virtual.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="e#43#64#0" expanded="true" />
               </folding>
@@ -72,14 +114,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlainBox.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.cpp">
+      <file leaf-file-name="MagicBox.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="86">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="e#74#90#0" expanded="true" />
+                <element signature="e#200#216#0" expanded="true" />
+                <element signature="e#480#496#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlainBox.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlainBox.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,13 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class_Inheritance/TableTennisPlayer.cpp" />
-        <option value="$PROJECT_DIR$/class_Inheritance/Brass.cpp" />
-        <option value="$PROJECT_DIR$/class_Inheritance/dma.h" />
-        <option value="$PROJECT_DIR$/class_Inheritance/dma.cpp" />
-        <option value="$PROJECT_DIR$/class_Inheritance/main_dma.cpp" />
-        <option value="$PROJECT_DIR$/class_template/stacktp.cpp" />
-        <option value="$PROJECT_DIR$/class_Inheritance/main.cpp" />
         <option value="$PROJECT_DIR$/class_Inheritance/BrassPlus.cpp" />
         <option value="$PROJECT_DIR$/class_Inheritance/main_02.cpp" />
         <option value="$PROJECT_DIR$/class_Inheritance/Brass.h" />
@@ -150,10 +207,17 @@
         <option value="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ch01_03_interface_and_template_and_inheritance/ArrayBag.h" />
         <option value="$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.h" />
-        <option value="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/a_problem_main.cpp" />
         <option value="$PROJECT_DIR$/interlude_01_C++_classes/demo_plainbox.cpp" />
         <option value="$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/ToyBox.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/demo_toybox.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/ToyBox.h" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.h" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/demo_magicbox.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/demo_why_declare_method_as_virtual.cpp" />
       </list>
     </option>
   </component>
@@ -310,26 +374,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-    </configuration>
-    <configuration name="array_based" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="array_based" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
-      <envs />
-    </configuration>
-    <configuration name="ch01_03_interface_and_template_and_inheritance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="ch01_03_interface_and_template_and_inheritance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
-      <envs />
-    </configuration>
-    <configuration name="ch04_link-based_implementations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="ch04_link-based_implementations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
-      <envs />
-    </configuration>
-    <configuration name="ch05_recursion_problems" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="ch05_recursion_problems" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
-      <envs />
-    </configuration>
-    <configuration name="classes_and_dynamic_memeory_allocation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="classes_and_dynamic_memeory_allocation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
+  <component name="RunManager" selected="Application.magicbox_demo">
+    <configuration name="demo_why_declare_method_as_virtual" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="demo_why_declare_method_as_virtual" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="demo_why_declare_method_as_virtual">
       <envs />
     </configuration>
     <configuration name="interlude_02_pointers_polymorphism_and_memory_allocation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="interlude_02_pointers_polymorphism_and_memory_allocation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="interlude_02_pointers_polymorphism_and_memory_allocation">
+      <envs />
+    </configuration>
+    <configuration name="magicbox_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="magicbox_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="magicbox_demo">
       <envs />
     </configuration>
     <configuration name="plainbox_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="plainbox_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="plainbox_demo">
@@ -338,16 +390,16 @@
     <configuration name="problem_of_early_binding" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="problem_of_early_binding" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="problem_of_early_binding">
       <envs />
     </configuration>
-    <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ch01_03_interface_and_template_and_inheritance" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ch04_link-based_implementations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ch05_recursion_problems" />
-      <item index="4" class="java.lang.String" itemvalue="Application.array_based" />
-      <item index="5" class="java.lang.String" itemvalue="Application.classes_and_dynamic_memeory_allocation" />
-      <item index="6" class="java.lang.String" itemvalue="Application.plainbox_demo" />
-      <item index="7" class="java.lang.String" itemvalue="Application.interlude_02_pointers_polymorphism_and_memory_allocation" />
-      <item index="8" class="java.lang.String" itemvalue="Application.problem_of_early_binding" />
+    <configuration name="toybox_demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="toybox_demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="toybox_demo">
+      <envs />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.magicbox_demo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.plainbox_demo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.toybox_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.interlude_02_pointers_polymorphism_and_memory_allocation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.problem_of_early_binding" />
+      <item index="5" class="java.lang.String" itemvalue="Application.demo_why_declare_method_as_virtual" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -406,12 +458,12 @@
       <workItem from="1511475665133" duration="549000" />
       <workItem from="1511581271304" duration="2576000" />
       <workItem from="1511751813822" duration="4000" />
-      <workItem from="1516866233214" duration="6711000" />
+      <workItem from="1516866233214" duration="10680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88393000" />
+    <option name="totallyTimeSpent" value="92362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="439" width="1440" height="421" extended-state="0" />
@@ -477,13 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/TableTennisPlayer.h" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/virtual_methods_in_class/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/virtual_methods_in_class/Brass.h" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/virtual_methods_in_class/BrassPlus.h" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/virtual_methods_in_class/Brass.cpp" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/virtual_methods_in_class/BrassPlus.cpp" />
-    <entry file="file://$PROJECT_DIR$/class_Inheritance/RatedPlayer.h" />
     <entry file="file://$PROJECT_DIR$/class_Inheritance/RatedPlayer.cpp" />
     <entry file="file://$PROJECT_DIR$/class_Inheritance/main.cpp" />
     <entry file="file://$PROJECT_DIR$/ch01_03_interface_and_template_and_inheritance/BagInterface.h">
@@ -626,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaces/BagInterface.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interfaces/StackInterface.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -713,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#123#139#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interlude_02_pointers_polymorphism_and_memory_allocation/a_problem_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -755,30 +782,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_plainbox.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding>
-            <element signature="e#43#64#0" expanded="true" />
+            <element signature="e#43#64#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_toybox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#43#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/ToyBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#95#111#0" expanded="false" />
+            <element signature="e#200#216#0" expanded="false" />
+            <element signature="e#329#345#0" expanded="false" />
+            <element signature="e#559#575#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/ToyBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#234#250#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#74#90#0" expanded="true" />
+            <element signature="e#200#216#0" expanded="true" />
+            <element signature="e#480#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/PlainBox.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="71">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/MagicBox.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="52" />
           <folding>
-            <element signature="e#74#90#0" expanded="true" />
+            <element signature="e#199#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaces/BagInterface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#150#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_magicbox.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/demo_why_declare_method_as_virtual.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

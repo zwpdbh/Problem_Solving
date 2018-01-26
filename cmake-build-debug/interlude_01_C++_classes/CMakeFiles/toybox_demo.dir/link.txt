@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/7.2.0/bin/g++-7  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/toybox_demo.dir/demo_toybox.cpp.o  -o ../../bin/toybox_demo 
