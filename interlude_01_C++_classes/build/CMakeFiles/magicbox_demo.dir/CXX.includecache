@@ -6,5 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/MagicBox.cpp
+MagicBox.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/MagicBox.h
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/MagicBox.h
+PlainBox.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/PlainBox.h
+MagicBox.cpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/MagicBox.cpp
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/PlainBox.cpp
+PlainBox.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/PlainBox.h
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/PlainBox.h
+PlainBox.cpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/PlainBox.cpp
+
 /Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/demo_magicbox.cpp
+iostream
+-
+MagicBox.h
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_01_C++_classes/MagicBox.h
 

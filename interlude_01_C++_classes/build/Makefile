@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named toybox_demo
+# Target rules for targets named demo_why_declare_method_as_virtual
 
 # Build rule for target.
-toybox_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 toybox_demo
-.PHONY : toybox_demo
+demo_why_declare_method_as_virtual: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_why_declare_method_as_virtual
+.PHONY : demo_why_declare_method_as_virtual
 
 # fast build rule for target.
-toybox_demo/fast:
-	$(MAKE) -f CMakeFiles/toybox_demo.dir/build.make CMakeFiles/toybox_demo.dir/build
-.PHONY : toybox_demo/fast
+demo_why_declare_method_as_virtual/fast:
+	$(MAKE) -f CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make CMakeFiles/demo_why_declare_method_as_virtual.dir/build
+.PHONY : demo_why_declare_method_as_virtual/fast
+
+#=============================================================================
+# Target rules for targets named classes_and_dynamic_memeory_allocation
+
+# Build rule for target.
+classes_and_dynamic_memeory_allocation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 classes_and_dynamic_memeory_allocation
+.PHONY : classes_and_dynamic_memeory_allocation
+
+# fast build rule for target.
+classes_and_dynamic_memeory_allocation/fast:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
+.PHONY : classes_and_dynamic_memeory_allocation/fast
 
 #=============================================================================
 # Target rules for targets named magicbox_demo
@@ -137,17 +150,17 @@ magicbox_demo/fast:
 .PHONY : magicbox_demo/fast
 
 #=============================================================================
-# Target rules for targets named demo_why_declare_method_as_virtual
+# Target rules for targets named toybox_demo
 
 # Build rule for target.
-demo_why_declare_method_as_virtual: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_why_declare_method_as_virtual
-.PHONY : demo_why_declare_method_as_virtual
+toybox_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 toybox_demo
+.PHONY : toybox_demo
 
 # fast build rule for target.
-demo_why_declare_method_as_virtual/fast:
-	$(MAKE) -f CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make CMakeFiles/demo_why_declare_method_as_virtual.dir/build
-.PHONY : demo_why_declare_method_as_virtual/fast
+toybox_demo/fast:
+	$(MAKE) -f CMakeFiles/toybox_demo.dir/build.make CMakeFiles/toybox_demo.dir/build
+.PHONY : toybox_demo/fast
 
 #=============================================================================
 # Target rules for targets named plainbox_demo
@@ -161,6 +174,33 @@ plainbox_demo: cmake_check_build_system
 plainbox_demo/fast:
 	$(MAKE) -f CMakeFiles/plainbox_demo.dir/build.make CMakeFiles/plainbox_demo.dir/build
 .PHONY : plainbox_demo/fast
+
+StringBag.o: StringBag.cpp.o
+
+.PHONY : StringBag.o
+
+# target to build an object file
+StringBag.cpp.o:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.o
+.PHONY : StringBag.cpp.o
+
+StringBag.i: StringBag.cpp.i
+
+.PHONY : StringBag.i
+
+# target to preprocess a source file
+StringBag.cpp.i:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.i
+.PHONY : StringBag.cpp.i
+
+StringBag.s: StringBag.cpp.s
+
+.PHONY : StringBag.s
+
+# target to generate assembly for a file
+StringBag.cpp.s:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.s
+.PHONY : StringBag.cpp.s
 
 demo_magicbox.o: demo_magicbox.cpp.o
 
@@ -270,6 +310,33 @@ demo_why_declare_method_as_virtual.cpp.s:
 	$(MAKE) -f CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make CMakeFiles/demo_why_declare_method_as_virtual.dir/demo_why_declare_method_as_virtual.cpp.s
 .PHONY : demo_why_declare_method_as_virtual.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,11 +344,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... toybox_demo"
-	@echo "... magicbox_demo"
-	@echo "... demo_why_declare_method_as_virtual"
 	@echo "... edit_cache"
+	@echo "... demo_why_declare_method_as_virtual"
+	@echo "... classes_and_dynamic_memeory_allocation"
+	@echo "... magicbox_demo"
+	@echo "... toybox_demo"
 	@echo "... plainbox_demo"
+	@echo "... StringBag.o"
+	@echo "... StringBag.i"
+	@echo "... StringBag.s"
 	@echo "... demo_magicbox.o"
 	@echo "... demo_magicbox.i"
 	@echo "... demo_magicbox.s"
@@ -294,6 +365,9 @@ help:
 	@echo "... demo_why_declare_method_as_virtual.o"
 	@echo "... demo_why_declare_method_as_virtual.i"
 	@echo "... demo_why_declare_method_as_virtual.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

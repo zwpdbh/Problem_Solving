@@ -25,13 +25,11 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # the new operator returns the memory address of the variable in the free store so the program can use it.
 # This memory address must be placed in a special type of variable called a pointer variable.
 
-add_executable(
-        interlude_02_pointers_polymorphism_and_memory_allocation
-        ../interfaces/BagInterface.h
-        main.cpp
-)
 
+# demo shows the problem of early binding
 add_executable(
         problem_of_early_binding
-        a_problem_main.cpp
+        ../interlude_01_C++_classes/PlainBox.h
+        ../interlude_01_C++_classes/MagicBox.h
+        demo_problem_of_type_is_determined_during_compile.cpp
 )

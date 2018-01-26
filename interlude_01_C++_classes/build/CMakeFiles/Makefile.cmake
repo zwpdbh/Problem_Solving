@@ -43,8 +43,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/toybox_demo.dir/DependInfo.cmake"
-  "CMakeFiles/magicbox_demo.dir/DependInfo.cmake"
   "CMakeFiles/demo_why_declare_method_as_virtual.dir/DependInfo.cmake"
+  "CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake"
+  "CMakeFiles/magicbox_demo.dir/DependInfo.cmake"
+  "CMakeFiles/toybox_demo.dir/DependInfo.cmake"
   "CMakeFiles/plainbox_demo.dir/DependInfo.cmake"
   )

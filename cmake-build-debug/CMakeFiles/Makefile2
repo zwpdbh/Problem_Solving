@@ -228,17 +228,19 @@ clean: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/clean
 # Directory level rules for directory interlude_01_C++_classes
 
 # Convenience name for "all" pass in the directory.
-interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
-interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
 interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/all
+interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all
+interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
+interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
 interlude_01_C++_classes/all: interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/all
 
 .PHONY : interlude_01_C++_classes/all
 
 # Convenience name for "clean" pass in the directory.
-interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
-interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
 interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/clean
+interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean
+interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
+interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
 interlude_01_C++_classes/clean: interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/clean
 
 .PHONY : interlude_01_C++_classes/clean
@@ -249,87 +251,13 @@ interlude_01_C++_classes/preinstall:
 .PHONY : interlude_01_C++_classes/preinstall
 
 #=============================================================================
-# Target rules for target interlude_01_C++_classes/CMakeFiles/toybox_demo.dir
-
-# All Build rule for target.
-interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all:
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/depend
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target toybox_demo"
-.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
-
-# Include target in all.
-all: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
-
-# Convenience name for target.
-toybox_demo: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
-
-.PHONY : toybox_demo
-
-# clean rule for target.
-interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean:
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
-.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
-
-# clean rule for target.
-clean: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir
-
-# All Build rule for target.
-interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all:
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/depend
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target magicbox_demo"
-.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
-
-# Include target in all.
-all: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule
-
-# Convenience name for target.
-magicbox_demo: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule
-
-.PHONY : magicbox_demo
-
-# clean rule for target.
-interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean:
-	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
-.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
-
-# clean rule for target.
-clean: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir
 
 # All Build rule for target.
 interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/all:
 	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/depend
 	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target demo_why_declare_method_as_virtual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target demo_why_declare_method_as_virtual"
 .PHONY : interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/all
 
 # Include target in all.
@@ -360,13 +288,124 @@ clean: interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.di
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir
+
+# All Build rule for target.
+interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/depend
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target classes_and_dynamic_memeory_allocation"
+.PHONY : interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all
+
+# Include target in all.
+all: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
+.PHONY : interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule
+
+# Convenience name for target.
+classes_and_dynamic_memeory_allocation: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule
+
+.PHONY : classes_and_dynamic_memeory_allocation
+
+# clean rule for target.
+interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean
+.PHONY : interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean
+
+# clean rule for target.
+clean: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir
+
+# All Build rule for target.
+interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/depend
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target magicbox_demo"
+.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
+
+# Include target in all.
+all: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
+.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule
+
+# Convenience name for target.
+magicbox_demo: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule
+
+.PHONY : magicbox_demo
+
+# clean rule for target.
+interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
+.PHONY : interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
+
+# clean rule for target.
+clean: interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target interlude_01_C++_classes/CMakeFiles/toybox_demo.dir
+
+# All Build rule for target.
+interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/depend
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target toybox_demo"
+.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
+
+# Include target in all.
+all: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
+.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
+
+# Convenience name for target.
+toybox_demo: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
+
+.PHONY : toybox_demo
+
+# clean rule for target.
+interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean:
+	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
+.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
+
+# clean rule for target.
+clean: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir
 
 # All Build rule for target.
 interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/all:
 	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/depend
 	$(MAKE) -f interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target plainbox_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target plainbox_demo"
 .PHONY : interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/all
 
 # Include target in all.
@@ -401,13 +440,11 @@ clean: interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/clean
 
 # Convenience name for "all" pass in the directory.
 interlude_02_pointers_polymorphism_and_memory_allocation/all: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/all
-interlude_02_pointers_polymorphism_and_memory_allocation/all: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/all
 
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/all
 
 # Convenience name for "clean" pass in the directory.
 interlude_02_pointers_polymorphism_and_memory_allocation/clean: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/clean
-interlude_02_pointers_polymorphism_and_memory_allocation/clean: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/clean
 
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/clean
 
@@ -423,7 +460,7 @@ interlude_02_pointers_polymorphism_and_memory_allocation/preinstall:
 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/all:
 	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/depend
 	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target problem_of_early_binding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target problem_of_early_binding"
 .PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/all
 
 # Include target in all.
@@ -450,43 +487,6 @@ interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_e
 
 # clean rule for target.
 clean: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir
-
-# All Build rule for target.
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/all:
-	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/depend
-	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target interlude_02_pointers_polymorphism_and_memory_allocation"
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/all
-
-# Include target in all.
-all: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles 0
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule
-
-# Convenience name for target.
-interlude_02_pointers_polymorphism_and_memory_allocation: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/rule
-
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation
-
-# clean rule for target.
-interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/clean:
-	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/clean
-.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/clean
-
-# clean rule for target.
-clean: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/clean
 
 .PHONY : clean
 

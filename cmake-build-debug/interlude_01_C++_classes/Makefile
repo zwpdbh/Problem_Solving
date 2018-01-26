@@ -111,19 +111,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
-.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
+interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
+.PHONY : interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
 
 # Convenience name for target.
-toybox_demo: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
+demo_why_declare_method_as_virtual: interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
 
-.PHONY : toybox_demo
+.PHONY : demo_why_declare_method_as_virtual
 
 # fast build rule for target.
-toybox_demo/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build
-.PHONY : toybox_demo/fast
+demo_why_declare_method_as_virtual/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build
+.PHONY : demo_why_declare_method_as_virtual/fast
+
+# Convenience name for target.
+interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule
+.PHONY : interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule
+
+# Convenience name for target.
+classes_and_dynamic_memeory_allocation: interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/rule
+
+.PHONY : classes_and_dynamic_memeory_allocation
+
+# fast build rule for target.
+classes_and_dynamic_memeory_allocation/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build
+.PHONY : classes_and_dynamic_memeory_allocation/fast
 
 # Convenience name for target.
 interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/rule:
@@ -141,19 +156,19 @@ magicbox_demo/fast:
 .PHONY : magicbox_demo/fast
 
 # Convenience name for target.
-interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
-.PHONY : interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
+interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
+.PHONY : interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
 
 # Convenience name for target.
-demo_why_declare_method_as_virtual: interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/rule
+toybox_demo: interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/rule
 
-.PHONY : demo_why_declare_method_as_virtual
+.PHONY : toybox_demo
 
 # fast build rule for target.
-demo_why_declare_method_as_virtual/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build
-.PHONY : demo_why_declare_method_as_virtual/fast
+toybox_demo/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build
+.PHONY : toybox_demo/fast
 
 # Convenience name for target.
 interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/rule:
@@ -169,6 +184,33 @@ plainbox_demo: interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/rule
 plainbox_demo/fast:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build
 .PHONY : plainbox_demo/fast
+
+StringBag.o: StringBag.cpp.o
+
+.PHONY : StringBag.o
+
+# target to build an object file
+StringBag.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.o
+.PHONY : StringBag.cpp.o
+
+StringBag.i: StringBag.cpp.i
+
+.PHONY : StringBag.i
+
+# target to preprocess a source file
+StringBag.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.i
+.PHONY : StringBag.cpp.i
+
+StringBag.s: StringBag.cpp.s
+
+.PHONY : StringBag.s
+
+# target to generate assembly for a file
+StringBag.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/StringBag.cpp.s
+.PHONY : StringBag.cpp.s
 
 demo_magicbox.o: demo_magicbox.cpp.o
 
@@ -278,6 +320,33 @@ demo_why_declare_method_as_virtual.cpp.s:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/demo_why_declare_method_as_virtual.cpp.s
 .PHONY : demo_why_declare_method_as_virtual.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -285,11 +354,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... toybox_demo"
-	@echo "... magicbox_demo"
-	@echo "... demo_why_declare_method_as_virtual"
 	@echo "... edit_cache"
+	@echo "... demo_why_declare_method_as_virtual"
+	@echo "... classes_and_dynamic_memeory_allocation"
+	@echo "... magicbox_demo"
+	@echo "... toybox_demo"
 	@echo "... plainbox_demo"
+	@echo "... StringBag.o"
+	@echo "... StringBag.i"
+	@echo "... StringBag.s"
 	@echo "... demo_magicbox.o"
 	@echo "... demo_magicbox.i"
 	@echo "... demo_magicbox.s"
@@ -302,6 +375,9 @@ help:
 	@echo "... demo_why_declare_method_as_virtual.o"
 	@echo "... demo_why_declare_method_as_virtual.i"
 	@echo "... demo_why_declare_method_as_virtual.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

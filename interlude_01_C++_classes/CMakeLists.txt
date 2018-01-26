@@ -43,8 +43,8 @@ add_executable(
         demo_why_declare_method_as_virtual.cpp
 )
 
-#add_executable(
-#        classes_and_dynamic_memeory_allocation
-#        StringBag.cpp
-#        main.cpp
-#)
+add_executable(
+        classes_and_dynamic_memeory_allocation
+        StringBag.cpp
+        main.cpp
+)
