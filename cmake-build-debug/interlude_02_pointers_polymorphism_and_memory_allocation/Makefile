@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,27 +56,27 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -169,6 +169,21 @@ demo_shows_using_new_operator_to_allocate_memory_on_heap: interlude_02_pointers_
 demo_shows_using_new_operator_to_allocate_memory_on_heap/fast:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build
 .PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap/fast
+
+# Convenience name for target.
+interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/rule
+.PHONY : interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/rule
+
+# Convenience name for target.
+dome_shows_resizable_array: interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/rule
+
+.PHONY : dome_shows_resizable_array
+
+# fast build rule for target.
+dome_shows_resizable_array/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build
+.PHONY : dome_shows_resizable_array/fast
 
 GoodMemory.o: GoodMemory.cpp.o
 
@@ -305,18 +320,46 @@ demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s:
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s
 .PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap.cpp.s
 
+dome_shows_resizable_array.o: dome_shows_resizable_array.cpp.o
+
+.PHONY : dome_shows_resizable_array.o
+
+# target to build an object file
+dome_shows_resizable_array.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/dome_shows_resizable_array.cpp.o
+.PHONY : dome_shows_resizable_array.cpp.o
+
+dome_shows_resizable_array.i: dome_shows_resizable_array.cpp.i
+
+.PHONY : dome_shows_resizable_array.i
+
+# target to preprocess a source file
+dome_shows_resizable_array.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/dome_shows_resizable_array.cpp.i
+.PHONY : dome_shows_resizable_array.cpp.i
+
+dome_shows_resizable_array.s: dome_shows_resizable_array.cpp.s
+
+.PHONY : dome_shows_resizable_array.s
+
+# target to generate assembly for a file
+dome_shows_resizable_array.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/dome_shows_resizable_array.cpp.s
+.PHONY : dome_shows_resizable_array.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... demo_problem_of_early_binding"
 	@echo "... demo_shows_late_binding"
 	@echo "... rebuild_cache"
 	@echo "... demo_shows_good_practise_of_good_memory"
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap"
-	@echo "... edit_cache"
+	@echo "... dome_shows_resizable_array"
 	@echo "... GoodMemory.o"
 	@echo "... GoodMemory.i"
 	@echo "... GoodMemory.s"
@@ -332,6 +375,9 @@ help:
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.o"
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.i"
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap.s"
+	@echo "... dome_shows_resizable_array.o"
+	@echo "... dome_shows_resizable_array.i"
+	@echo "... dome_shows_resizable_array.s"
 .PHONY : help
 
 

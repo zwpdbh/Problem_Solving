@@ -62,3 +62,11 @@ add_executable(
         PlainBox.h
         demo_shows_late_binding.cpp
 )
+
+# demo shows resizable array by doubling the size of array when add a new item into a full array.
+# see ArrayBag<T>::add
+add_executable(
+        dome_shows_resizable_array
+        ArrayBag.h
+        dome_shows_resizable_array.cpp
+)

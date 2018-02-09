@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4548.31/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -267,6 +267,19 @@ demo_shows_using_new_operator_to_allocate_memory_on_heap/fast:
 .PHONY : demo_shows_using_new_operator_to_allocate_memory_on_heap/fast
 
 #=============================================================================
+# Target rules for targets named dome_shows_resizable_array
+
+# Build rule for target.
+dome_shows_resizable_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dome_shows_resizable_array
+.PHONY : dome_shows_resizable_array
+
+# fast build rule for target.
+dome_shows_resizable_array/fast:
+	$(MAKE) -f interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build
+.PHONY : dome_shows_resizable_array/fast
+
+#=============================================================================
 # Target rules for targets named array_based
 
 # Build rule for target.
@@ -299,6 +312,7 @@ help:
 	@echo "... demo_shows_late_binding"
 	@echo "... demo_shows_good_practise_of_good_memory"
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap"
+	@echo "... dome_shows_resizable_array"
 	@echo "... array_based"
 .PHONY : help
 
