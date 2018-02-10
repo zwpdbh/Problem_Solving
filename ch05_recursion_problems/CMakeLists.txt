@@ -17,9 +17,12 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 
+# this demo shows using recursion to solve eight queen problem
 add_executable(
-        ch05_recursion_problems
-        main.cpp
-        lib.cpp
-        lib.h
+        ch05_eight_queen_demo
+        eight_queen_main.cpp
+        Board.h
+        Board.cpp
+        Queen.h
+        Queen.cpp
 )

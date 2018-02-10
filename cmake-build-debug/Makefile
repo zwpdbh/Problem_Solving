@@ -137,17 +137,17 @@ ch04_link-based_implementations/fast:
 .PHONY : ch04_link-based_implementations/fast
 
 #=============================================================================
-# Target rules for targets named ch05_recursion_problems
+# Target rules for targets named ch05_eight_queen_demo
 
 # Build rule for target.
-ch05_recursion_problems: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ch05_recursion_problems
-.PHONY : ch05_recursion_problems
+ch05_eight_queen_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch05_eight_queen_demo
+.PHONY : ch05_eight_queen_demo
 
 # fast build rule for target.
-ch05_recursion_problems/fast:
-	$(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build
-.PHONY : ch05_recursion_problems/fast
+ch05_eight_queen_demo/fast:
+	$(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build
+.PHONY : ch05_eight_queen_demo/fast
 
 #=============================================================================
 # Target rules for targets named demo_why_declare_method_as_virtual
@@ -302,7 +302,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... ch01_03_interface_and_template_and_inheritance"
 	@echo "... ch04_link-based_implementations"
-	@echo "... ch05_recursion_problems"
+	@echo "... ch05_eight_queen_demo"
 	@echo "... demo_why_declare_method_as_virtual"
 	@echo "... classes_and_dynamic_memeory_allocation"
 	@echo "... magicbox_demo"

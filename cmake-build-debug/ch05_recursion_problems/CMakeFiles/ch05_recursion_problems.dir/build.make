@@ -57,67 +57,41 @@ include ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/progress.
 # Include the compile flags for this target's objects.
 include ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/flags.make
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/flags.make
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o: ../ch05_recursion_problems/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_recursion_problems.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/flags.make
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o: ../ch05_recursion_problems/eight_queen_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_recursion_problems.dir/main.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp > CMakeFiles/ch05_recursion_problems.dir/main.cpp.i
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.i"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp > CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.i
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_recursion_problems.dir/main.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp -o CMakeFiles/ch05_recursion_problems.dir/main.cpp.s
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.s"
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp -o CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.s
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.requires:
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.requires:
 
-.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.requires
+.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.requires
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.provides: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.requires
-	$(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.provides.build
-.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.provides
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.provides: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.requires
+	$(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.provides.build
+.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.provides
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.provides.build: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o
-
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/flags.make
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o: ../ch05_recursion_problems/lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_recursion_problems.dir/lib.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp > CMakeFiles/ch05_recursion_problems.dir/lib.cpp.i
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_recursion_problems.dir/lib.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp -o CMakeFiles/ch05_recursion_problems.dir/lib.cpp.s
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.requires:
-
-.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.requires
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.provides: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.requires
-	$(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.provides.build
-.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.provides
-
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.provides.build: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.provides.build: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o
 
 
 # Object files for target ch05_recursion_problems
 ch05_recursion_problems_OBJECTS = \
-"CMakeFiles/ch05_recursion_problems.dir/main.cpp.o" \
-"CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o"
+"CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o"
 
 # External object files for target ch05_recursion_problems
 ch05_recursion_problems_EXTERNAL_OBJECTS =
 
-../bin/ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o
-../bin/ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o
+../bin/ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o
 ../bin/ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make
 ../bin/ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/ch05_recursion_problems"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/ch05_recursion_problems"
 	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ch05_recursion_problems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +99,7 @@ ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build: ../bin/ch0
 
 .PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build
 
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/requires: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o.requires
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/requires: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o.requires
+ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/requires: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o.requires
 
 .PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/requires
 

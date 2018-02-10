@@ -5,7 +5,7 @@
 		<Option title="Problem_Solving"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\ch01_03_interface_and_template_and_inheritance\;CMake Files\ch04_link-based_implementations\;CMake Files\ch05_recursion_problems\;CMake Files\interlude_01_C++_classes\;CMake Files\interlude_02_pointers_polymorphism_and_memory_allocation\;CMake Files\ch07_stack_implementations\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ch01_03_interface_and_template_and_inheritance\;CMake Files\ch04_link-based_implementations\;CMake Files\ch05_recursion_problems\;CMake Files\interlude_01_C++_classes\;CMake Files\interlude_02_pointers_polymorphism_and_memory_allocation\;CMake Files\ch06_stacks\;CMake Files\ch07_stack_implementations\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug"/>
@@ -141,8 +141,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ch05_recursion_problems">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
+			<Target title="ch05_eight_queen_demo">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_eight_queen_demo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -161,14 +161,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_recursion_problems"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_eight_queen_demo"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ch05_recursion_problems/fast">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_recursion_problems" prefix_auto="0" extension_auto="0"/>
+			<Target title="ch05_eight_queen_demo/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch05_eight_queen_demo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -187,7 +187,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_recursion_problems/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 ch05_eight_queen_demo/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/Makefile&quot;  VERBOSE=1 clean"/>
@@ -781,14 +781,20 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp">
-			<Option target="ch05_recursion_problems"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp">
+			<Option target="ch05_eight_queen_demo"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.h">
-			<Option target="ch05_recursion_problems"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.h">
+			<Option target="ch05_eight_queen_demo"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp">
-			<Option target="ch05_recursion_problems"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp">
+			<Option target="ch05_eight_queen_demo"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.h">
+			<Option target="ch05_eight_queen_demo"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp">
+			<Option target="ch05_eight_queen_demo"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/ArrayStack.h">
 			<Option target="array_based"/>
@@ -880,6 +886,9 @@
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\interlude_02_pointers_polymorphism_and_memory_allocation\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch06_stacks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ch06_stacks\"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch07_stack_implementations/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ch07_stack_implementations\"/>

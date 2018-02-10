@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/lib.cpp" "/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o"
-  "/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/main.cpp" "/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o"
+  "/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp" "/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

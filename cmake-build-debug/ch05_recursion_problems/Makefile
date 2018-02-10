@@ -111,73 +111,100 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/rule
-.PHONY : ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/rule
+ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/rule
+.PHONY : ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/rule
 
 # Convenience name for target.
-ch05_recursion_problems: ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/rule
+ch05_eight_queen_demo: ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/rule
 
-.PHONY : ch05_recursion_problems
+.PHONY : ch05_eight_queen_demo
 
 # fast build rule for target.
-ch05_recursion_problems/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build
-.PHONY : ch05_recursion_problems/fast
+ch05_eight_queen_demo/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build
+.PHONY : ch05_eight_queen_demo/fast
 
-lib.o: lib.cpp.o
+Board.o: Board.cpp.o
 
-.PHONY : lib.o
-
-# target to build an object file
-lib.cpp.o:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o
-.PHONY : lib.cpp.o
-
-lib.i: lib.cpp.i
-
-.PHONY : lib.i
-
-# target to preprocess a source file
-lib.cpp.i:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.i
-.PHONY : lib.cpp.i
-
-lib.s: lib.cpp.s
-
-.PHONY : lib.s
-
-# target to generate assembly for a file
-lib.cpp.s:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/lib.cpp.s
-.PHONY : lib.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : Board.o
 
 # target to build an object file
-main.cpp.o:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.o
-.PHONY : main.cpp.o
+Board.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o
+.PHONY : Board.cpp.o
 
-main.i: main.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : main.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.i
-.PHONY : main.cpp.i
+Board.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-main.s: main.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : main.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/main.cpp.s
-.PHONY : main.cpp.s
+Board.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Queen.o: Queen.cpp.o
+
+.PHONY : Queen.o
+
+# target to build an object file
+Queen.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o
+.PHONY : Queen.cpp.o
+
+Queen.i: Queen.cpp.i
+
+.PHONY : Queen.i
+
+# target to preprocess a source file
+Queen.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.i
+.PHONY : Queen.cpp.i
+
+Queen.s: Queen.cpp.s
+
+.PHONY : Queen.s
+
+# target to generate assembly for a file
+Queen.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.s
+.PHONY : Queen.cpp.s
+
+eight_queen_main.o: eight_queen_main.cpp.o
+
+.PHONY : eight_queen_main.o
+
+# target to build an object file
+eight_queen_main.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o
+.PHONY : eight_queen_main.cpp.o
+
+eight_queen_main.i: eight_queen_main.cpp.i
+
+.PHONY : eight_queen_main.i
+
+# target to preprocess a source file
+eight_queen_main.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.i
+.PHONY : eight_queen_main.cpp.i
+
+eight_queen_main.s: eight_queen_main.cpp.s
+
+.PHONY : eight_queen_main.s
+
+# target to generate assembly for a file
+eight_queen_main.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug && $(MAKE) -f ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.s
+.PHONY : eight_queen_main.cpp.s
 
 # Help Target
 help:
@@ -187,13 +214,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ch05_recursion_problems"
-	@echo "... lib.o"
-	@echo "... lib.i"
-	@echo "... lib.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ch05_eight_queen_demo"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
+	@echo "... Queen.o"
+	@echo "... Queen.i"
+	@echo "... Queen.s"
+	@echo "... eight_queen_main.o"
+	@echo "... eight_queen_main.i"
+	@echo "... eight_queen_main.s"
 .PHONY : help
 
 

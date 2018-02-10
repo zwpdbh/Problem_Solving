@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ch05_recursion_problems.dir/main.cpp.o"
-  "CMakeFiles/ch05_recursion_problems.dir/lib.cpp.o"
+  "CMakeFiles/ch05_recursion_problems.dir/eight_queen_main.cpp.o"
   "../../bin/ch05_recursion_problems.pdb"
   "../../bin/ch05_recursion_problems"
 )
