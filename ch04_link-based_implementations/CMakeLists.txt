@@ -17,11 +17,16 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 
+# this dome shows the use of link-list based bag implementation
+# Also, in the main function, it uses one interface to test two kind of implementation of bag
+# this shows the power of polymorphism using late binding (see interlude 02)
+# 1) use virtual method to tell compiler to decide it during run time.
+# 2) use new to allocate memory on heap instead of on stack.
 add_executable(
         ch04_link-based_implementations
-        ArrayBag.h
         ../interfaces/BagInterface.h
-        LinkedBag.h
+        ../interlude_02_pointers_polymorphism_and_memory_allocation/ArrayBag.h
         main.cpp
+        LinkedBag.h
         Node.h
 )

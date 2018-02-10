@@ -5,25 +5,13 @@
 /*shows how to work with pointers to implement a class of bags.*/
 
 #include "LinkedBag.h"
-#include "ArrayBag.h"
 #include <string>
 #include <iostream>
+#include "../interlude_02_pointers_polymorphism_and_memory_allocation/ArrayBag.h"
 
 using namespace std;
 
-void displayBag(LinkedBag<string>& bag) {
-    cout << "The bag contains " << bag.getCurrentSize()
-                                << " items: " << endl;
-    vector<string> bagItems = bag.toVector();
-
-    int numberOfEntries = (int)bagItems.size();
-    for (int i = 0; i < numberOfEntries; ++i) {
-        cout << bagItems[i] << " ";
-    }
-    cout << " " << endl;
-}
-
-void newBagDisplay(BagInterface<string>* bagPtr) {
+void displayBag(BagInterface<string> *bagPtr) {
     cout << "The bag contains " << bagPtr->getCurrentSize()
          << " items: " << endl;
     vector<string> bagItems = bagPtr->toVector();
@@ -35,61 +23,45 @@ void newBagDisplay(BagInterface<string>* bagPtr) {
     cout << " " << endl;
 }
 
-void newBagTester(BagInterface<string>* bagPtr) {
-    cout << "isEmpty = " << bagPtr->isEmpty() << endl;
-    newBagDisplay(bagPtr);
+void bagTester(BagInterface<string> *bagPtr) {
+    /**false == 0 and true = !false*/
+    cout << "isEmpty: return " << bagPtr->isEmpty() << "; should be 1 (true)" << endl;
+
     string items[] = {"one", "two", "three", "four", "five", "six"};
     cout << "\nAdd 6 items to the bag: " << endl;
     for (int i = 0; i < 6; ++i) {
         bagPtr->add(items[i]);
     }
-    newBagDisplay(bagPtr);
-    cout << "\nisEmpty = " << bagPtr->isEmpty() << endl;
-    cout << "getCurrentSize = " << bagPtr->getCurrentSize() << endl;
+    displayBag(bagPtr);
+
+    cout << "isEmpty: returns " << bagPtr->isEmpty() << "; should be 0 (false)" << endl;
+    cout << "getCurrentSize returns: " << bagPtr->getCurrentSize() << "; should be 6" << endl;
+    cout << "Try to add another entry: add(\"extra\") returns "
+         << bagPtr->add("extra") << endl;
 }
 
-void bagTester(LinkedBag<string>& bag) {
-    cout << "isEmpty = " << bag.isEmpty() << endl;
-    displayBag(bag);
-    string items[] = {"one", "two", "three", "four", "five", "six"};
-    cout << "\nAdd 6 items to the bag: " << endl;
-    for (int i = 0; i < 6; ++i) {
-        bag.add(items[i]);
-    }
-    displayBag(bag);
-    cout << "\nisEmpty = " << bag.isEmpty() << endl;
-    cout << "getCurrentSize = " << bag.getCurrentSize() << endl;
-}
 
 int main() {
-    LinkedBag<string> bag;
-    bagTester(bag);
-
-
-    cout << "\n===test on copy constructor:" << endl;
-    cout << "bag has " << bag.getCurrentSize() << " in total." << endl;
-    cout << "using copy constructor.." << endl;
-    LinkedBag<string> anotherBag(bag);
-
-    cout << "The content in anotherBag is:" << endl;
-    displayBag(anotherBag);
-
-    anotherBag.remove("one");
-    anotherBag.remove("two");
-    displayBag(anotherBag);
-    displayBag(bag);
-
     BagInterface<string>* bagPtr = nullptr;
     char userChoice;
+    cout << "Enter A to test the array-based implementation\n"
+         << "or L to test the link-based implementation: ";
     cin >> userChoice;
+
     if (toupper(userChoice) == 'A') {
         bagPtr = new ArrayBag<string>();
-        cout << "Testing the Array-Based Bag: " << endl;
-    } else if (toupper(userChoice) == 'L') {
+        cout << "Testing the Array-based Bag: " << endl;
+    } else {
         bagPtr = new LinkedBag<string>();
-        cout << "Testing the Link-Based Bag: " << endl;
+        cout << "Testing the Link-based Bag: " << endl;
     }
 
+    cout << "The initial bag is empty. " << endl;
+    bagTester(bagPtr);
+    delete bagPtr;
+    bagPtr = nullptr;
+
+    cout << "All done. " << endl;
 
     return 0;
 }

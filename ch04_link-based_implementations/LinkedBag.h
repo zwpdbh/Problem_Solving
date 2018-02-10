@@ -5,52 +5,46 @@
 #ifndef PROBLEM_SOLVING_LINKEDBAG_H
 #define PROBLEM_SOLVING_LINKEDBAG_H
 
-#include "interfaces/BagInterface.h"
+#include "../interfaces/BagInterface.h"
 #include "Node.h"
 
-template <class T>
-class LinkedBag : public BagInterface<T> {
+template <class ItemType>
+class LinkedBag : public BagInterface<ItemType> {
 private:
-    Node<T>* headPtr;
+    Node<ItemType>* headPtr;
     int itemCount;
 
-    Node<T>* getPointerTo(const T& target) const;
-    void fillVector(std::vector<T>& bagContents, Node<T>* curPtr) const;
+    Node<ItemType>* getPointerTo(const ItemType& target) const;
+    void fillVector(std::vector<ItemType>& bagContents, Node<ItemType>* curPtr) const;
 public:
     LinkedBag();
-    LinkedBag(const LinkedBag<T>& aBag); // copy constructor
-    virtual ~LinkedBag(); //Destructor should be virtual
+    LinkedBag(const LinkedBag<ItemType>& aBag);         // copy constructor
+    virtual ~LinkedBag();                               //Destructor should be virtual
     int getCurrentSize() const;
     bool isEmpty() const;
-    bool add(const T& newEntry);
-    bool remove(const T& anEntry);
+    bool add(const ItemType& newEntry);
+    bool remove(const ItemType& anEntry);
     void clear();
-    int getFrequencyOf(const T& anEntry) const;
-    bool contains(const T& anEntry) const;
-    std::vector<T> toVector() const;
-    std::vector<T> recursiveToVector() const;
+    int getFrequencyOf(const ItemType& anEntry) const;
+    bool contains(const ItemType& anEntry) const;
+    std::vector<ItemType> toVector() const;
+    std::vector<ItemType> recursiveToVector() const;
 };
 
 /*implementation part*/
-template <class T>
-LinkedBag<T>::LinkedBag() : headPtr(nullptr), itemCount(0) {}
+template <class ItemType>
+LinkedBag<ItemType>::LinkedBag() : headPtr(nullptr), itemCount(0) {}
 
-template <class T>
-bool LinkedBag<T>::add(const T &newEntry) {
-//    my solution
-//    if (headPtr->getNext() == nullptr) {
-//        headPtr->setNext(new Node(newEntry));
-//    } else {
-//        Node<T>* newNode = new Node(newEntry);
-//        newNode->setNext(headPtr->getNext());
-//        headPtr->setNext(newNode);
-//    }
-
-    // better solution
-    Node<T>* newNodePtr = new Node<T>();
+template <class ItemType>
+bool LinkedBag<ItemType>::add(const ItemType &newEntry) {
+    /**A common mistake is headPtr has the 'next' part;
+     * This misconception is rooted in the belief that the variable headPtr does not exist if it does not point to a node
+     * headPtr is only a pointer nothing else!
+     * */
+    Node<ItemType>* newNodePtr = new Node<ItemType>();
     newNodePtr->setItem(newEntry);
-    newNodePtr->setNext(headPtr);
-    headPtr = newNodePtr;
+    newNodePtr->setNext(headPtr);   // at this moment, headPtr's address is the same as the firstNode;
+    headPtr = newNodePtr;           // at this moment, make headPtr point to the new first Node.
 
     itemCount++;
     return true;
@@ -62,6 +56,8 @@ std::vector<T> LinkedBag<T>::toVector() const {
     std::vector<T> v;
     Node<T>* currPtr = headPtr;
     int counter = 0;
+    /**A common error in the while statement we used in toVector is to compare curPtr->getNext()
+     * instead of curPtr with nullptr.*/
     while (currPtr != nullptr && counter <= itemCount) {
         v.push_back(currPtr->getItem());
         currPtr = currPtr->getNext();
@@ -81,87 +77,101 @@ int LinkedBag<T>::getCurrentSize() const {
     return this->itemCount;
 }
 
-template <class T>
-LinkedBag<T>::LinkedBag(const LinkedBag<T>& aBag) {
-    Node<T>* currPtr = aBag.headPtr;
-    itemCount = 0;
-    headPtr = nullptr;
+/**Copy constructor is needed when the compiler generated shallow copy constructor is not enough.
+ * In this case, we need deep copy, so we need to define our own copy constructor.*/
+template <class ItemType>
+LinkedBag<ItemType>::LinkedBag(const LinkedBag<ItemType>& aBag) {
+    headPtr = aBag.headPtr;
+    itemCount = aBag.itemCount;
 
-    while (currPtr != nullptr) {
-        Node<T>* newNodePtr = new Node<T>(currPtr->getItem());
-        newNodePtr->setNext(headPtr);
-        headPtr = newNodePtr;
-        itemCount++;
-        currPtr = currPtr->getNext();
+    if (aBag.headPtr != nullptr) {
+        // create firstNode and make headPtr points to it.
+        Node<ItemType>* firstNode = new Node<ItemType>();
+        firstNode->setItem(aBag.headPtr->getItem());
+        firstNode->setNext(nullptr);
+        headPtr = firstNode;
+
+        // ptr is for aBag
+        Node<ItemType>* ptr = aBag.headPtr->getNext();
+        // currPtr is for this new created linked list
+        Node<ItemType>* currPtr = headPtr;
+
+        while (ptr != nullptr) {
+            Node<ItemType>* newNode = new Node<ItemType>();
+            newNode->setItem(ptr->getItem());
+            currPtr->setNext(newNode);
+            newNode->setNext(nullptr);
+
+            currPtr = currPtr->getNext();
+            ptr = ptr->getNext();
+        }
     }
 
-//    itemCount = aBag.itemCount;
-//    Node<T>* origChainPtr = aBag.headPtr;
-//
-//    if (origChainPtr == nullptr) {
-//        headPtr = nullptr;
-//    } else {
-//        headPtr = new Node<T>();
-//        headPtr->setItem(origChainPtr->getItem());
-//
-//        Node<T>* newChainPtr = headPtr->getNext();
-//        while (origChainPtr != nullptr) {
-//            T items = origChainPtr->getItem();
-//            Node<T>* newNodePtr = new Node<T>(items);
-//            newChainPtr->setNext(newNodePtr);
-//            newChainPtr = newChainPtr->getNext();
-//
-//            origChainPtr = origChainPtr->getNext();
-//        }
-//        newChainPtr->setNext(nullptr);
-//    }
 }
 
-template <class T>
-bool LinkedBag<T>::remove(const T &anEntry) {
-    Node<T>* entryNodePtr = getPointerTo(anEntry);
+
+/**method remove the target by using the first node to replace it*/
+template <class ItemType>
+bool LinkedBag<ItemType>::remove(const ItemType &anEntry) {
+    Node<ItemType>* entryNodePtr = getPointerTo(anEntry);
     bool canRemoveItem = (!isEmpty() && entryNodePtr != nullptr);
+
     if (canRemoveItem) {
         // copy the first node items into this one and delete the first node
         entryNodePtr->setItem(headPtr->getItem());
 
-        Node<T>* nodeToBeDeletedPtr = headPtr;
+        // delete first node
+        Node<ItemType>* nodeToBeDeletedPtr = headPtr;
         headPtr = headPtr->getNext();
-        itemCount--;
 
+        // return allocated resource to system
         nodeToBeDeletedPtr->setNext(nullptr);
+        /**Remember that any time you allocate memory by using new, you must eventually deallocate it by using delete.*/
         delete nodeToBeDeletedPtr;
+
+        /**For a pointer p, delete p deallocates the node to which p points;
+         * it does not deal- locate p.
+         * The pointer p still exists, but it contains an undefined value.
+         * You should not reference p or any other pointer variable that still points to the deallocated node.
+         * To help you avoid this kind of error, you can assign nullptr to p after executing delete p.*/
         nodeToBeDeletedPtr = nullptr;
+
+        itemCount--;
     }
     return canRemoveItem;
 }
 
 template <class T>
 void LinkedBag<T>::clear() {
-
-    while (headPtr != nullptr ) {
-        Node<T>* eachNodePtr = headPtr;
+    Node<T>* nodeToDelete;
+    while (headPtr != nullptr) {
+        nodeToDelete = headPtr;
         headPtr = headPtr->getNext();
 
-        eachNodePtr->setNext(nullptr);
-        delete eachNodePtr;
-        eachNodePtr = nullptr;
+        // return node to system
+        nodeToDelete->setNext(nullptr);
+        delete nodeToDelete;
     }
+
+    nodeToDelete = nullptr;
     itemCount = 0;
 }
 
 template <class T>
 int LinkedBag<T>::getFrequencyOf(const T &anEntry) const {
+    int frequency = 0;
     int counter = 0;
     Node<T>* currPtr = headPtr;
-
-    while (currPtr != nullptr) {
-        if (currPtr->getItem() == anEntry) {
-            counter++;
+    while (currPtr != nullptr && counter < itemCount) {
+        if (anEntry == currPtr->getItem()) {
+            frequency++;
         }
+
+        counter++;
         currPtr = currPtr->getNext();
     }
-    return counter;
+
+    return frequency;
 }
 
 template <class T>
@@ -174,17 +184,20 @@ LinkedBag<T>::~LinkedBag() {
     clear();
 }
 
-template <class T>
-Node<T>* LinkedBag<T>::getPointerTo(const T &target) const {
-    Node<T>* currPtr = headPtr;
+template <class ItemType>
+Node<ItemType>* LinkedBag<ItemType>::getPointerTo(const ItemType &target) const {
+    bool found = false;
+    Node<ItemType>* currPtr = headPtr;
 
-    while (currPtr != nullptr) {
-        if (currPtr->getItem() == target) {
-            break;
+    while (!found && currPtr != nullptr) {
+        if (target == currPtr->getItem()) {
+            found = true;
+        } else {
+            currPtr = currPtr->getNext();
         }
-        currPtr = currPtr->getNext();
+
+        return currPtr;
     }
-    return currPtr;
 }
 
 template <class T>

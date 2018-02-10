@@ -21,6 +21,7 @@ public:
     Node<T>* getNext() const;
 };
 
+#include <cstddef>
 
 template <class T>
 Node<T>::Node() : next(nullptr) {
@@ -57,4 +58,5 @@ template <class T>
 Node<T>* Node<T>::getNext() const {
     return this->next;
 }
+
 #endif //PROBLEM_SOLVING_NODE_H

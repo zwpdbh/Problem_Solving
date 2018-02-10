@@ -64,7 +64,7 @@ add_executable(
 )
 
 # demo shows resizable array by doubling the size of array when add a new item into a full array.
-# see ArrayBag<T>::add
+# see ArrayBag<ItemType>::add
 add_executable(
         dome_shows_resizable_array
         ArrayBag.h

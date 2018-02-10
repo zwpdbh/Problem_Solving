@@ -772,9 +772,6 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch01_03_interface_and_template_and_inheritance/main.cpp">
 			<Option target="ch01_03_interface_and_template_and_inheritance"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/ArrayBag.h">
-			<Option target="ch04_link-based_implementations"/>
-		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/LinkedBag.h">
 			<Option target="ch04_link-based_implementations"/>
 		</Unit>
@@ -839,6 +836,7 @@
 			<Option target="classes_and_dynamic_memeory_allocation"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/ArrayBag.h">
+			<Option target="ch04_link-based_implementations"/>
 			<Option target="dome_shows_resizable_array"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/interlude_02_pointers_polymorphism_and_memory_allocation/GoodMemory.cpp">
