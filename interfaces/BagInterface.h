@@ -7,14 +7,13 @@
 
 #include <vector>
 
-template <class T>
-class BagInterface {
-public:
+template <class T> class BagInterface {
+  public:
     /**
      * Get the current number of entries in this bag.
      * @return The integer number of entries currently in the bag
      */
-    virtual  int getCurrentSize() const = 0;
+    virtual int getCurrentSize() const = 0;
 
     /**
      * See whether this bag is empty.
@@ -38,7 +37,7 @@ public:
 
     /** Removes all entries from this bag.
      @post Bag contains no items, and the cout of item is 0.*/
-    virtual  void clear() = 0;
+    virtual void clear() = 0;
 
     /** Tests whether this bag contains a given entry.
     @param anEntry The entry to locate.
@@ -48,11 +47,12 @@ public:
     /** Counts the number of times a given entry appears in bag.
     @param anEntry The entry to be counted.
     @return The number of items anEntry appears in the bag. */
-    virtual  int getFrequencyOf(const T& anEntry) const = 0;
+    virtual int getFrequencyOf(const T& anEntry) const = 0;
 
-    /** Empties and then fills a given vector with all entries that are in this bag.
+    /** Empties and then fills a given vector with all entries that are in this
+    bag.
     @return A vector containing all the entries in the bag. */
     virtual std::vector<T> toVector() const = 0;
 };
 
-#endif //PROBLEM_SOLVING_BAGINTERFACE_H
+#endif // PROBLEM_SOLVING_BAGINTERFACE_H

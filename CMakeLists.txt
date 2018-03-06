@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.9)
 project(Problem_Solving)
 
+# cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -H. -Bbuild
+
 set(CMAKE_C_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/gcc-7)
 set(CMAKE_CXX_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/g++-7)
 
