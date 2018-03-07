@@ -3,31 +3,16 @@
 #include <stdexcept>
 #include <string>
 
-namespace std {
-class TargetNotFoundException : public exception {
+using namespace std;
+
+class TargetNotFoundException : public logic_error {
   public:
     TargetNotFoundException(const string& message = "")
-        : exception("Target not found: " + message.c_str()) {}
+        : logic_error("Target not found: " + string(message)) {}
 };
 
 PlainBox<string> findBox(PlainBox<string> boxes[], int size,
-                         string target) throw(logic_error) {
-    int  index = 0;
-    bool found = false;
-    while (!found && (index < size)) {
-        if (target == boxes[index].getItem()) {
-            found = true;
-        } else {
-            index++;
-        }
-
-        if (!found) {
-            throw TargetNotFoundException(target + " not found in a box!");
-        }
-
-        return boxes[index];
-    }
-}
+                         string target) throw(logic_error);
 
 int main() {
     PlainBox<string> myBoxes[5];
@@ -49,4 +34,21 @@ int main() {
     return 0;
 }
 
-} // namespace std
+PlainBox<string> findBox(PlainBox<string> boxes[], int size,
+                         string target) throw(logic_error) {
+    int  index = 0;
+    bool found = false;
+    while (!found && (index < size)) {
+        if (target == boxes[index].getItem()) {
+            found = true;
+        } else {
+            index++;
+        }
+
+        if (!found) {
+            throw TargetNotFoundException(target + " not found in a box!");
+        }
+
+        return boxes[index];
+    }
+}
