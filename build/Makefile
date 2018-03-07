@@ -292,6 +292,19 @@ array_based/fast:
 	$(MAKE) -f ch07_stack_implementations/CMakeFiles/array_based.dir/build.make ch07_stack_implementations/CMakeFiles/array_based.dir/build
 .PHONY : array_based/fast
 
+#=============================================================================
+# Target rules for targets named demo_of_using_exceptions
+
+# Build rule for target.
+demo_of_using_exceptions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_of_using_exceptions
+.PHONY : demo_of_using_exceptions
+
+# fast build rule for target.
+demo_of_using_exceptions/fast:
+	$(MAKE) -f interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/build.make interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/build
+.PHONY : demo_of_using_exceptions/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +327,7 @@ help:
 	@echo "... demo_shows_using_new_operator_to_allocate_memory_on_heap"
 	@echo "... dome_shows_resizable_array"
 	@echo "... array_based"
+	@echo "... demo_of_using_exceptions"
 .PHONY : help
 
 

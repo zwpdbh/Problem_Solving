@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.9)
 project(Problem_Solving)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -H. -Bbuild
-
-set(CMAKE_C_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/gcc-7)
-set(CMAKE_CXX_COMPILER /usr/local/Cellar/gcc/7.2.0/bin/g++-7)
-
 set(CMAKE_CXX_STANDARD 11)
+
+set(CMAKE_C_COMPILER /usr/local/opt/llvm/bin/clang)
+set(CMAKE_CXX_COMPILER /usr/local/opt/llvm/bin/clang++)
+
+
 
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
@@ -27,3 +29,4 @@ add_subdirectory(interlude_01_C++_classes)
 add_subdirectory(interlude_02_pointers_polymorphism_and_memory_allocation)
 add_subdirectory(ch06_stacks)
 add_subdirectory(ch07_stack_implementations)
+add_subdirectory(interlude_03_exceptions)

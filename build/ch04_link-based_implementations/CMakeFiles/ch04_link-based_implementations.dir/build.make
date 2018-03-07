@@ -60,15 +60,15 @@ include ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementatio
 ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o: ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/flags.make
 ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o: ../ch04_link-based_implementations/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp
 
 ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch04_link-based_implementations.dir/main.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp > CMakeFiles/ch04_link-based_implementations.dir/main.cpp.i
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp > CMakeFiles/ch04_link-based_implementations.dir/main.cpp.i
 
 ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch04_link-based_implementations.dir/main.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp -o CMakeFiles/ch04_link-based_implementations.dir/main.cpp.s
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch04_link-based_implementations/main.cpp -o CMakeFiles/ch04_link-based_implementations.dir/main.cpp.s
 
 ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/main.cpp.o.requires:
 

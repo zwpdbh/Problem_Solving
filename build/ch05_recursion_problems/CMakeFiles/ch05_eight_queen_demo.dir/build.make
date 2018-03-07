@@ -60,15 +60,15 @@ include ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o: ../ch05_recursion_problems/eight_queen_main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp > CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.i
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp > CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.i
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.s
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/eight_queen_main.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.s
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cp
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o: ../ch05_recursion_problems/Board.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp > CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.i
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp > CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.i
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.s
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Board.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.s
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o.requires:
 
@@ -108,15 +108,15 @@ ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o.provide
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o: ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o: ../ch05_recursion_problems/Queen.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.i"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp > CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.i
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp > CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.i
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.s"
-	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/Cellar/gcc/7.2.0/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.s
+	cd /Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/ch05_recursion_problems/Queen.cpp -o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.s
 
 ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o.requires:
 

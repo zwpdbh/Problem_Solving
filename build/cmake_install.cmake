@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/interlude_02_pointers_polymorphism_and_memory_allocation/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch06_stacks/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch07_stack_implementations/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/interlude_03_exceptions/cmake_install.cmake")
 
 endif()
 

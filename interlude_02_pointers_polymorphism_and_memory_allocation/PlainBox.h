@@ -5,12 +5,11 @@
 #ifndef PROBLEM_SOLVING_PLAINBOX_H
 #define PROBLEM_SOLVING_PLAINBOX_H
 
-template <class ItemType>
-class PlainBox {
-private:
-    ItemType  item;
+template <class ItemType> class PlainBox {
+  private:
+    ItemType item;
 
-public:
+  public:
     // default constructor
     PlainBox();
 
@@ -21,10 +20,10 @@ public:
     virtual void setItem(const ItemType& theItem);
 
     // Method to get the value of the data field
-    // This keyword is a signal to both the compiler and other programmers that the method does not
-    // change the data fields of the object.
-    virtual ItemType  getItem() const;
+    // This keyword is a signal to both the compiler and other programmers that
+    // the method does not change the data fields of the object.
+    virtual ItemType getItem() const;
 };
 
 #include "PlainBox.cpp"
-#endif //PROBLEM_SOLVING_PLAINBOX_H
+#endif // PROBLEM_SOLVING_PLAINBOX_H

@@ -1,1 +1,1 @@
-/usr/local/Cellar/gcc/7.2.0/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o  -o ../../bin/ch05_eight_queen_demo 
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ch05_eight_queen_demo.dir/eight_queen_main.cpp.o CMakeFiles/ch05_eight_queen_demo.dir/Board.cpp.o CMakeFiles/ch05_eight_queen_demo.dir/Queen.cpp.o  -o ../../bin/ch05_eight_queen_demo 
