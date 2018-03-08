@@ -11,8 +11,7 @@ class TargetNotFoundException : public logic_error {
         : logic_error("Target not found: " + string(message)) {}
 };
 
-PlainBox<string> findBox(PlainBox<string> boxes[], int size,
-                         string target) throw(logic_error);
+PlainBox<string> findBox(PlainBox<string> boxes[], int size, string target);
 
 int main() {
     PlainBox<string> myBoxes[5];
@@ -34,8 +33,7 @@ int main() {
     return 0;
 }
 
-PlainBox<string> findBox(PlainBox<string> boxes[], int size,
-                         string target) throw(logic_error) {
+PlainBox<string> findBox(PlainBox<string> boxes[], int size, string target) {
     int  index = 0;
     bool found = false;
     while (!found && (index < size)) {
