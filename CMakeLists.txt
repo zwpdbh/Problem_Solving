@@ -1,14 +1,13 @@
 cmake_minimum_required(VERSION 3.9)
+# This must be done before any language is set (ie before any project() or enable_language() command).
+set(CMAKE_C_COMPILER "/usr/local/opt/llvm/bin/clang")
+set(CMAKE_CXX_COMPILER "/usr/local/opt/llvm/bin/clang++")
+
 project(Problem_Solving)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -H. -Bbuild
 set(CMAKE_CXX_STANDARD 11)
-
-set(CMAKE_C_COMPILER /usr/local/opt/llvm/bin/clang)
-set(CMAKE_CXX_COMPILER /usr/local/opt/llvm/bin/clang++)
-
-
 
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
@@ -30,3 +29,4 @@ add_subdirectory(interlude_02_pointers_polymorphism_and_memory_allocation)
 add_subdirectory(ch06_stacks)
 add_subdirectory(ch07_stack_implementations)
 add_subdirectory(interlude_03_exceptions)
+add_subdirectory(C_C++_fundamental)

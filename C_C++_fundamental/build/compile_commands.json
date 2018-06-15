@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -std=gnu++11 -o CMakeFiles/different_print_function.dir/different_print_function.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/different_print_function.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/different_print_function.cpp"
+}
+]
