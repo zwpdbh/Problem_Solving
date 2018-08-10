@@ -155,4 +155,27 @@ template <typename T>
 int BinaryNodeTree<T>::getHeight() const {
     return getHeightHelper(rootPtr);
 }
+
+template <typename T>
+int BinaryNodeTree<T>::getNumberOfNodesHelper(BinaryNode<T> *subTreePtr) const {
+    if (subTreePtr == nullptr) {
+        return 0;
+    } else {
+        return 1 + getNumberOfNodesHelper(subTreePtr->getLeftChildPtr()) + getNumberOfNodesHelper(subTreePtr->getRightChildPtr());
+    }
+}
+
+template <typename T>
+int BinaryNodeTree<T>::getNumberOfNodes() const {
+    return getNumberOfNodesHelper(rootPtr);
+}
+
+template <typename T>
+T BinaryNodeTree<T>::getRootData() const throw(PrecondViolateExcep)  {
+    if (rootPtr == nullptr) {
+        throw PrecondViolateExcep("rootPtr should not be null");
+    }
+    return rootPtr->getItem();
+}
+
 #endif //PROJECT_BINARYNODETREE_HPP
