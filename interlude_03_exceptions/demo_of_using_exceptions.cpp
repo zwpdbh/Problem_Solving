@@ -1,15 +1,9 @@
 #include "../interlude_02_pointers_polymorphism_and_memory_allocation/PlainBox.h"
 #include <iostream>
-#include <stdexcept>
+#include "common/common.hpp"
 #include <string>
 
 using namespace std;
-
-class TargetNotFoundException : public logic_error {
-  public:
-    TargetNotFoundException(const string& message = "")
-        : logic_error("Target not found: " + string(message)) {}
-};
 
 PlainBox<string> findBox(PlainBox<string> boxes[], int size, string target);
 
@@ -34,7 +28,7 @@ int main() {
 }
 
 PlainBox<string> findBox(PlainBox<string> boxes[], int size, string target) {
-    int  index = 0;
+    int index = 0;
     bool found = false;
     while (!found && (index < size)) {
         if (target == boxes[index].getItem()) {

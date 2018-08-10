@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.9)
 # This must be done before any language is set (ie before any project() or enable_language() command).
 set(CMAKE_C_COMPILER "/usr/local/opt/llvm/bin/clang")
 set(CMAKE_CXX_COMPILER "/usr/local/opt/llvm/bin/clang++")
-project(C_C++_fundamental)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -H. -Bbuild
@@ -20,9 +19,6 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # contains the full path to the root of your project source directory (for example, to the nearest directory where
 # CMakeLists.txt contains the PROJECT() command)
 
-
-
-add_executable(
-    different_print_function
-    different_print_function.cpp 
-)
+add_executable(different_print_function
+            different_print_function.cpp
+        )

@@ -3,7 +3,8 @@ cmake_minimum_required(VERSION 3.9)
 set(CMAKE_C_COMPILER "/usr/local/opt/llvm/bin/clang")
 set(CMAKE_CXX_COMPILER "/usr/local/opt/llvm/bin/clang++")
 
-project(Problem_Solving)
+# When enable this, it goes into loop?
+#project(Problem_Solving)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -H. -Bbuild
@@ -30,3 +31,5 @@ add_subdirectory(ch06_stacks)
 add_subdirectory(ch07_stack_implementations)
 add_subdirectory(interlude_03_exceptions)
 add_subdirectory(C_C++_fundamental)
+add_subdirectory(ch15_tree)
+add_subdirectory(design_pattern)
