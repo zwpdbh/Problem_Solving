@@ -27,7 +27,7 @@ protected:
     void destroyTree(BinaryNode<T> *subTreePtr);
 
     // Recursively adds a new node to the tree in a left/right fashion to keep the tree balanced.
-    BinaryNode<T> *blancedAdd(BinaryNode<T> *subTreePtr, BinaryNode<T> *newNodePtr);
+    BinaryNode<T> *balancedAdd(BinaryNode<T> *subTreePtr, BinaryNode<T> *newNodePtr);
 
     // Removes the target value from the tree by calling moveValuesUpTree to overwrite value with value from child.
     BinaryNode<T> *removeValue(BinaryNode<T> *subTreePtr, const T target, bool &success);
@@ -178,4 +178,45 @@ T BinaryNodeTree<T>::getRootData() const throw(PrecondViolateExcep)  {
     return rootPtr->getItem();
 }
 
+/**Add node */
+template <typename T>
+bool BinaryNodeTree<T>::add(const T &newData) {
+    BinaryNode<T> *newNodePtr = new BinaryNode<T>(newData);
+    rootPtr = balancedAdd(rootPtr, newNodePtr);
+}
+
+/**To add a node to the tree, we add the node to the root's shorter subtree.
+ * The recursive call to balanceAdd adds the new node and returns a pointer to the revised subtree.
+ * So, we need to link this subtree to the rest of the tree.*/
+template<typename T>
+BinaryNode<T> *BinaryNodeTree<T>::balancedAdd(BinaryNode<T> *subTreePtr, BinaryNode<T> *newNodePtr) {
+    if (subTreePtr == nullptr) {
+        return newNodePtr;
+    } else {
+        BinaryNode<T> *leftPtr = subTreePtr->getLeftChildPtr();
+        BinaryNode<T> *rightPtr = subTreePtr->getRightChildPtr();
+
+        if (getHeightHelper(leftPtr) > getHeightHelper(rightPtr)) {
+            rightPtr = balancedAdd(rightPtr, newNodePtr);
+            subTreePtr->setRightChildPtr(rightPtr);
+        } else {
+            leftPtr = balancedAdd(leftPtr, newNodePtr);
+            subTreePtr->setLeftChildPtr(leftPtr);
+        }
+        return subTreePtr;
+    }
+}
+
+
+template <typename T>
+void BinaryNodeTree<T>::inorder(void visit(T &), BinaryNode<T> *treePtr) const {
+    if (treePtr != nullptr) {
+        inorder(visit, treePtr->getLeftChildPtr());
+        // because visit need a reference parameter, we need an lvalue to reference
+        // treePtr->getItem(); return a T has const modifier, so it could not be use on the left-hand side
+        T theItem = treePtr->getItem();
+        visit(theItem);
+        inorder(visit, treePtr->getRightChildPtr());
+    }
+}
 #endif //PROJECT_BINARYNODETREE_HPP
