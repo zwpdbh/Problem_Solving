@@ -1,0 +1,1 @@
+add_subdirectory(ch02_managing_threads)

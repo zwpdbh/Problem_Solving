@@ -20,8 +20,23 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 
-add_subdirectory(ch09)
+# shows the basic operator overloading on a custom class
+# When using Binary Overloaed Operators as Non-Member Functions:
+# y < z is treated as if the call operator<(y, z)
+add_executable(
+        test_operator_overloading
+        binary_operator_overloading_as_nonmember_function/main.cpp
+        binary_operator_overloading_as_nonmember_function/phonenumber.cpp
+)
 
-add_executable(different_print_function
-            different_print_function.cpp
-        )
+
+add_executable(
+        overloading_increment_operators
+        unary_operator_overloading_as_member_function/main.cpp
+        unary_operator_overloading_as_member_function/date.cpp
+)
+
+add_executable(
+        different_print_function
+        different_print_function.cpp
+)
