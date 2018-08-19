@@ -19,4 +19,13 @@ public:
     PrecondViolateExcep(const std::string &message = "");
 };
 
+template <typename T>
+void swap(T &a, T &b) {
+    T *tmp = new T();
+    *tmp = a;
+    a = b;
+    b = tmp;
+    delete tmp;
+}
+
 #endif //PROJECT_COMMON_HPP

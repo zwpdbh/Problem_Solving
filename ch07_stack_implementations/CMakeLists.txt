@@ -20,5 +20,4 @@ add_executable(
         array_based
         ../interfaces/StackInterface.h
         ArrayStack.h
-#        ArrayStack.cpp
         main.cpp)

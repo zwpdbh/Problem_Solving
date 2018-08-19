@@ -19,6 +19,9 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # contains the full path to the root of your project source directory (for example, to the nearest directory where
 # CMakeLists.txt contains the PROJECT() command)
 
+
+add_subdirectory(ch09)
+
 add_executable(different_print_function
             different_print_function.cpp
         )

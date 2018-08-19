@@ -19,7 +19,7 @@ int main() {
 
     try {
         foundBox = findBox(myBoxes, 5, "glasses");
-    } catch (TargetNotFoundException except) {
+    } catch (TargetNotFoundException &except) {
         cout << except.what() << endl;
         foundBox = PlainBox<string>("nothing");
         cout << foundBox.getItem() << endl;

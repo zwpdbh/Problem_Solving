@@ -28,4 +28,5 @@ add_executable(binarytreeinterface
         binarytreeinterface.hpp
         BinaryNode.hpp
         BinaryNodeTree.hpp
+        BinarySearchTree.hpp
 )
