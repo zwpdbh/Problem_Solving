@@ -25,18 +25,24 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # y < z is treated as if the call operator<(y, z)
 add_executable(
         test_operator_overloading
-        binary_operator_overloading_as_nonmember_function/main.cpp
-        binary_operator_overloading_as_nonmember_function/phonenumber.cpp
+        operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp
+        operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp
 )
-
-
 add_executable(
         overloading_increment_operators
-        unary_operator_overloading_as_member_function/main.cpp
-        unary_operator_overloading_as_member_function/date.cpp
+        operator_overloading/unary_operator_overloading_as_member_function/main.cpp
+        operator_overloading/unary_operator_overloading_as_member_function/date.cpp
 )
+add_executable(
+        demo_operator_overloading_with_custom_class
+        operator_overloading/demo_operator_overloading_with_custom_class/main.cpp
+        operator_overloading/demo_operator_overloading_with_custom_class/array.cpp
+)
+# end of demos show operator overloading
+
 
 add_executable(
         different_print_function
         different_print_function.cpp
 )
+
