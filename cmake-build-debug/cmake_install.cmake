@@ -27,15 +27,17 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch04_link-based_implementations/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch05_recursion_problems/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_01_C++_classes/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch06_stacks/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/ch07_stack_implementations/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/C++_Concurrency_in_Action/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/C_C++_fundamental/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/LeetCode/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/cmake_install.cmake")
 
 endif()
 

@@ -1,1 +1,0 @@
-/usr/local/Cellar/gcc/7.2.0/bin/g++-7  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo_why_declare_method_as_virtual.dir/demo_why_declare_method_as_virtual.cpp.o  -o ../../bin/demo_why_declare_method_as_virtual 

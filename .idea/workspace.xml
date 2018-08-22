@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
-    <generated />
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Problem_Solving" targetName="overloading_increment_operators" />
+      <config projectName="Problem_Solving" targetName="concurrency_ch02_main" />
+      <config projectName="Problem_Solving" targetName="ch02_main" />
+      <config projectName="Problem_Solving" targetName="leetcode_list_practice" />
+      <config projectName="Problem_Solving" targetName="leetcode_main" />
+      <config projectName="Problem_Solving" targetName="test_operator_overloading" />
+      <config projectName="Problem_Solving" targetName="demo_operator_overloading_with_custom_class" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -9,38 +17,410 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0dd8763-a6e1-4162-94ab-758f827b28ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+    <list default="true" id="f0dd8763-a6e1-4162-94ab-758f827b28ef" name="Default" comment=" &gt; implement binary node tree">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/leetcode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch02/ch02_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_4cba2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeTmp/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch01_03_interface_and_template_and_inheritance/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch04_link-based_implementations/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch05_recursion_problems/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch06_stacks/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch06_stacks/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch06_stacks/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch06_stacks/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/array_based.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ch07_stack_implementations/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_01_C++_classes/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_02_pointers_polymorphism_and_memory_allocation/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/demo_of_using_exceptions.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/interlude_03_exceptions/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Problem_Solving.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/ch01_03_interface_and_template_and_inheritance.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch01_03_interface_and_template_and_inheritance/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/ch04_link-based_implementations.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch04_link-based_implementations/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_eight_queen_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/ch05_recursion_problems.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch05_recursion_problems/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch06_stacks/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch06_stacks/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch06_stacks/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch06_stacks/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/array_based.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ch07_stack_implementations/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/classes_and_dynamic_memeory_allocation/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/classes_and_dynamic_memeory_allocation.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/demo_why_declare_method_as_virtual.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/magicbox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/plainbox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/CMakeFiles/toybox_demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_01_C++_classes/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_problem_of_early_binding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_good_practise_of_good_memory.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_late_binding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/demo_shows_using_new_operator_to_allocate_memory_on_heap.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/dome_shows_resizable_array.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/interlude_02_pointers_polymorphism_and_memory_allocation.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/problem_of_early_binding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interlude_02_pointers_polymorphism_and_memory_allocation/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compile_commands.json" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="build/" />
+    <ignored path="cmake-build-debug/" />
+    <ignored path="bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-956091142">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="64" />
+          <entry key="hpp" value="40" />
+          <entry key="txt" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="66" />
+          <entry key="ObjectiveC" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="10272" />
+          <entry key="hpp" value="12262" />
+          <entry key="txt" value="1242" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="1138" />
+          <entry key="Doxygen file" value="60" />
+          <entry key="ObjectiveC" value="22474" />
+          <entry key="PLAIN_TEXT" value="104" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
@@ -49,25 +429,136 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="different_print_function.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C_C++_fundamental/different_print_function.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_C++_fundamental/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C++_Concurrency_in_Action/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Numberical_Methods_for_Engineers/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="176">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>copy</find>
+      <find>visit</find>
+      <find>while</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ch15_tree/main_test.cpp" />
+        <option value="$PROJECT_DIR$/common/aux.cpp" />
+        <option value="$PROJECT_DIR$/common/unit_test.cpp" />
+        <option value="$PROJECT_DIR$/common/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ch15_tree/binarytreeinterface.hpp" />
+        <option value="$PROJECT_DIR$/design_pattern/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/design_pattern/producer_and_consumer.cpp" />
+        <option value="$PROJECT_DIR$/common/common.cpp" />
+        <option value="$PROJECT_DIR$/ch15_tree/BinaryNode.hpp" />
+        <option value="$PROJECT_DIR$/interlude_03_exceptions/demo_of_using_exceptions.cpp" />
+        <option value="$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ch07_stack_implementations/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ch15_tree/BinaryNodeTree.hpp" />
+        <option value="$PROJECT_DIR$/ch15_tree/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ch15_tree/BinarySearchTree.hpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/ch09/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/ch09/time.hpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/ch09/time.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/test_operator_overloading.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/phonenumber.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/phonenumber.hpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/unary_operator_overloading_as_member_function/date.hpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/unary_operator_overloading_as_member_function/main.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/unary_operator_overloading_as_member_function/date.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/demo_operator_overloading_with_custom_class/main.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/demo_operator_overloading_with_custom_class/array.hpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/demo_operator_overloading_with_custom_class/array.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp" />
+        <option value="$PROJECT_DIR$/C++_Concurrency_in_Action/ch02_managing_threads/main.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/sorting.cpp" />
+        <option value="$PROJECT_DIR$/C++_Concurrency_in_Action/ch02_managing_threads/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/LeetCode/leetcode.cpp" />
+        <option value="$PROJECT_DIR$/common/common.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/main.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/list/list.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/leetcode.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/LeetCode.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/sorting_main.cpp" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/list/List.hpp" />
+        <option value="$PROJECT_DIR$/LeetCode/list/List.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/list/main_custom_list.cpp" />
+        <option value="$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch02/ch02_main.cpp" />
+        <option value="$PROJECT_DIR$/LeetCode/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/C_C++_fundamental/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/C++_Concurrency_in_Action/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Numberical_Methods_for_Engineers/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -75,13 +566,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="837" />
+    <option name="y" value="391" />
+    <option name="width" value="1409" />
+    <option name="height" value="509" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -91,6 +580,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,20 +591,51 @@
             <path>
               <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
               <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="C++_Concurrency_in_Action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
               <item name="C_C++_fundamental" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="Numberical_Methods_for_Engineers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem_Solving" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem_Solving" type="462c0819:PsiDirectoryNode" />
+              <item name="Numberical_Methods_for_Engineers" type="462c0819:PsiDirectoryNode" />
+              <item name="ch03_approximation_and_round_off_error" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.cpp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/C_C++_fundamental/operator_overloading" />
+      <recent name="$PROJECT_DIR$/C_C++_fundamental" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,6 +649,52 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.concurrency_ch02_main">
+    <configuration name="ch02_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="ch02_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="ch02_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="concurrency_ch02_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="concurrency_ch02_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="concurrency_ch02_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo_operator_overloading_with_custom_class" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="demo_operator_overloading_with_custom_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="demo_operator_overloading_with_custom_class">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode_list_practice" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="leetcode_list_practice" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="leetcode_list_practice">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="leetcode_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="leetcode_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="overloading_increment_operators" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="overloading_increment_operators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="overloading_increment_operators">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_operator_overloading" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_Solving" TARGET_NAME="test_operator_overloading" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_Solving" RUN_TARGET_NAME="test_operator_overloading">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.concurrency_ch02_main" />
+      <item itemvalue="Application.demo_operator_overloading_with_custom_class" />
+      <item itemvalue="Application.overloading_increment_operators" />
+      <item itemvalue="Application.test_operator_overloading" />
+      <item itemvalue="Application.leetcode_list_practice" />
+      <item itemvalue="Application.leetcode_main" />
+      <item itemvalue="Application.ch02_main" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -139,49 +706,354 @@
       <option name="presentableId" value="Default" />
       <updated>1528977744769</updated>
       <workItem from="1528977746530" duration="1154000" />
+      <workItem from="1533854360773" duration="2522000" />
+      <workItem from="1533857097275" duration="23000" />
+      <workItem from="1533857135309" duration="298000" />
+      <workItem from="1533857517782" duration="16892000" />
+      <workItem from="1533917002955" duration="636000" />
+      <workItem from="1533948006242" duration="10901000" />
+      <workItem from="1534124170878" duration="654000" />
+      <workItem from="1534126865392" duration="1701000" />
+      <workItem from="1534590836543" duration="569000" />
+      <workItem from="1534680144746" duration="629000" />
+      <workItem from="1534681280371" duration="1273000" />
+      <workItem from="1534685010325" duration="7758000" />
+      <workItem from="1534771304160" duration="6204000" />
+      <workItem from="1534810660704" duration="2077000" />
+      <workItem from="1534828217516" duration="11330000" />
+      <workItem from="1534921278213" duration="2530000" />
+      <workItem from="1534926485884" duration="1520000" />
+      <workItem from="1534940615038" duration="242000" />
     </task>
+    <task id="LOCAL-00001" summary=" &gt; implement binary node tree">
+      <created>1533912297679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533912297679</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" &gt; implement binary node tree">
+      <created>1533914436256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533914436256</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" &gt; implement binary node tree">
+      <created>1533917053568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533917053568</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&lt; understand the need of lvalue.">
+      <created>1533955173633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533955173633</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" &gt; implement binary node tree">
+      <created>1534681255667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534681255667</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" &gt; 10.10.2 Array Class Definition">
+      <created>1534695479902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534695479902</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" &gt; understand operator overloading">
+      <created>1534775469734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534775469734</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" &gt; 10.14 Overloading the Function Call Operator ()">
+      <created>1534779965083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534779965083</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" &gt; implement binary node tree">
+      <created>1534940519820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534940519820</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154000" />
+    <option name="totallyTimeSpent" value="68913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="391" width="1409" height="509" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30797365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49963424" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32738853" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50182885" side_tool="true" weight="0.23057325" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32738853" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.49817118" weight="0.23057325" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49963424" weight="0.32738853" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="LuaJ" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&lt; understand the need of lvalue." />
+    <MESSAGE value=" &gt; 10.10.2 Array Class Definition" />
+    <MESSAGE value=" &gt; understand operator overloading" />
+    <MESSAGE value=" &gt; 10.14 Overloading the Function Call Operator ()" />
+    <MESSAGE value=" &gt; implement binary node tree" />
+    <option name="LAST_COMMIT_MESSAGE" value=" &gt; implement binary node tree" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/different_print_function.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/main_test.cpp" />
+    <entry file="file://$PROJECT_DIR$/ch01_03_interface_and_template_and_inheritance/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/common/aux.cpp" />
+    <entry file="file://$PROJECT_DIR$/interlude_03_exceptions/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/common/unit_test.cpp" />
+    <entry file="file://$PROJECT_DIR$/common/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/design_pattern/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/binarytreeinterface.hpp" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/BinaryNode.hpp" />
+    <entry file="file://$PROJECT_DIR$/interlude_03_exceptions/demo_of_using_exceptions.cpp" />
+    <entry file="file://$PROJECT_DIR$/interlude_01_C++_classes/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/ch07_stack_implementations/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/BinarySearchTree.hpp" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/BinaryNodeTree.hpp" />
+    <entry file="file://$PROJECT_DIR$/ch15_tree/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/ch09/time.hpp" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/ch09/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/ch09/time.cpp" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/sorting.cpp" />
+    <entry file="file://$PROJECT_DIR$/design_pattern/producer_and_consumer.cpp" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/different_print_function.cpp" />
+    <entry file="file://$PROJECT_DIR$/C++_Concurrency_in_Action/ch02_managing_threads/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++_Concurrency_in_Action/ch02_managing_threads/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.cpp" />
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/LeetCode.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/sorting_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/list/main_custom_list.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/list/List.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/list/List.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_C++_fundamental/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++_Concurrency_in_Action/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numberical_Methods_for_Engineers/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="176">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>

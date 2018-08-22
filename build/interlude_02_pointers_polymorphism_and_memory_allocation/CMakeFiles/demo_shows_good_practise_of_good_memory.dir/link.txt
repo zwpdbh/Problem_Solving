@@ -1,1 +1,0 @@
-/usr/local/Cellar/gcc/7.2.0/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo_shows_good_practise_of_good_memory.dir/demo_shows_good_practise_of_good_memory.cpp.o CMakeFiles/demo_shows_good_practise_of_good_memory.dir/GoodMemory.cpp.o  -o ../../bin/demo_shows_good_practise_of_good_memory 

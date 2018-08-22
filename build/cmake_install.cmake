@@ -34,14 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch01_03_interface_and_template_and_inheritance/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch04_link-based_implementations/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch05_recursion_problems/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/interlude_01_C++_classes/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/interlude_02_pointers_polymorphism_and_memory_allocation/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch06_stacks/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/ch07_stack_implementations/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/interlude_03_exceptions/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/C++_Concurrency_in_Action/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/C_C++_fundamental/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/LeetCode/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/build/Numberical_Methods_for_Engineers/cmake_install.cmake")
 
 endif()
 

@@ -6,6 +6,6 @@
 
 using namespace std;
 int main() {
-    cout << "significant number" << endl;
+
     return 0;
 }
