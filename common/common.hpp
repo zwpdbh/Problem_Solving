@@ -7,6 +7,7 @@
 
 #include <stdexcept>
 #include <string>
+#include <iostream>
 
 class TargetNotFoundException : public std::logic_error {
 public:
@@ -14,18 +15,24 @@ public:
             : logic_error("Target not found: " + std::string(message)) {}
 };
 
-class PrecondViolateExcep: public std::logic_error {
-public:
-    PrecondViolateExcep(const std::string &message = "");
-};
-
 template <typename T>
 void swap(T &a, T &b) {
     T *tmp = new T();
     *tmp = a;
     a = b;
-    b = tmp;
+    b = *tmp;
     delete tmp;
 }
 
+template <typename T>
+void printArray(T elements[], int n) {
+    std::cout << "[";
+    for (int i = 0; i < n; i++) {
+        std::cout << elements[i];
+        if (i != n-1) {
+            std::cout << ", ";
+        }
+    }
+    std::cout << "]\n";
+}
 #endif //PROJECT_COMMON_HPP

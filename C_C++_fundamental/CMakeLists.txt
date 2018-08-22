@@ -8,6 +8,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+#project(Fundanmental)
+
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
@@ -39,10 +41,4 @@ add_executable(
         operator_overloading/demo_operator_overloading_with_custom_class/array.cpp
 )
 # end of demos show operator overloading
-
-
-add_executable(
-        different_print_function
-        different_print_function.cpp
-)
 

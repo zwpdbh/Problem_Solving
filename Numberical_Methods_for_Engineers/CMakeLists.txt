@@ -8,8 +8,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-# Must set project to eanble the previously setted configuration, such as compiler options.
-project(Problem_Solving)
+# it seems enable project option, make the cmake comile goes into loop in Clion
+#project(Numberical_Methods)
 
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
@@ -22,7 +22,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # contains the full path to the root of your project source directory (for example, to the nearest directory where
 # CMakeLists.txt contains the PROJECT() command)
 
-add_subdirectory(C++_Concurrency_in_Action)
-add_subdirectory(C_C++_fundamental)
-add_subdirectory(LeetCode)
-add_subdirectory(Numberical_Methods_for_Engineers)
+add_executable(
+        ch02_main
+        ch02/ch02_main.cpp
+)

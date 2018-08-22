@@ -22,6 +22,7 @@ public:
     size_t getSize() const;
 
     const Array &operator=(const Array &); // assignment operator
+
     bool operator==(const Array &) const;
     bool operator!=(const Array &right) const {
         return !(*this == right);  // *this is this object's reference
