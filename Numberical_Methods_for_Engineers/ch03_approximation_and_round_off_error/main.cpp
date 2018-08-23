@@ -21,6 +21,7 @@ double appE(double x, int n) {
     return pow(x, n) / factorial(n);
 }
 
+/**Compute the relative Error (measured by %)*/
 double getRelativeError(double t, double a) {
     return (abs(t - a) / t) * 100;
 }
