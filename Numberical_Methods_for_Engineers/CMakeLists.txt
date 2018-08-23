@@ -23,6 +23,6 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 add_executable(
-        ch02_main
-        ch02/ch02_main.cpp
+        ch03_example
+        ch03_approximation_and_round_off_error/main.cpp
 )
