@@ -3,7 +3,8 @@
 //
 
 /**Generic function to determine the larger of two values referenced as void pointers.
- * Using pointer to function*/
+ * Using pointer to function: int (*ptrToComFun)(void *, void *) is
+ * the parameter which is a function takes two pointer to void and return int.*/
 void *larger(void *dataPtr1, void *dataPtr2, int (*ptrToComFun)(void *, void *))
 {
     if ((*ptrToComFun)(dataPtr1, dataPtr2) > 0) {
