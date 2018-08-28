@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.3911.40/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +122,32 @@ concurrency_ch02_main: cmake_check_build_system
 concurrency_ch02_main/fast:
 	$(MAKE) -f C++_Concurrency_in_Action/ch02_managing_threads/CMakeFiles/concurrency_ch02_main.dir/build.make C++_Concurrency_in_Action/ch02_managing_threads/CMakeFiles/concurrency_ch02_main.dir/build
 .PHONY : concurrency_ch02_main/fast
+
+#=============================================================================
+# Target rules for targets named memory_allignment
+
+# Build rule for target.
+memory_allignment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 memory_allignment
+.PHONY : memory_allignment
+
+# fast build rule for target.
+memory_allignment/fast:
+	$(MAKE) -f C_C++_fundamental/CMakeFiles/memory_allignment.dir/build.make C_C++_fundamental/CMakeFiles/memory_allignment.dir/build
+.PHONY : memory_allignment/fast
+
+#=============================================================================
+# Target rules for targets named adt_compare
+
+# Build rule for target.
+adt_compare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adt_compare
+.PHONY : adt_compare
+
+# fast build rule for target.
+adt_compare/fast:
+	$(MAKE) -f C_C++_fundamental/CMakeFiles/adt_compare.dir/build.make C_C++_fundamental/CMakeFiles/adt_compare.dir/build
+.PHONY : adt_compare/fast
 
 #=============================================================================
 # Target rules for targets named overloading_increment_operators
@@ -189,17 +215,95 @@ leetcode_list_practice/fast:
 .PHONY : leetcode_list_practice/fast
 
 #=============================================================================
-# Target rules for targets named ch02_main
+# Target rules for targets named ch03_example
 
 # Build rule for target.
-ch02_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ch02_main
-.PHONY : ch02_main
+ch03_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch03_example
+.PHONY : ch03_example
 
 # fast build rule for target.
-ch02_main/fast:
-	$(MAKE) -f Numberical_Methods_for_Engineers/CMakeFiles/ch02_main.dir/build.make Numberical_Methods_for_Engineers/CMakeFiles/ch02_main.dir/build
-.PHONY : ch02_main/fast
+ch03_example/fast:
+	$(MAKE) -f Numberical_Methods_for_Engineers/CMakeFiles/ch03_example.dir/build.make Numberical_Methods_for_Engineers/CMakeFiles/ch03_example.dir/build
+.PHONY : ch03_example/fast
+
+#=============================================================================
+# Target rules for targets named ch01_passive_socket
+
+# Build rule for target.
+ch01_passive_socket: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_passive_socket
+.PHONY : ch01_passive_socket
+
+# fast build rule for target.
+ch01_passive_socket/fast:
+	$(MAKE) -f Networking_with_Boost/CMakeFiles/ch01_passive_socket.dir/build.make Networking_with_Boost/CMakeFiles/ch01_passive_socket.dir/build
+.PHONY : ch01_passive_socket/fast
+
+#=============================================================================
+# Target rules for targets named ch01_active_socket
+
+# Build rule for target.
+ch01_active_socket: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_active_socket
+.PHONY : ch01_active_socket
+
+# fast build rule for target.
+ch01_active_socket/fast:
+	$(MAKE) -f Networking_with_Boost/CMakeFiles/ch01_active_socket.dir/build.make Networking_with_Boost/CMakeFiles/ch01_active_socket.dir/build
+.PHONY : ch01_active_socket/fast
+
+#=============================================================================
+# Target rules for targets named ch01_server_endpoint
+
+# Build rule for target.
+ch01_server_endpoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_server_endpoint
+.PHONY : ch01_server_endpoint
+
+# fast build rule for target.
+ch01_server_endpoint/fast:
+	$(MAKE) -f Networking_with_Boost/CMakeFiles/ch01_server_endpoint.dir/build.make Networking_with_Boost/CMakeFiles/ch01_server_endpoint.dir/build
+.PHONY : ch01_server_endpoint/fast
+
+#=============================================================================
+# Target rules for targets named ch01_resolve_DNS
+
+# Build rule for target.
+ch01_resolve_DNS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_resolve_DNS
+.PHONY : ch01_resolve_DNS
+
+# fast build rule for target.
+ch01_resolve_DNS/fast:
+	$(MAKE) -f Networking_with_Boost/CMakeFiles/ch01_resolve_DNS.dir/build.make Networking_with_Boost/CMakeFiles/ch01_resolve_DNS.dir/build
+.PHONY : ch01_resolve_DNS/fast
+
+#=============================================================================
+# Target rules for targets named ch01_client_endpoint
+
+# Build rule for target.
+ch01_client_endpoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch01_client_endpoint
+.PHONY : ch01_client_endpoint
+
+# fast build rule for target.
+ch01_client_endpoint/fast:
+	$(MAKE) -f Networking_with_Boost/CMakeFiles/ch01_client_endpoint.dir/build.make Networking_with_Boost/CMakeFiles/ch01_client_endpoint.dir/build
+.PHONY : ch01_client_endpoint/fast
+
+#=============================================================================
+# Target rules for targets named double_linked_list
+
+# Build rule for target.
+double_linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 double_linked_list
+.PHONY : double_linked_list
+
+# fast build rule for target.
+double_linked_list/fast:
+	$(MAKE) -f Data_Structure_and_Algorithms/CMakeFiles/double_linked_list.dir/build.make Data_Structure_and_Algorithms/CMakeFiles/double_linked_list.dir/build
+.PHONY : double_linked_list/fast
 
 # Help Target
 help:
@@ -210,12 +314,20 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... concurrency_ch02_main"
+	@echo "... memory_allignment"
+	@echo "... adt_compare"
 	@echo "... overloading_increment_operators"
 	@echo "... demo_operator_overloading_with_custom_class"
 	@echo "... test_operator_overloading"
 	@echo "... leetcode_main"
 	@echo "... leetcode_list_practice"
-	@echo "... ch02_main"
+	@echo "... ch03_example"
+	@echo "... ch01_passive_socket"
+	@echo "... ch01_active_socket"
+	@echo "... ch01_server_endpoint"
+	@echo "... ch01_resolve_DNS"
+	@echo "... ch01_client_endpoint"
+	@echo "... double_linked_list"
 .PHONY : help
 
 

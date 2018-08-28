@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode_list_practice.dir/list/main_custom_list.cpp.o CMakeFiles/leetcode_list_practice.dir/list/List.cpp.o  -o ../../bin/leetcode_list_practice 

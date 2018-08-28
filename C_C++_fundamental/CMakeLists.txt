@@ -42,3 +42,13 @@ add_executable(
 )
 # end of demos show operator overloading
 
+
+add_executable(
+        adt_compare
+        basics/ADT_implementation_in_C/main_generic_compare.cpp
+)
+
+add_executable(
+        memory_allignment
+        basics/memory_allignment.cpp
+)

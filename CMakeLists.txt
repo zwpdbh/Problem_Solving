@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 # Must set project to eanble the previously setted configuration, such as compiler options.
-project(Problem_Solving)
+#project(Problem_Solving)
 
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
@@ -26,3 +26,5 @@ add_subdirectory(C++_Concurrency_in_Action)
 add_subdirectory(C_C++_fundamental)
 add_subdirectory(LeetCode)
 add_subdirectory(Numberical_Methods_for_Engineers)
+add_subdirectory(Networking_with_Boost)
+add_subdirectory(Data_Structure_and_Algorithms)

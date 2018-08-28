@@ -349,8 +349,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/LeetCode/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ch02_main">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch02_main" prefix_auto="0" extension_auto="0"/>
+			<Target title="ch03_example">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch03_example" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -369,14 +369,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 ch02_main"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 ch03_example"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ch02_main/fast">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch02_main" prefix_auto="0" extension_auto="0"/>
+			<Target title="ch03_example/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin/ch03_example" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Problem_Solving/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -395,7 +395,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 ch02_main/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 ch03_example/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/Makefile&quot;  VERBOSE=1 clean"/>
@@ -403,6 +403,9 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/C++_Concurrency_in_Action/ch02_managing_threads/main.cpp">
+			<Option target="concurrency_ch02_main"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/C++_Concurrency_in_Action/ch02_managing_threads/parallel_accumulate.hpp">
 			<Option target="concurrency_ch02_main"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp">
@@ -450,8 +453,8 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/LeetCode/sorting_main.cpp">
 			<Option target="leetcode_main"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/ch02/ch02_main.cpp">
-			<Option target="ch02_main"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp">
+			<Option target="ch03_example"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Problem_Solving/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

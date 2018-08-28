@@ -111,44 +111,285 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named different_print_function
+# Target rules for targets named memory_allignment
 
 # Build rule for target.
-different_print_function: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 different_print_function
-.PHONY : different_print_function
+memory_allignment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 memory_allignment
+.PHONY : memory_allignment
 
 # fast build rule for target.
-different_print_function/fast:
-	$(MAKE) -f CMakeFiles/different_print_function.dir/build.make CMakeFiles/different_print_function.dir/build
-.PHONY : different_print_function/fast
+memory_allignment/fast:
+	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/build
+.PHONY : memory_allignment/fast
 
-different_print_function.o: different_print_function.cpp.o
+#=============================================================================
+# Target rules for targets named adt_compare
 
-.PHONY : different_print_function.o
+# Build rule for target.
+adt_compare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adt_compare
+.PHONY : adt_compare
+
+# fast build rule for target.
+adt_compare/fast:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/build
+.PHONY : adt_compare/fast
+
+#=============================================================================
+# Target rules for targets named overloading_increment_operators
+
+# Build rule for target.
+overloading_increment_operators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 overloading_increment_operators
+.PHONY : overloading_increment_operators
+
+# fast build rule for target.
+overloading_increment_operators/fast:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/build
+.PHONY : overloading_increment_operators/fast
+
+#=============================================================================
+# Target rules for targets named demo_operator_overloading_with_custom_class
+
+# Build rule for target.
+demo_operator_overloading_with_custom_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_operator_overloading_with_custom_class
+.PHONY : demo_operator_overloading_with_custom_class
+
+# fast build rule for target.
+demo_operator_overloading_with_custom_class/fast:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/build
+.PHONY : demo_operator_overloading_with_custom_class/fast
+
+#=============================================================================
+# Target rules for targets named test_operator_overloading
+
+# Build rule for target.
+test_operator_overloading: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_operator_overloading
+.PHONY : test_operator_overloading
+
+# fast build rule for target.
+test_operator_overloading/fast:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/build
+.PHONY : test_operator_overloading/fast
+
+ADT_implementation_in_C/main_generic_compare.o: ADT_implementation_in_C/main_generic_compare.cpp.o
+
+.PHONY : ADT_implementation_in_C/main_generic_compare.o
 
 # target to build an object file
-different_print_function.cpp.o:
-	$(MAKE) -f CMakeFiles/different_print_function.dir/build.make CMakeFiles/different_print_function.dir/different_print_function.cpp.o
-.PHONY : different_print_function.cpp.o
+ADT_implementation_in_C/main_generic_compare.cpp.o:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o
+.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.o
 
-different_print_function.i: different_print_function.cpp.i
+ADT_implementation_in_C/main_generic_compare.i: ADT_implementation_in_C/main_generic_compare.cpp.i
 
-.PHONY : different_print_function.i
+.PHONY : ADT_implementation_in_C/main_generic_compare.i
 
 # target to preprocess a source file
-different_print_function.cpp.i:
-	$(MAKE) -f CMakeFiles/different_print_function.dir/build.make CMakeFiles/different_print_function.dir/different_print_function.cpp.i
-.PHONY : different_print_function.cpp.i
+ADT_implementation_in_C/main_generic_compare.cpp.i:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.i
+.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.i
 
-different_print_function.s: different_print_function.cpp.s
+ADT_implementation_in_C/main_generic_compare.s: ADT_implementation_in_C/main_generic_compare.cpp.s
 
-.PHONY : different_print_function.s
+.PHONY : ADT_implementation_in_C/main_generic_compare.s
 
 # target to generate assembly for a file
-different_print_function.cpp.s:
-	$(MAKE) -f CMakeFiles/different_print_function.dir/build.make CMakeFiles/different_print_function.dir/different_print_function.cpp.s
-.PHONY : different_print_function.cpp.s
+ADT_implementation_in_C/main_generic_compare.cpp.s:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.s
+.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.s
+
+basics/memory_allignment.o: basics/memory_allignment.cpp.o
+
+.PHONY : basics/memory_allignment.o
+
+# target to build an object file
+basics/memory_allignment.cpp.o:
+	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/basics/memory_allignment.cpp.o
+.PHONY : basics/memory_allignment.cpp.o
+
+basics/memory_allignment.i: basics/memory_allignment.cpp.i
+
+.PHONY : basics/memory_allignment.i
+
+# target to preprocess a source file
+basics/memory_allignment.cpp.i:
+	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/basics/memory_allignment.cpp.i
+.PHONY : basics/memory_allignment.cpp.i
+
+basics/memory_allignment.s: basics/memory_allignment.cpp.s
+
+.PHONY : basics/memory_allignment.s
+
+# target to generate assembly for a file
+basics/memory_allignment.cpp.s:
+	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/basics/memory_allignment.cpp.s
+.PHONY : basics/memory_allignment.cpp.s
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.o: operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.o
+
+# target to build an object file
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.i: operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.i
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.i
+
+# target to preprocess a source file
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.i:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.i
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.i
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.s: operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.s
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.s
+
+# target to generate assembly for a file
+operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.s:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.s
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.s
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.o: operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.o
+
+# target to build an object file
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.i: operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.i
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.i
+
+# target to preprocess a source file
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.i:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.i
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.i
+
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.s: operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.s
+
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.s
+
+# target to generate assembly for a file
+operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.s:
+	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.s
+.PHONY : operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.s
+
+operator_overloading/demo_operator_overloading_with_custom_class/array.o: operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.o
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.o
+
+# target to build an object file
+operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.o
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.o
+
+operator_overloading/demo_operator_overloading_with_custom_class/array.i: operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.i
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.i
+
+# target to preprocess a source file
+operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.i
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.i
+
+operator_overloading/demo_operator_overloading_with_custom_class/array.s: operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.s
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.s
+
+# target to generate assembly for a file
+operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.s
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/array.cpp.s
+
+operator_overloading/demo_operator_overloading_with_custom_class/main.o: operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.o
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.o
+
+# target to build an object file
+operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.o
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.o
+
+operator_overloading/demo_operator_overloading_with_custom_class/main.i: operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.i
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.i
+
+# target to preprocess a source file
+operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.i
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.i
+
+operator_overloading/demo_operator_overloading_with_custom_class/main.s: operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.s
+
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.s
+
+# target to generate assembly for a file
+operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.s
+.PHONY : operator_overloading/demo_operator_overloading_with_custom_class/main.cpp.s
+
+operator_overloading/unary_operator_overloading_as_member_function/date.o: operator_overloading/unary_operator_overloading_as_member_function/date.cpp.o
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.o
+
+# target to build an object file
+operator_overloading/unary_operator_overloading_as_member_function/date.cpp.o:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/date.cpp.o
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.cpp.o
+
+operator_overloading/unary_operator_overloading_as_member_function/date.i: operator_overloading/unary_operator_overloading_as_member_function/date.cpp.i
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.i
+
+# target to preprocess a source file
+operator_overloading/unary_operator_overloading_as_member_function/date.cpp.i:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/date.cpp.i
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.cpp.i
+
+operator_overloading/unary_operator_overloading_as_member_function/date.s: operator_overloading/unary_operator_overloading_as_member_function/date.cpp.s
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.s
+
+# target to generate assembly for a file
+operator_overloading/unary_operator_overloading_as_member_function/date.cpp.s:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/date.cpp.s
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/date.cpp.s
+
+operator_overloading/unary_operator_overloading_as_member_function/main.o: operator_overloading/unary_operator_overloading_as_member_function/main.cpp.o
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.o
+
+# target to build an object file
+operator_overloading/unary_operator_overloading_as_member_function/main.cpp.o:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/main.cpp.o
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.cpp.o
+
+operator_overloading/unary_operator_overloading_as_member_function/main.i: operator_overloading/unary_operator_overloading_as_member_function/main.cpp.i
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.i
+
+# target to preprocess a source file
+operator_overloading/unary_operator_overloading_as_member_function/main.cpp.i:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/main.cpp.i
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.cpp.i
+
+operator_overloading/unary_operator_overloading_as_member_function/main.s: operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s
+
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.s
+
+# target to generate assembly for a file
+operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s
+.PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s
 
 # Help Target
 help:
@@ -157,11 +398,36 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... memory_allignment"
 	@echo "... edit_cache"
-	@echo "... different_print_function"
-	@echo "... different_print_function.o"
-	@echo "... different_print_function.i"
-	@echo "... different_print_function.s"
+	@echo "... adt_compare"
+	@echo "... overloading_increment_operators"
+	@echo "... demo_operator_overloading_with_custom_class"
+	@echo "... test_operator_overloading"
+	@echo "... ADT_implementation_in_C/main_generic_compare.o"
+	@echo "... ADT_implementation_in_C/main_generic_compare.i"
+	@echo "... ADT_implementation_in_C/main_generic_compare.s"
+	@echo "... basics/memory_allignment.o"
+	@echo "... basics/memory_allignment.i"
+	@echo "... basics/memory_allignment.s"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.o"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.i"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.s"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.o"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.i"
+	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.s"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/array.o"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/array.i"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/array.s"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/main.o"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/main.i"
+	@echo "... operator_overloading/demo_operator_overloading_with_custom_class/main.s"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/date.o"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/date.i"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/date.s"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.o"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.i"
+	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.s"
 .PHONY : help
 
 

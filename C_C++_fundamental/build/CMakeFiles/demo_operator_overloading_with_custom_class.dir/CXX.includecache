@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.cpp
+array.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.hpp
+iomanip
+-
+stdexcept
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.hpp
+iostream
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/main.cpp
+iostream
+-
+stdexcept
+-
+array.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/demo_operator_overloading_with_custom_class/array.hpp
+

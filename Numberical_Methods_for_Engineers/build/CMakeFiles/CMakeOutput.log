@@ -33,7 +33,7 @@ Run Build Command:"/usr/bin/make" "cmTC_f6859/fast"
 Building C object CMakeFiles/cmTC_f6859.dir/testCCompiler.c.o
 /usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_f6859.dir/testCCompiler.c.o   -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_f6859
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6859.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6859.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f6859.dir/testCCompiler.c.o  -o cmTC_f6859 
 
 
@@ -45,7 +45,7 @@ Run Build Command:"/usr/bin/make" "cmTC_c607d/fast"
 Building C object CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o
 /usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCCompilerABI.c
 Linking C executable cmTC_c607d
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c607d.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c607d.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o  -o cmTC_c607d 
 clang version 6.0.0 (tags/RELEASE_600/final)
 Target: x86_64-apple-darwin17.7.0
@@ -63,8 +63,8 @@ Framework search paths:
 	/System/Library/Frameworks/
 
 
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+Parsed C implicit NodePtr information from above output:
+  NodePtr line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c607d/fast"]
@@ -72,14 +72,14 @@ Parsed C implicit link information from above output:
   ignore line: [Building C object CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/local/opt/llvm/bin/clang    -o CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCCompilerABI.c]
   ignore line: [Linking C executable cmTC_c607d]
-  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c607d.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c607d.dir/NodePtr.txt --verbose=1]
   ignore line: [/usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o  -o cmTC_c607d ]
   ignore line: [clang version 6.0.0 (tags/RELEASE_600/final)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /usr/local/opt/llvm/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_c607d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/6.0.0/lib/clang/6.0.0/lib/darwin/libclang_rt.osx.a]
+  NodePtr line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_c607d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c607d.dir/CMakeCCompilerABI.c.o -lSystem /usr/local/Cellar/llvm/6.0.0/lib/clang/6.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -120,7 +120,7 @@ Run Build Command:"/usr/bin/make" "cmTC_274f3/fast"
 Building C object CMakeFiles/cmTC_274f3.dir/feature_tests.c.o
 /usr/local/opt/llvm/bin/clang   -std=c11 -o CMakeFiles/cmTC_274f3.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.c
 Linking C executable cmTC_274f3
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_274f3.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_274f3.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_274f3.dir/feature_tests.c.o  -o cmTC_274f3 
 
 
@@ -138,7 +138,7 @@ Run Build Command:"/usr/bin/make" "cmTC_9495a/fast"
 Building C object CMakeFiles/cmTC_9495a.dir/feature_tests.c.o
 /usr/local/opt/llvm/bin/clang   -std=c99 -o CMakeFiles/cmTC_9495a.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.c
 Linking C executable cmTC_9495a
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9495a.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9495a.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9495a.dir/feature_tests.c.o  -o cmTC_9495a 
 
 
@@ -156,7 +156,7 @@ Run Build Command:"/usr/bin/make" "cmTC_9fcd3/fast"
 Building C object CMakeFiles/cmTC_9fcd3.dir/feature_tests.c.o
 /usr/local/opt/llvm/bin/clang   -std=c90 -o CMakeFiles/cmTC_9fcd3.dir/feature_tests.c.o   -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.c
 Linking C executable cmTC_9fcd3
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcd3.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcd3.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fcd3.dir/feature_tests.c.o  -o cmTC_9fcd3 
 
 
@@ -172,7 +172,7 @@ Run Build Command:"/usr/bin/make" "cmTC_daaad/fast"
 Building CXX object CMakeFiles/cmTC_daaad.dir/testCXXCompiler.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=gnu++11 -o CMakeFiles/cmTC_daaad.dir/testCXXCompiler.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_daaad
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daaad.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daaad.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_daaad.dir/testCXXCompiler.cxx.o  -o cmTC_daaad 
 
 
@@ -184,7 +184,7 @@ Run Build Command:"/usr/bin/make" "cmTC_5f713/fast"
 Building CXX object CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o
 /usr/local/opt/llvm/bin/clang++    -std=gnu++11 -o CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
 Linking CXX executable cmTC_5f713
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f713.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f713.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f713 
 clang version 6.0.0 (tags/RELEASE_600/final)
 Target: x86_64-apple-darwin17.7.0
@@ -202,8 +202,8 @@ Framework search paths:
 	/System/Library/Frameworks/
 
 
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+Parsed CXX implicit NodePtr information from above output:
+  NodePtr line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5f713/fast"]
@@ -211,14 +211,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [Building CXX object CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/local/opt/llvm/bin/clang++    -std=gnu++11 -o CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.12.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Linking CXX executable cmTC_5f713]
-  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f713.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f713.dir/NodePtr.txt --verbose=1]
   ignore line: [/usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5f713 ]
   ignore line: [clang version 6.0.0 (tags/RELEASE_600/final)]
   ignore line: [Target: x86_64-apple-darwin17.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /usr/local/opt/llvm/bin]
   ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
-  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_5f713 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/6.0.0/lib/clang/6.0.0/lib/darwin/libclang_rt.osx.a]
+  NodePtr line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/6.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_5f713 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f713.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /usr/local/Cellar/llvm/6.0.0/lib/clang/6.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -260,7 +260,7 @@ Run Build Command:"/usr/bin/make" "cmTC_759d4/fast"
 Building CXX object CMakeFiles/cmTC_759d4.dir/feature_tests.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=c++2a -std=gnu++11 -o CMakeFiles/cmTC_759d4.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.cxx
 Linking CXX executable cmTC_759d4
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_759d4.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_759d4.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_759d4.dir/feature_tests.cxx.o  -o cmTC_759d4 
 
 
@@ -331,7 +331,7 @@ Run Build Command:"/usr/bin/make" "cmTC_17ab0/fast"
 Building CXX object CMakeFiles/cmTC_17ab0.dir/feature_tests.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=c++17 -std=gnu++11 -o CMakeFiles/cmTC_17ab0.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.cxx
 Linking CXX executable cmTC_17ab0
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17ab0.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17ab0.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_17ab0.dir/feature_tests.cxx.o  -o cmTC_17ab0 
 
 
@@ -402,7 +402,7 @@ Run Build Command:"/usr/bin/make" "cmTC_25311/fast"
 Building CXX object CMakeFiles/cmTC_25311.dir/feature_tests.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=c++14 -std=gnu++11 -o CMakeFiles/cmTC_25311.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.cxx
 Linking CXX executable cmTC_25311
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25311.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25311.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25311.dir/feature_tests.cxx.o  -o cmTC_25311 
 
 
@@ -473,7 +473,7 @@ Run Build Command:"/usr/bin/make" "cmTC_630b8/fast"
 Building CXX object CMakeFiles/cmTC_630b8.dir/feature_tests.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=c++11 -std=gnu++11 -o CMakeFiles/cmTC_630b8.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.cxx
 Linking CXX executable cmTC_630b8
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_630b8.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_630b8.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_630b8.dir/feature_tests.cxx.o  -o cmTC_630b8 
 
 
@@ -544,7 +544,7 @@ Run Build Command:"/usr/bin/make" "cmTC_4a095/fast"
 Building CXX object CMakeFiles/cmTC_4a095.dir/feature_tests.cxx.o
 /usr/local/opt/llvm/bin/clang++    -std=c++98 -std=gnu++11 -o CMakeFiles/cmTC_4a095.dir/feature_tests.cxx.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build/CMakeFiles/feature_tests.cxx
 Linking CXX executable cmTC_4a095
-/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a095.dir/link.txt --verbose=1
+/usr/local/Cellar/cmake/3.12.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a095.dir/NodePtr.txt --verbose=1
 /usr/local/opt/llvm/bin/clang++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4a095.dir/feature_tests.cxx.o  -o cmTC_4a095 
 
 

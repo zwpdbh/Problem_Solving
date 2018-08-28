@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.cpp
+date.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.hpp
+string
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.hpp
+array
+-
+iostream
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/main.cpp
+date.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.hpp
+

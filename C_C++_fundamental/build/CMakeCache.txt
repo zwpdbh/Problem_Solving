@@ -134,7 +134,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=C_C++_fundamental
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -190,6 +190,12 @@ C_C++_fundamental_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_So
 
 //Value Computed by CMake
 C_C++_fundamental_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental
 
 
 ########################

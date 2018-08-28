@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Data_Structure_and_Algorithms/playground/bst.c
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Data_Structure_and_Algorithms/playground/main.c
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Data_Structure_and_Algorithms/playground/mylib.c
+

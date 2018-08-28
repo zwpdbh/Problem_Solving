@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/leetcode_main.dir/LeetCode.cpp.o CMakeFiles/leetcode_main.dir/sorting_main.cpp.o  -o ../../bin/leetcode_main 

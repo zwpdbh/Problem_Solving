@@ -38,6 +38,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/C_C++_fundamental/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/LeetCode/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Numberical_Methods_for_Engineers/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Networking_with_Boost/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Problem_Solving/cmake-build-debug/Data_Structure_and_Algorithms/cmake_install.cmake")
 
 endif()
 

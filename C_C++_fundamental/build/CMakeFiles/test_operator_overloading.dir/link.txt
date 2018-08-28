@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o  -o ../bin/test_operator_overloading 

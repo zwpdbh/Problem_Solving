@@ -18,7 +18,7 @@ struct func {
     int &i;
 
     explicit func(int &i_) : i(i_) {}
-
+    // function call operator()
     void operator()() {
         for (int j = 0; j < 100; j++) {
             cout << "do_something with i: " << i  << endl;
@@ -27,7 +27,7 @@ struct func {
 };
 
 /**Show the case when the thread is not guarded, if the thread is not detached or joined
- * in the scope then the program will be terminated
+ * in the scope, then the program will be terminated
  * It also shows the potential access to dangling reference problem.*/
 void demoOfNotGuardedThread() {
     int some_local_state = 0;

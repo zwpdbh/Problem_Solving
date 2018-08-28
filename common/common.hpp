@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <string>
 #include <iostream>
+#include <stdio.h>
 
 class TargetNotFoundException : public std::logic_error {
 public:
@@ -34,5 +35,16 @@ void printArray(T elements[], int n) {
         }
     }
     std::cout << "]\n";
+}
+
+/**simple function convert int into its binary using bit shift:
+ * 1u is unsigned 1, for portable reason
+ * left shift, or right shift will fill the blank with 0 for unsigned integer
+ * when it is signed type, it is often compiler dependent*/
+void showbits(unsigned int x) {
+    for (int i = (sizeof(int) * 8) - 1; i >= 0; i--) {
+        (x & (1u << i)) ? putchar('1') : putchar('0');
+    }
+    printf("\n");
 }
 #endif //PROJECT_COMMON_HPP

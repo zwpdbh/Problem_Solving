@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/ch03_approximation_and_round_off_error/main.cpp
+iostream
+-
+cmath
+-
+cfloat
+-
+iomanip
+-
+../common/common.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/common/common.hpp
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/common/common.hpp
+

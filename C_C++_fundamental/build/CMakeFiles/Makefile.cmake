@@ -44,5 +44,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/different_print_function.dir/DependInfo.cmake"
+  "CMakeFiles/memory_allignment.dir/DependInfo.cmake"
+  "CMakeFiles/adt_compare.dir/DependInfo.cmake"
+  "CMakeFiles/overloading_increment_operators.dir/DependInfo.cmake"
+  "CMakeFiles/demo_operator_overloading_with_custom_class.dir/DependInfo.cmake"
+  "CMakeFiles/test_operator_overloading.dir/DependInfo.cmake"
   )
