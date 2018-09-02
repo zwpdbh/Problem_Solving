@@ -57,49 +57,49 @@ include CMakeFiles/adt_compare.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/adt_compare.dir/flags.make
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o: CMakeFiles/adt_compare.dir/flags.make
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o: ../ADT_implementation_in_C/main_generic_compare.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o"
-	/usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/ADT_implementation_in_C/main_generic_compare.cpp
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o: CMakeFiles/adt_compare.dir/flags.make
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o: ../basics/ADT_implementation_in_C/main_generic_compare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o"
+	/usr/local/opt/llvm/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/ADT_implementation_in_C/main_generic_compare.cpp
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.i"
-	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/ADT_implementation_in_C/main_generic_compare.cpp > CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.i
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.i"
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/ADT_implementation_in_C/main_generic_compare.cpp > CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.i
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.s"
-	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/ADT_implementation_in_C/main_generic_compare.cpp -o CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.s
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.s"
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/ADT_implementation_in_C/main_generic_compare.cpp -o CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.s
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.requires:
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.requires:
 
-.PHONY : CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
+.PHONY : CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.provides: CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
-	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.provides.build
-.PHONY : CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.provides
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.provides: CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.provides.build
+.PHONY : CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.provides
 
-CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.provides.build: CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o
+CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.provides.build: CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o
 
 
 # Object files for target adt_compare
 adt_compare_OBJECTS = \
-"CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o"
+"CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o"
 
 # External object files for target adt_compare
 adt_compare_EXTERNAL_OBJECTS =
 
-../bin/adt_compare: CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o
+../bin/adt_compare: CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o
 ../bin/adt_compare: CMakeFiles/adt_compare.dir/build.make
-../bin/adt_compare: CMakeFiles/adt_compare.dir/NodePtr.txt
+../bin/adt_compare: CMakeFiles/adt_compare.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/adt_compare"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adt_compare.dir/NodePtr.txt --verbose=$(VERBOSE)
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adt_compare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/adt_compare.dir/build: ../bin/adt_compare
 
 .PHONY : CMakeFiles/adt_compare.dir/build
 
-CMakeFiles/adt_compare.dir/requires: CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
+CMakeFiles/adt_compare.dir/requires: CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o.requires
 
 .PHONY : CMakeFiles/adt_compare.dir/requires
 

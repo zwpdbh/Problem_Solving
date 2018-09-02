@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/basics_prefix_vs_postfix_operator.dir/basics/prefix_and_postfix_operator.cpp.o  -o ../bin/basics_prefix_vs_postfix_operator 

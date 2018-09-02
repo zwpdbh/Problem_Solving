@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o"
+  "CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o"
   "../bin/adt_compare.pdb"
   "../bin/adt_compare"
 )

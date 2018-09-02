@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ch15_ex21.dir/container_and_literator/fig15_21.cpp.o  -o ../bin/ch15_ex21 

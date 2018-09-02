@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.cpp
+clientdata.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.hpp
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.hpp
+string
+-
+
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/main.cpp
+fstream
+-
+cstdlib
+-
+iostream
+-
+iomanip
+-
+clientdata.hpp
+/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.hpp
+

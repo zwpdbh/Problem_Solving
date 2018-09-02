@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/stream_manipulator_setw_widthValue.dir/stream_input_and_output/stream_manipulators/widthValue_and_setw_main.cpp.o  -o ../bin/stream_manipulator_setw_widthValue 

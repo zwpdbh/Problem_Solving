@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ch16_03.dir/standard_algorithm/fig16_03.cpp.o  -o ../bin/ch16_03 

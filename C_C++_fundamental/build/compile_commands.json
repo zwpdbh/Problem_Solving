@@ -1,13 +1,63 @@
 [
 {
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch16_08.dir/standard_algorithm/fig16_08.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_08.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_08.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch16_02.dir/standard_algorithm/fig16_02.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_02.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_02.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
   "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/memory_allignment.dir/basics/memory_allignment.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/memory_allignment.cpp",
   "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/memory_allignment.cpp"
 },
 {
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
-  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/ADT_implementation_in_C/main_generic_compare.cpp",
-  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/ADT_implementation_in_C/main_generic_compare.cpp"
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch16_01.dir/standard_algorithm/fig16_01.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_01.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_01.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex11.dir/container_and_literator/fig15_11.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_11.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_11.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex19.dir/container_and_literator/fig15_19.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_19.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_19.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex10.dir/container_and_literator/fig15_10.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_10.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_10.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/clientdata.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/clientdata.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/credit_processing_program/main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex13.dir/container_and_literator/fig15_13.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_13.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_13.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/stream_input_main.dir/stream_input_and_output/stream_input_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/stream_input_and_output/stream_input_main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/stream_input_and_output/stream_input_main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/fig_14_03.dir/file_processing/fig14_03.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/fig14_03.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/fig14_03.cpp"
 },
 {
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
@@ -18,6 +68,36 @@
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
   "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/date.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.cpp",
   "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/unary_operator_overloading_as_member_function/date.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/manipulator_widthValue.dir/stream_input_and_output/stream_manipulators/widthValue_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/stream_input_and_output/stream_manipulators/widthValue_main.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/stream_input_and_output/stream_manipulators/widthValue_main.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch16_04.dir/standard_algorithm/fig16_04.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_04.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_04.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch16_03.dir/standard_algorithm/fig16_03.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_03.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/standard_algorithm/fig16_03.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex21.dir/container_and_literator/fig15_21.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_21.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_21.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/ADT_implementation_in_C/main_generic_compare.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/ADT_implementation_in_C/main_generic_compare.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex04.dir/container_and_literator/fig15_04.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_04.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_04.cpp"
 },
 {
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
@@ -38,5 +118,20 @@
   "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
   "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/test_operator_overloading.dir/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp",
   "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/operator_overloading/binary_operator_overloading_as_nonmember_function/phonenumber.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/ch15_ex14.dir/container_and_literator/fig15_14.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_14.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/container_and_literator/fig15_14.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/fig_14_06.dir/file_processing/fig14_06.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/fig14_06.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/file_processing/fig14_06.cpp"
+},
+{
+  "directory": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental    -o CMakeFiles/basics_prefix_vs_postfix_operator.dir/basics/prefix_and_postfix_operator.cpp.o -c /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/prefix_and_postfix_operator.cpp",
+  "file": "/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/basics/prefix_and_postfix_operator.cpp"
 }
 ]

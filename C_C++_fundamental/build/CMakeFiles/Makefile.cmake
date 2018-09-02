@@ -44,9 +44,27 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ch16_08.dir/DependInfo.cmake"
+  "CMakeFiles/ch16_02.dir/DependInfo.cmake"
   "CMakeFiles/memory_allignment.dir/DependInfo.cmake"
-  "CMakeFiles/adt_compare.dir/DependInfo.cmake"
+  "CMakeFiles/ch16_01.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex11.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex19.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex10.dir/DependInfo.cmake"
+  "CMakeFiles/credit_processing_system.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex13.dir/DependInfo.cmake"
+  "CMakeFiles/stream_input_main.dir/DependInfo.cmake"
+  "CMakeFiles/fig_14_03.dir/DependInfo.cmake"
   "CMakeFiles/overloading_increment_operators.dir/DependInfo.cmake"
+  "CMakeFiles/manipulator_widthValue.dir/DependInfo.cmake"
+  "CMakeFiles/ch16_04.dir/DependInfo.cmake"
+  "CMakeFiles/ch16_03.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex21.dir/DependInfo.cmake"
+  "CMakeFiles/adt_compare.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex04.dir/DependInfo.cmake"
   "CMakeFiles/demo_operator_overloading_with_custom_class.dir/DependInfo.cmake"
   "CMakeFiles/test_operator_overloading.dir/DependInfo.cmake"
+  "CMakeFiles/ch15_ex14.dir/DependInfo.cmake"
+  "CMakeFiles/fig_14_06.dir/DependInfo.cmake"
+  "CMakeFiles/basics_prefix_vs_postfix_operator.dir/DependInfo.cmake"
   )

@@ -60,13 +60,87 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_funda
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/ch16_08.dir
+
+# All Build rule for target.
+CMakeFiles/ch16_08.dir/all:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/depend
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=27,28 "Built target ch16_08"
+.PHONY : CMakeFiles/ch16_08.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch16_08.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch16_08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch16_08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch16_08.dir/rule
+
+# Convenience name for target.
+ch16_08: CMakeFiles/ch16_08.dir/rule
+
+.PHONY : ch16_08
+
+# clean rule for target.
+CMakeFiles/ch16_08.dir/clean:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/clean
+.PHONY : CMakeFiles/ch16_08.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch16_08.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch16_02.dir
+
+# All Build rule for target.
+CMakeFiles/ch16_02.dir/all:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/depend
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=21,22 "Built target ch16_02"
+.PHONY : CMakeFiles/ch16_02.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch16_02.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch16_02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch16_02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch16_02.dir/rule
+
+# Convenience name for target.
+ch16_02: CMakeFiles/ch16_02.dir/rule
+
+.PHONY : ch16_02
+
+# clean rule for target.
+CMakeFiles/ch16_02.dir/clean:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/clean
+.PHONY : CMakeFiles/ch16_02.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch16_02.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/memory_allignment.dir
 
 # All Build rule for target.
 CMakeFiles/memory_allignment.dir/all:
 	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/depend
 	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=6,7 "Built target memory_allignment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=41,42 "Built target memory_allignment"
 .PHONY : CMakeFiles/memory_allignment.dir/all
 
 # Include target in all.
@@ -93,6 +167,487 @@ CMakeFiles/memory_allignment.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/memory_allignment.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch16_01.dir
+
+# All Build rule for target.
+CMakeFiles/ch16_01.dir/all:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/depend
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=19,20 "Built target ch16_01"
+.PHONY : CMakeFiles/ch16_01.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch16_01.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch16_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch16_01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch16_01.dir/rule
+
+# Convenience name for target.
+ch16_01: CMakeFiles/ch16_01.dir/rule
+
+.PHONY : ch16_01
+
+# clean rule for target.
+CMakeFiles/ch16_01.dir/clean:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/clean
+.PHONY : CMakeFiles/ch16_01.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch16_01.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex11.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex11.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=9,10 "Built target ch15_ex11"
+.PHONY : CMakeFiles/ch15_ex11.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex11.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex11.dir/rule
+
+# Convenience name for target.
+ch15_ex11: CMakeFiles/ch15_ex11.dir/rule
+
+.PHONY : ch15_ex11
+
+# clean rule for target.
+CMakeFiles/ch15_ex11.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/clean
+.PHONY : CMakeFiles/ch15_ex11.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex11.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex19.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex19.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=15,16 "Built target ch15_ex19"
+.PHONY : CMakeFiles/ch15_ex19.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex19.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex19.dir/rule
+
+# Convenience name for target.
+ch15_ex19: CMakeFiles/ch15_ex19.dir/rule
+
+.PHONY : ch15_ex19
+
+# clean rule for target.
+CMakeFiles/ch15_ex19.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/clean
+.PHONY : CMakeFiles/ch15_ex19.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex19.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex10.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex10.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=7,8 "Built target ch15_ex10"
+.PHONY : CMakeFiles/ch15_ex10.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex10.dir/rule
+
+# Convenience name for target.
+ch15_ex10: CMakeFiles/ch15_ex10.dir/rule
+
+.PHONY : ch15_ex10
+
+# clean rule for target.
+CMakeFiles/ch15_ex10.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/clean
+.PHONY : CMakeFiles/ch15_ex10.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex10.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/credit_processing_system.dir
+
+# All Build rule for target.
+CMakeFiles/credit_processing_system.dir/all:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/depend
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=29,30,31 "Built target credit_processing_system"
+.PHONY : CMakeFiles/credit_processing_system.dir/all
+
+# Include target in all.
+all: CMakeFiles/credit_processing_system.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/credit_processing_system.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/credit_processing_system.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/credit_processing_system.dir/rule
+
+# Convenience name for target.
+credit_processing_system: CMakeFiles/credit_processing_system.dir/rule
+
+.PHONY : credit_processing_system
+
+# clean rule for target.
+CMakeFiles/credit_processing_system.dir/clean:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/clean
+.PHONY : CMakeFiles/credit_processing_system.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/credit_processing_system.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex13.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex13.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=11,12 "Built target ch15_ex13"
+.PHONY : CMakeFiles/ch15_ex13.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex13.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex13.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex13.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex13.dir/rule
+
+# Convenience name for target.
+ch15_ex13: CMakeFiles/ch15_ex13.dir/rule
+
+.PHONY : ch15_ex13
+
+# clean rule for target.
+CMakeFiles/ch15_ex13.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/clean
+.PHONY : CMakeFiles/ch15_ex13.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex13.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stream_input_main.dir
+
+# All Build rule for target.
+CMakeFiles/stream_input_main.dir/all:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/depend
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=46,47 "Built target stream_input_main"
+.PHONY : CMakeFiles/stream_input_main.dir/all
+
+# Include target in all.
+all: CMakeFiles/stream_input_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stream_input_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stream_input_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/stream_input_main.dir/rule
+
+# Convenience name for target.
+stream_input_main: CMakeFiles/stream_input_main.dir/rule
+
+.PHONY : stream_input_main
+
+# clean rule for target.
+CMakeFiles/stream_input_main.dir/clean:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/clean
+.PHONY : CMakeFiles/stream_input_main.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/stream_input_main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fig_14_03.dir
+
+# All Build rule for target.
+CMakeFiles/fig_14_03.dir/all:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/depend
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=35,36 "Built target fig_14_03"
+.PHONY : CMakeFiles/fig_14_03.dir/all
+
+# Include target in all.
+all: CMakeFiles/fig_14_03.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fig_14_03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fig_14_03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/fig_14_03.dir/rule
+
+# Convenience name for target.
+fig_14_03: CMakeFiles/fig_14_03.dir/rule
+
+.PHONY : fig_14_03
+
+# clean rule for target.
+CMakeFiles/fig_14_03.dir/clean:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/clean
+.PHONY : CMakeFiles/fig_14_03.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fig_14_03.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/overloading_increment_operators.dir
+
+# All Build rule for target.
+CMakeFiles/overloading_increment_operators.dir/all:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/depend
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=43,44,45 "Built target overloading_increment_operators"
+.PHONY : CMakeFiles/overloading_increment_operators.dir/all
+
+# Include target in all.
+all: CMakeFiles/overloading_increment_operators.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/overloading_increment_operators.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/overloading_increment_operators.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/overloading_increment_operators.dir/rule
+
+# Convenience name for target.
+overloading_increment_operators: CMakeFiles/overloading_increment_operators.dir/rule
+
+.PHONY : overloading_increment_operators
+
+# clean rule for target.
+CMakeFiles/overloading_increment_operators.dir/clean:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/clean
+.PHONY : CMakeFiles/overloading_increment_operators.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/overloading_increment_operators.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/manipulator_widthValue.dir
+
+# All Build rule for target.
+CMakeFiles/manipulator_widthValue.dir/all:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/depend
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=39,40 "Built target manipulator_widthValue"
+.PHONY : CMakeFiles/manipulator_widthValue.dir/all
+
+# Include target in all.
+all: CMakeFiles/manipulator_widthValue.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/manipulator_widthValue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/manipulator_widthValue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/manipulator_widthValue.dir/rule
+
+# Convenience name for target.
+manipulator_widthValue: CMakeFiles/manipulator_widthValue.dir/rule
+
+.PHONY : manipulator_widthValue
+
+# clean rule for target.
+CMakeFiles/manipulator_widthValue.dir/clean:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/clean
+.PHONY : CMakeFiles/manipulator_widthValue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/manipulator_widthValue.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch16_04.dir
+
+# All Build rule for target.
+CMakeFiles/ch16_04.dir/all:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/depend
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=25,26 "Built target ch16_04"
+.PHONY : CMakeFiles/ch16_04.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch16_04.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch16_04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch16_04.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch16_04.dir/rule
+
+# Convenience name for target.
+ch16_04: CMakeFiles/ch16_04.dir/rule
+
+.PHONY : ch16_04
+
+# clean rule for target.
+CMakeFiles/ch16_04.dir/clean:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/clean
+.PHONY : CMakeFiles/ch16_04.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch16_04.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch16_03.dir
+
+# All Build rule for target.
+CMakeFiles/ch16_03.dir/all:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/depend
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=23,24 "Built target ch16_03"
+.PHONY : CMakeFiles/ch16_03.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch16_03.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch16_03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch16_03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch16_03.dir/rule
+
+# Convenience name for target.
+ch16_03: CMakeFiles/ch16_03.dir/rule
+
+.PHONY : ch16_03
+
+# clean rule for target.
+CMakeFiles/ch16_03.dir/clean:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/clean
+.PHONY : CMakeFiles/ch16_03.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch16_03.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex21.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex21.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=17,18 "Built target ch15_ex21"
+.PHONY : CMakeFiles/ch15_ex21.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex21.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex21.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex21.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex21.dir/rule
+
+# Convenience name for target.
+ch15_ex21: CMakeFiles/ch15_ex21.dir/rule
+
+.PHONY : ch15_ex21
+
+# clean rule for target.
+CMakeFiles/ch15_ex21.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/clean
+.PHONY : CMakeFiles/ch15_ex21.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex21.dir/clean
 
 .PHONY : clean
 
@@ -134,39 +689,39 @@ clean: CMakeFiles/adt_compare.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/overloading_increment_operators.dir
+# Target rules for target CMakeFiles/ch15_ex04.dir
 
 # All Build rule for target.
-CMakeFiles/overloading_increment_operators.dir/all:
-	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/depend
-	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=8,9,10 "Built target overloading_increment_operators"
-.PHONY : CMakeFiles/overloading_increment_operators.dir/all
+CMakeFiles/ch15_ex04.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=5,6 "Built target ch15_ex04"
+.PHONY : CMakeFiles/ch15_ex04.dir/all
 
 # Include target in all.
-all: CMakeFiles/overloading_increment_operators.dir/all
+all: CMakeFiles/ch15_ex04.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/overloading_increment_operators.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/overloading_increment_operators.dir/all
+CMakeFiles/ch15_ex04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
-.PHONY : CMakeFiles/overloading_increment_operators.dir/rule
+.PHONY : CMakeFiles/ch15_ex04.dir/rule
 
 # Convenience name for target.
-overloading_increment_operators: CMakeFiles/overloading_increment_operators.dir/rule
+ch15_ex04: CMakeFiles/ch15_ex04.dir/rule
 
-.PHONY : overloading_increment_operators
-
-# clean rule for target.
-CMakeFiles/overloading_increment_operators.dir/clean:
-	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/clean
-.PHONY : CMakeFiles/overloading_increment_operators.dir/clean
+.PHONY : ch15_ex04
 
 # clean rule for target.
-clean: CMakeFiles/overloading_increment_operators.dir/clean
+CMakeFiles/ch15_ex04.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/clean
+.PHONY : CMakeFiles/ch15_ex04.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex04.dir/clean
 
 .PHONY : clean
 
@@ -177,7 +732,7 @@ clean: CMakeFiles/overloading_increment_operators.dir/clean
 CMakeFiles/demo_operator_overloading_with_custom_class.dir/all:
 	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/depend
 	$(MAKE) -f CMakeFiles/demo_operator_overloading_with_custom_class.dir/build.make CMakeFiles/demo_operator_overloading_with_custom_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=3,4,5 "Built target demo_operator_overloading_with_custom_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=32,33,34 "Built target demo_operator_overloading_with_custom_class"
 .PHONY : CMakeFiles/demo_operator_overloading_with_custom_class.dir/all
 
 # Include target in all.
@@ -214,7 +769,7 @@ clean: CMakeFiles/demo_operator_overloading_with_custom_class.dir/clean
 CMakeFiles/test_operator_overloading.dir/all:
 	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/depend
 	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=11,12,13 "Built target test_operator_overloading"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=48,49,50 "Built target test_operator_overloading"
 .PHONY : CMakeFiles/test_operator_overloading.dir/all
 
 # Include target in all.
@@ -241,6 +796,117 @@ CMakeFiles/test_operator_overloading.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/test_operator_overloading.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch15_ex14.dir
+
+# All Build rule for target.
+CMakeFiles/ch15_ex14.dir/all:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/depend
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=13,14 "Built target ch15_ex14"
+.PHONY : CMakeFiles/ch15_ex14.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch15_ex14.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch15_ex14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch15_ex14.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch15_ex14.dir/rule
+
+# Convenience name for target.
+ch15_ex14: CMakeFiles/ch15_ex14.dir/rule
+
+.PHONY : ch15_ex14
+
+# clean rule for target.
+CMakeFiles/ch15_ex14.dir/clean:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/clean
+.PHONY : CMakeFiles/ch15_ex14.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch15_ex14.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fig_14_06.dir
+
+# All Build rule for target.
+CMakeFiles/fig_14_06.dir/all:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/depend
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=37,38 "Built target fig_14_06"
+.PHONY : CMakeFiles/fig_14_06.dir/all
+
+# Include target in all.
+all: CMakeFiles/fig_14_06.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fig_14_06.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fig_14_06.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/fig_14_06.dir/rule
+
+# Convenience name for target.
+fig_14_06: CMakeFiles/fig_14_06.dir/rule
+
+.PHONY : fig_14_06
+
+# clean rule for target.
+CMakeFiles/fig_14_06.dir/clean:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/clean
+.PHONY : CMakeFiles/fig_14_06.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/fig_14_06.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/basics_prefix_vs_postfix_operator.dir
+
+# All Build rule for target.
+CMakeFiles/basics_prefix_vs_postfix_operator.dir/all:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/depend
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles --progress-num=3,4 "Built target basics_prefix_vs_postfix_operator"
+.PHONY : CMakeFiles/basics_prefix_vs_postfix_operator.dir/all
+
+# Include target in all.
+all: CMakeFiles/basics_prefix_vs_postfix_operator.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/basics_prefix_vs_postfix_operator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/basics_prefix_vs_postfix_operator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_fundamental/build/CMakeFiles 0
+.PHONY : CMakeFiles/basics_prefix_vs_postfix_operator.dir/rule
+
+# Convenience name for target.
+basics_prefix_vs_postfix_operator: CMakeFiles/basics_prefix_vs_postfix_operator.dir/rule
+
+.PHONY : basics_prefix_vs_postfix_operator
+
+# clean rule for target.
+CMakeFiles/basics_prefix_vs_postfix_operator.dir/clean:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/clean
+.PHONY : CMakeFiles/basics_prefix_vs_postfix_operator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/basics_prefix_vs_postfix_operator.dir/clean
 
 .PHONY : clean
 

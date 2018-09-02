@@ -22,6 +22,12 @@ include_directories("${PROJECT_SOURCE_DIR}")
 # CMakeLists.txt contains the PROJECT() command)
 
 
+
+add_executable(
+        basics_prefix_vs_postfix_operator
+        basics/prefix_and_postfix_operator.cpp
+)
+
 # shows the basic operator overloading on a custom class
 # When using Binary Overloaed Operators as Non-Member Functions:
 # y < z is treated as if the call operator<(y, z)
@@ -51,4 +57,96 @@ add_executable(
 add_executable(
         memory_allignment
         basics/memory_allignment.cpp
+)
+
+
+
+add_executable(
+        stream_input_main
+        stream_input_and_output/stream_input_main.cpp
+)
+
+add_executable(
+        manipulator_widthValue
+        stream_input_and_output/stream_manipulators/widthValue_main.cpp
+)
+
+add_executable(
+        fig_14_03
+        file_processing/fig14_03.cpp
+)
+
+add_executable(
+        fig_14_06
+        file_processing/fig14_06.cpp
+)
+
+# shows the usage of RandomFile access
+add_executable(
+        credit_processing_system
+        file_processing/credit_processing_program/clientdata.cpp
+        file_processing/credit_processing_program/main.cpp
+)
+
+
+# Chapter 15
+add_executable(
+        ch15_ex04
+        container_and_literator/fig15_04.cpp
+)
+
+add_executable(
+        ch15_ex10
+        container_and_literator/fig15_10.cpp
+)
+
+add_executable(
+        ch15_ex11
+        container_and_literator/fig15_11.cpp
+)
+
+add_executable(
+        ch15_ex13
+        container_and_literator/fig15_13.cpp
+)
+
+add_executable(
+        ch15_ex14
+        container_and_literator/fig15_14.cpp
+)
+
+
+add_executable(
+        ch15_ex19
+        container_and_literator/fig15_19.cpp
+)
+
+add_executable(
+        ch15_ex21
+        container_and_literator/fig15_21.cpp
+)
+
+add_executable(
+        ch16_01
+        standard_algorithm/fig16_01.cpp
+)
+
+add_executable(
+        ch16_02
+        standard_algorithm/fig16_02.cpp
+)
+
+add_executable(
+        ch16_03
+        standard_algorithm/fig16_03.cpp
+)
+
+add_executable(
+        ch16_04
+        standard_algorithm/fig16_04.cpp
+)
+
+add_executable(
+        ch16_08
+        standard_algorithm/fig16_08.cpp
 )

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Problem_Solving/C_C++_funda
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.10.2/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.10.2/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ch16_08
+
+# Build rule for target.
+ch16_08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch16_08
+.PHONY : ch16_08
+
+# fast build rule for target.
+ch16_08/fast:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/build
+.PHONY : ch16_08/fast
+
+#=============================================================================
+# Target rules for targets named ch16_02
+
+# Build rule for target.
+ch16_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch16_02
+.PHONY : ch16_02
+
+# fast build rule for target.
+ch16_02/fast:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/build
+.PHONY : ch16_02/fast
+
+#=============================================================================
 # Target rules for targets named memory_allignment
 
 # Build rule for target.
@@ -122,6 +148,175 @@ memory_allignment: cmake_check_build_system
 memory_allignment/fast:
 	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/build
 .PHONY : memory_allignment/fast
+
+#=============================================================================
+# Target rules for targets named ch16_01
+
+# Build rule for target.
+ch16_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch16_01
+.PHONY : ch16_01
+
+# fast build rule for target.
+ch16_01/fast:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/build
+.PHONY : ch16_01/fast
+
+#=============================================================================
+# Target rules for targets named ch15_ex11
+
+# Build rule for target.
+ch15_ex11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex11
+.PHONY : ch15_ex11
+
+# fast build rule for target.
+ch15_ex11/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/build
+.PHONY : ch15_ex11/fast
+
+#=============================================================================
+# Target rules for targets named ch15_ex19
+
+# Build rule for target.
+ch15_ex19: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex19
+.PHONY : ch15_ex19
+
+# fast build rule for target.
+ch15_ex19/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/build
+.PHONY : ch15_ex19/fast
+
+#=============================================================================
+# Target rules for targets named ch15_ex10
+
+# Build rule for target.
+ch15_ex10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex10
+.PHONY : ch15_ex10
+
+# fast build rule for target.
+ch15_ex10/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/build
+.PHONY : ch15_ex10/fast
+
+#=============================================================================
+# Target rules for targets named credit_processing_system
+
+# Build rule for target.
+credit_processing_system: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 credit_processing_system
+.PHONY : credit_processing_system
+
+# fast build rule for target.
+credit_processing_system/fast:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/build
+.PHONY : credit_processing_system/fast
+
+#=============================================================================
+# Target rules for targets named ch15_ex13
+
+# Build rule for target.
+ch15_ex13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex13
+.PHONY : ch15_ex13
+
+# fast build rule for target.
+ch15_ex13/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/build
+.PHONY : ch15_ex13/fast
+
+#=============================================================================
+# Target rules for targets named stream_input_main
+
+# Build rule for target.
+stream_input_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stream_input_main
+.PHONY : stream_input_main
+
+# fast build rule for target.
+stream_input_main/fast:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/build
+.PHONY : stream_input_main/fast
+
+#=============================================================================
+# Target rules for targets named fig_14_03
+
+# Build rule for target.
+fig_14_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fig_14_03
+.PHONY : fig_14_03
+
+# fast build rule for target.
+fig_14_03/fast:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/build
+.PHONY : fig_14_03/fast
+
+#=============================================================================
+# Target rules for targets named overloading_increment_operators
+
+# Build rule for target.
+overloading_increment_operators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 overloading_increment_operators
+.PHONY : overloading_increment_operators
+
+# fast build rule for target.
+overloading_increment_operators/fast:
+	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/build
+.PHONY : overloading_increment_operators/fast
+
+#=============================================================================
+# Target rules for targets named manipulator_widthValue
+
+# Build rule for target.
+manipulator_widthValue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 manipulator_widthValue
+.PHONY : manipulator_widthValue
+
+# fast build rule for target.
+manipulator_widthValue/fast:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/build
+.PHONY : manipulator_widthValue/fast
+
+#=============================================================================
+# Target rules for targets named ch16_04
+
+# Build rule for target.
+ch16_04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch16_04
+.PHONY : ch16_04
+
+# fast build rule for target.
+ch16_04/fast:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/build
+.PHONY : ch16_04/fast
+
+#=============================================================================
+# Target rules for targets named ch16_03
+
+# Build rule for target.
+ch16_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch16_03
+.PHONY : ch16_03
+
+# fast build rule for target.
+ch16_03/fast:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/build
+.PHONY : ch16_03/fast
+
+#=============================================================================
+# Target rules for targets named ch15_ex21
+
+# Build rule for target.
+ch15_ex21: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex21
+.PHONY : ch15_ex21
+
+# fast build rule for target.
+ch15_ex21/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/build
+.PHONY : ch15_ex21/fast
 
 #=============================================================================
 # Target rules for targets named adt_compare
@@ -137,17 +332,17 @@ adt_compare/fast:
 .PHONY : adt_compare/fast
 
 #=============================================================================
-# Target rules for targets named overloading_increment_operators
+# Target rules for targets named ch15_ex04
 
 # Build rule for target.
-overloading_increment_operators: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 overloading_increment_operators
-.PHONY : overloading_increment_operators
+ch15_ex04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex04
+.PHONY : ch15_ex04
 
 # fast build rule for target.
-overloading_increment_operators/fast:
-	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/build
-.PHONY : overloading_increment_operators/fast
+ch15_ex04/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/build
+.PHONY : ch15_ex04/fast
 
 #=============================================================================
 # Target rules for targets named demo_operator_overloading_with_custom_class
@@ -175,32 +370,71 @@ test_operator_overloading/fast:
 	$(MAKE) -f CMakeFiles/test_operator_overloading.dir/build.make CMakeFiles/test_operator_overloading.dir/build
 .PHONY : test_operator_overloading/fast
 
-ADT_implementation_in_C/main_generic_compare.o: ADT_implementation_in_C/main_generic_compare.cpp.o
+#=============================================================================
+# Target rules for targets named ch15_ex14
 
-.PHONY : ADT_implementation_in_C/main_generic_compare.o
+# Build rule for target.
+ch15_ex14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch15_ex14
+.PHONY : ch15_ex14
+
+# fast build rule for target.
+ch15_ex14/fast:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/build
+.PHONY : ch15_ex14/fast
+
+#=============================================================================
+# Target rules for targets named fig_14_06
+
+# Build rule for target.
+fig_14_06: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fig_14_06
+.PHONY : fig_14_06
+
+# fast build rule for target.
+fig_14_06/fast:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/build
+.PHONY : fig_14_06/fast
+
+#=============================================================================
+# Target rules for targets named basics_prefix_vs_postfix_operator
+
+# Build rule for target.
+basics_prefix_vs_postfix_operator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 basics_prefix_vs_postfix_operator
+.PHONY : basics_prefix_vs_postfix_operator
+
+# fast build rule for target.
+basics_prefix_vs_postfix_operator/fast:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/build
+.PHONY : basics_prefix_vs_postfix_operator/fast
+
+basics/ADT_implementation_in_C/main_generic_compare.o: basics/ADT_implementation_in_C/main_generic_compare.cpp.o
+
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.o
 
 # target to build an object file
-ADT_implementation_in_C/main_generic_compare.cpp.o:
-	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.o
-.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.o
+basics/ADT_implementation_in_C/main_generic_compare.cpp.o:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.o
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.cpp.o
 
-ADT_implementation_in_C/main_generic_compare.i: ADT_implementation_in_C/main_generic_compare.cpp.i
+basics/ADT_implementation_in_C/main_generic_compare.i: basics/ADT_implementation_in_C/main_generic_compare.cpp.i
 
-.PHONY : ADT_implementation_in_C/main_generic_compare.i
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.i
 
 # target to preprocess a source file
-ADT_implementation_in_C/main_generic_compare.cpp.i:
-	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.i
-.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.i
+basics/ADT_implementation_in_C/main_generic_compare.cpp.i:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.i
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.cpp.i
 
-ADT_implementation_in_C/main_generic_compare.s: ADT_implementation_in_C/main_generic_compare.cpp.s
+basics/ADT_implementation_in_C/main_generic_compare.s: basics/ADT_implementation_in_C/main_generic_compare.cpp.s
 
-.PHONY : ADT_implementation_in_C/main_generic_compare.s
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.s
 
 # target to generate assembly for a file
-ADT_implementation_in_C/main_generic_compare.cpp.s:
-	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/ADT_implementation_in_C/main_generic_compare.cpp.s
-.PHONY : ADT_implementation_in_C/main_generic_compare.cpp.s
+basics/ADT_implementation_in_C/main_generic_compare.cpp.s:
+	$(MAKE) -f CMakeFiles/adt_compare.dir/build.make CMakeFiles/adt_compare.dir/basics/ADT_implementation_in_C/main_generic_compare.cpp.s
+.PHONY : basics/ADT_implementation_in_C/main_generic_compare.cpp.s
 
 basics/memory_allignment.o: basics/memory_allignment.cpp.o
 
@@ -228,6 +462,330 @@ basics/memory_allignment.s: basics/memory_allignment.cpp.s
 basics/memory_allignment.cpp.s:
 	$(MAKE) -f CMakeFiles/memory_allignment.dir/build.make CMakeFiles/memory_allignment.dir/basics/memory_allignment.cpp.s
 .PHONY : basics/memory_allignment.cpp.s
+
+basics/prefix_and_postfix_operator.o: basics/prefix_and_postfix_operator.cpp.o
+
+.PHONY : basics/prefix_and_postfix_operator.o
+
+# target to build an object file
+basics/prefix_and_postfix_operator.cpp.o:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/basics/prefix_and_postfix_operator.cpp.o
+.PHONY : basics/prefix_and_postfix_operator.cpp.o
+
+basics/prefix_and_postfix_operator.i: basics/prefix_and_postfix_operator.cpp.i
+
+.PHONY : basics/prefix_and_postfix_operator.i
+
+# target to preprocess a source file
+basics/prefix_and_postfix_operator.cpp.i:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/basics/prefix_and_postfix_operator.cpp.i
+.PHONY : basics/prefix_and_postfix_operator.cpp.i
+
+basics/prefix_and_postfix_operator.s: basics/prefix_and_postfix_operator.cpp.s
+
+.PHONY : basics/prefix_and_postfix_operator.s
+
+# target to generate assembly for a file
+basics/prefix_and_postfix_operator.cpp.s:
+	$(MAKE) -f CMakeFiles/basics_prefix_vs_postfix_operator.dir/build.make CMakeFiles/basics_prefix_vs_postfix_operator.dir/basics/prefix_and_postfix_operator.cpp.s
+.PHONY : basics/prefix_and_postfix_operator.cpp.s
+
+container_and_literator/fig15_04.o: container_and_literator/fig15_04.cpp.o
+
+.PHONY : container_and_literator/fig15_04.o
+
+# target to build an object file
+container_and_literator/fig15_04.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/container_and_literator/fig15_04.cpp.o
+.PHONY : container_and_literator/fig15_04.cpp.o
+
+container_and_literator/fig15_04.i: container_and_literator/fig15_04.cpp.i
+
+.PHONY : container_and_literator/fig15_04.i
+
+# target to preprocess a source file
+container_and_literator/fig15_04.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/container_and_literator/fig15_04.cpp.i
+.PHONY : container_and_literator/fig15_04.cpp.i
+
+container_and_literator/fig15_04.s: container_and_literator/fig15_04.cpp.s
+
+.PHONY : container_and_literator/fig15_04.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_04.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex04.dir/build.make CMakeFiles/ch15_ex04.dir/container_and_literator/fig15_04.cpp.s
+.PHONY : container_and_literator/fig15_04.cpp.s
+
+container_and_literator/fig15_10.o: container_and_literator/fig15_10.cpp.o
+
+.PHONY : container_and_literator/fig15_10.o
+
+# target to build an object file
+container_and_literator/fig15_10.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/container_and_literator/fig15_10.cpp.o
+.PHONY : container_and_literator/fig15_10.cpp.o
+
+container_and_literator/fig15_10.i: container_and_literator/fig15_10.cpp.i
+
+.PHONY : container_and_literator/fig15_10.i
+
+# target to preprocess a source file
+container_and_literator/fig15_10.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/container_and_literator/fig15_10.cpp.i
+.PHONY : container_and_literator/fig15_10.cpp.i
+
+container_and_literator/fig15_10.s: container_and_literator/fig15_10.cpp.s
+
+.PHONY : container_and_literator/fig15_10.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_10.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex10.dir/build.make CMakeFiles/ch15_ex10.dir/container_and_literator/fig15_10.cpp.s
+.PHONY : container_and_literator/fig15_10.cpp.s
+
+container_and_literator/fig15_11.o: container_and_literator/fig15_11.cpp.o
+
+.PHONY : container_and_literator/fig15_11.o
+
+# target to build an object file
+container_and_literator/fig15_11.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/container_and_literator/fig15_11.cpp.o
+.PHONY : container_and_literator/fig15_11.cpp.o
+
+container_and_literator/fig15_11.i: container_and_literator/fig15_11.cpp.i
+
+.PHONY : container_and_literator/fig15_11.i
+
+# target to preprocess a source file
+container_and_literator/fig15_11.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/container_and_literator/fig15_11.cpp.i
+.PHONY : container_and_literator/fig15_11.cpp.i
+
+container_and_literator/fig15_11.s: container_and_literator/fig15_11.cpp.s
+
+.PHONY : container_and_literator/fig15_11.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_11.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex11.dir/build.make CMakeFiles/ch15_ex11.dir/container_and_literator/fig15_11.cpp.s
+.PHONY : container_and_literator/fig15_11.cpp.s
+
+container_and_literator/fig15_13.o: container_and_literator/fig15_13.cpp.o
+
+.PHONY : container_and_literator/fig15_13.o
+
+# target to build an object file
+container_and_literator/fig15_13.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/container_and_literator/fig15_13.cpp.o
+.PHONY : container_and_literator/fig15_13.cpp.o
+
+container_and_literator/fig15_13.i: container_and_literator/fig15_13.cpp.i
+
+.PHONY : container_and_literator/fig15_13.i
+
+# target to preprocess a source file
+container_and_literator/fig15_13.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/container_and_literator/fig15_13.cpp.i
+.PHONY : container_and_literator/fig15_13.cpp.i
+
+container_and_literator/fig15_13.s: container_and_literator/fig15_13.cpp.s
+
+.PHONY : container_and_literator/fig15_13.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_13.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex13.dir/build.make CMakeFiles/ch15_ex13.dir/container_and_literator/fig15_13.cpp.s
+.PHONY : container_and_literator/fig15_13.cpp.s
+
+container_and_literator/fig15_14.o: container_and_literator/fig15_14.cpp.o
+
+.PHONY : container_and_literator/fig15_14.o
+
+# target to build an object file
+container_and_literator/fig15_14.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/container_and_literator/fig15_14.cpp.o
+.PHONY : container_and_literator/fig15_14.cpp.o
+
+container_and_literator/fig15_14.i: container_and_literator/fig15_14.cpp.i
+
+.PHONY : container_and_literator/fig15_14.i
+
+# target to preprocess a source file
+container_and_literator/fig15_14.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/container_and_literator/fig15_14.cpp.i
+.PHONY : container_and_literator/fig15_14.cpp.i
+
+container_and_literator/fig15_14.s: container_and_literator/fig15_14.cpp.s
+
+.PHONY : container_and_literator/fig15_14.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_14.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex14.dir/build.make CMakeFiles/ch15_ex14.dir/container_and_literator/fig15_14.cpp.s
+.PHONY : container_and_literator/fig15_14.cpp.s
+
+container_and_literator/fig15_19.o: container_and_literator/fig15_19.cpp.o
+
+.PHONY : container_and_literator/fig15_19.o
+
+# target to build an object file
+container_and_literator/fig15_19.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/container_and_literator/fig15_19.cpp.o
+.PHONY : container_and_literator/fig15_19.cpp.o
+
+container_and_literator/fig15_19.i: container_and_literator/fig15_19.cpp.i
+
+.PHONY : container_and_literator/fig15_19.i
+
+# target to preprocess a source file
+container_and_literator/fig15_19.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/container_and_literator/fig15_19.cpp.i
+.PHONY : container_and_literator/fig15_19.cpp.i
+
+container_and_literator/fig15_19.s: container_and_literator/fig15_19.cpp.s
+
+.PHONY : container_and_literator/fig15_19.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_19.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex19.dir/build.make CMakeFiles/ch15_ex19.dir/container_and_literator/fig15_19.cpp.s
+.PHONY : container_and_literator/fig15_19.cpp.s
+
+container_and_literator/fig15_21.o: container_and_literator/fig15_21.cpp.o
+
+.PHONY : container_and_literator/fig15_21.o
+
+# target to build an object file
+container_and_literator/fig15_21.cpp.o:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/container_and_literator/fig15_21.cpp.o
+.PHONY : container_and_literator/fig15_21.cpp.o
+
+container_and_literator/fig15_21.i: container_and_literator/fig15_21.cpp.i
+
+.PHONY : container_and_literator/fig15_21.i
+
+# target to preprocess a source file
+container_and_literator/fig15_21.cpp.i:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/container_and_literator/fig15_21.cpp.i
+.PHONY : container_and_literator/fig15_21.cpp.i
+
+container_and_literator/fig15_21.s: container_and_literator/fig15_21.cpp.s
+
+.PHONY : container_and_literator/fig15_21.s
+
+# target to generate assembly for a file
+container_and_literator/fig15_21.cpp.s:
+	$(MAKE) -f CMakeFiles/ch15_ex21.dir/build.make CMakeFiles/ch15_ex21.dir/container_and_literator/fig15_21.cpp.s
+.PHONY : container_and_literator/fig15_21.cpp.s
+
+file_processing/credit_processing_program/clientdata.o: file_processing/credit_processing_program/clientdata.cpp.o
+
+.PHONY : file_processing/credit_processing_program/clientdata.o
+
+# target to build an object file
+file_processing/credit_processing_program/clientdata.cpp.o:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/clientdata.cpp.o
+.PHONY : file_processing/credit_processing_program/clientdata.cpp.o
+
+file_processing/credit_processing_program/clientdata.i: file_processing/credit_processing_program/clientdata.cpp.i
+
+.PHONY : file_processing/credit_processing_program/clientdata.i
+
+# target to preprocess a source file
+file_processing/credit_processing_program/clientdata.cpp.i:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/clientdata.cpp.i
+.PHONY : file_processing/credit_processing_program/clientdata.cpp.i
+
+file_processing/credit_processing_program/clientdata.s: file_processing/credit_processing_program/clientdata.cpp.s
+
+.PHONY : file_processing/credit_processing_program/clientdata.s
+
+# target to generate assembly for a file
+file_processing/credit_processing_program/clientdata.cpp.s:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/clientdata.cpp.s
+.PHONY : file_processing/credit_processing_program/clientdata.cpp.s
+
+file_processing/credit_processing_program/main.o: file_processing/credit_processing_program/main.cpp.o
+
+.PHONY : file_processing/credit_processing_program/main.o
+
+# target to build an object file
+file_processing/credit_processing_program/main.cpp.o:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/main.cpp.o
+.PHONY : file_processing/credit_processing_program/main.cpp.o
+
+file_processing/credit_processing_program/main.i: file_processing/credit_processing_program/main.cpp.i
+
+.PHONY : file_processing/credit_processing_program/main.i
+
+# target to preprocess a source file
+file_processing/credit_processing_program/main.cpp.i:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/main.cpp.i
+.PHONY : file_processing/credit_processing_program/main.cpp.i
+
+file_processing/credit_processing_program/main.s: file_processing/credit_processing_program/main.cpp.s
+
+.PHONY : file_processing/credit_processing_program/main.s
+
+# target to generate assembly for a file
+file_processing/credit_processing_program/main.cpp.s:
+	$(MAKE) -f CMakeFiles/credit_processing_system.dir/build.make CMakeFiles/credit_processing_system.dir/file_processing/credit_processing_program/main.cpp.s
+.PHONY : file_processing/credit_processing_program/main.cpp.s
+
+file_processing/fig14_03.o: file_processing/fig14_03.cpp.o
+
+.PHONY : file_processing/fig14_03.o
+
+# target to build an object file
+file_processing/fig14_03.cpp.o:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/file_processing/fig14_03.cpp.o
+.PHONY : file_processing/fig14_03.cpp.o
+
+file_processing/fig14_03.i: file_processing/fig14_03.cpp.i
+
+.PHONY : file_processing/fig14_03.i
+
+# target to preprocess a source file
+file_processing/fig14_03.cpp.i:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/file_processing/fig14_03.cpp.i
+.PHONY : file_processing/fig14_03.cpp.i
+
+file_processing/fig14_03.s: file_processing/fig14_03.cpp.s
+
+.PHONY : file_processing/fig14_03.s
+
+# target to generate assembly for a file
+file_processing/fig14_03.cpp.s:
+	$(MAKE) -f CMakeFiles/fig_14_03.dir/build.make CMakeFiles/fig_14_03.dir/file_processing/fig14_03.cpp.s
+.PHONY : file_processing/fig14_03.cpp.s
+
+file_processing/fig14_06.o: file_processing/fig14_06.cpp.o
+
+.PHONY : file_processing/fig14_06.o
+
+# target to build an object file
+file_processing/fig14_06.cpp.o:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/file_processing/fig14_06.cpp.o
+.PHONY : file_processing/fig14_06.cpp.o
+
+file_processing/fig14_06.i: file_processing/fig14_06.cpp.i
+
+.PHONY : file_processing/fig14_06.i
+
+# target to preprocess a source file
+file_processing/fig14_06.cpp.i:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/file_processing/fig14_06.cpp.i
+.PHONY : file_processing/fig14_06.cpp.i
+
+file_processing/fig14_06.s: file_processing/fig14_06.cpp.s
+
+.PHONY : file_processing/fig14_06.s
+
+# target to generate assembly for a file
+file_processing/fig14_06.cpp.s:
+	$(MAKE) -f CMakeFiles/fig_14_06.dir/build.make CMakeFiles/fig_14_06.dir/file_processing/fig14_06.cpp.s
+.PHONY : file_processing/fig14_06.cpp.s
 
 operator_overloading/binary_operator_overloading_as_nonmember_function/main.o: operator_overloading/binary_operator_overloading_as_nonmember_function/main.cpp.o
 
@@ -391,25 +949,268 @@ operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s:
 	$(MAKE) -f CMakeFiles/overloading_increment_operators.dir/build.make CMakeFiles/overloading_increment_operators.dir/operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s
 .PHONY : operator_overloading/unary_operator_overloading_as_member_function/main.cpp.s
 
+standard_algorithm/fig16_01.o: standard_algorithm/fig16_01.cpp.o
+
+.PHONY : standard_algorithm/fig16_01.o
+
+# target to build an object file
+standard_algorithm/fig16_01.cpp.o:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/standard_algorithm/fig16_01.cpp.o
+.PHONY : standard_algorithm/fig16_01.cpp.o
+
+standard_algorithm/fig16_01.i: standard_algorithm/fig16_01.cpp.i
+
+.PHONY : standard_algorithm/fig16_01.i
+
+# target to preprocess a source file
+standard_algorithm/fig16_01.cpp.i:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/standard_algorithm/fig16_01.cpp.i
+.PHONY : standard_algorithm/fig16_01.cpp.i
+
+standard_algorithm/fig16_01.s: standard_algorithm/fig16_01.cpp.s
+
+.PHONY : standard_algorithm/fig16_01.s
+
+# target to generate assembly for a file
+standard_algorithm/fig16_01.cpp.s:
+	$(MAKE) -f CMakeFiles/ch16_01.dir/build.make CMakeFiles/ch16_01.dir/standard_algorithm/fig16_01.cpp.s
+.PHONY : standard_algorithm/fig16_01.cpp.s
+
+standard_algorithm/fig16_02.o: standard_algorithm/fig16_02.cpp.o
+
+.PHONY : standard_algorithm/fig16_02.o
+
+# target to build an object file
+standard_algorithm/fig16_02.cpp.o:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/standard_algorithm/fig16_02.cpp.o
+.PHONY : standard_algorithm/fig16_02.cpp.o
+
+standard_algorithm/fig16_02.i: standard_algorithm/fig16_02.cpp.i
+
+.PHONY : standard_algorithm/fig16_02.i
+
+# target to preprocess a source file
+standard_algorithm/fig16_02.cpp.i:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/standard_algorithm/fig16_02.cpp.i
+.PHONY : standard_algorithm/fig16_02.cpp.i
+
+standard_algorithm/fig16_02.s: standard_algorithm/fig16_02.cpp.s
+
+.PHONY : standard_algorithm/fig16_02.s
+
+# target to generate assembly for a file
+standard_algorithm/fig16_02.cpp.s:
+	$(MAKE) -f CMakeFiles/ch16_02.dir/build.make CMakeFiles/ch16_02.dir/standard_algorithm/fig16_02.cpp.s
+.PHONY : standard_algorithm/fig16_02.cpp.s
+
+standard_algorithm/fig16_03.o: standard_algorithm/fig16_03.cpp.o
+
+.PHONY : standard_algorithm/fig16_03.o
+
+# target to build an object file
+standard_algorithm/fig16_03.cpp.o:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/standard_algorithm/fig16_03.cpp.o
+.PHONY : standard_algorithm/fig16_03.cpp.o
+
+standard_algorithm/fig16_03.i: standard_algorithm/fig16_03.cpp.i
+
+.PHONY : standard_algorithm/fig16_03.i
+
+# target to preprocess a source file
+standard_algorithm/fig16_03.cpp.i:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/standard_algorithm/fig16_03.cpp.i
+.PHONY : standard_algorithm/fig16_03.cpp.i
+
+standard_algorithm/fig16_03.s: standard_algorithm/fig16_03.cpp.s
+
+.PHONY : standard_algorithm/fig16_03.s
+
+# target to generate assembly for a file
+standard_algorithm/fig16_03.cpp.s:
+	$(MAKE) -f CMakeFiles/ch16_03.dir/build.make CMakeFiles/ch16_03.dir/standard_algorithm/fig16_03.cpp.s
+.PHONY : standard_algorithm/fig16_03.cpp.s
+
+standard_algorithm/fig16_04.o: standard_algorithm/fig16_04.cpp.o
+
+.PHONY : standard_algorithm/fig16_04.o
+
+# target to build an object file
+standard_algorithm/fig16_04.cpp.o:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/standard_algorithm/fig16_04.cpp.o
+.PHONY : standard_algorithm/fig16_04.cpp.o
+
+standard_algorithm/fig16_04.i: standard_algorithm/fig16_04.cpp.i
+
+.PHONY : standard_algorithm/fig16_04.i
+
+# target to preprocess a source file
+standard_algorithm/fig16_04.cpp.i:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/standard_algorithm/fig16_04.cpp.i
+.PHONY : standard_algorithm/fig16_04.cpp.i
+
+standard_algorithm/fig16_04.s: standard_algorithm/fig16_04.cpp.s
+
+.PHONY : standard_algorithm/fig16_04.s
+
+# target to generate assembly for a file
+standard_algorithm/fig16_04.cpp.s:
+	$(MAKE) -f CMakeFiles/ch16_04.dir/build.make CMakeFiles/ch16_04.dir/standard_algorithm/fig16_04.cpp.s
+.PHONY : standard_algorithm/fig16_04.cpp.s
+
+standard_algorithm/fig16_08.o: standard_algorithm/fig16_08.cpp.o
+
+.PHONY : standard_algorithm/fig16_08.o
+
+# target to build an object file
+standard_algorithm/fig16_08.cpp.o:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/standard_algorithm/fig16_08.cpp.o
+.PHONY : standard_algorithm/fig16_08.cpp.o
+
+standard_algorithm/fig16_08.i: standard_algorithm/fig16_08.cpp.i
+
+.PHONY : standard_algorithm/fig16_08.i
+
+# target to preprocess a source file
+standard_algorithm/fig16_08.cpp.i:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/standard_algorithm/fig16_08.cpp.i
+.PHONY : standard_algorithm/fig16_08.cpp.i
+
+standard_algorithm/fig16_08.s: standard_algorithm/fig16_08.cpp.s
+
+.PHONY : standard_algorithm/fig16_08.s
+
+# target to generate assembly for a file
+standard_algorithm/fig16_08.cpp.s:
+	$(MAKE) -f CMakeFiles/ch16_08.dir/build.make CMakeFiles/ch16_08.dir/standard_algorithm/fig16_08.cpp.s
+.PHONY : standard_algorithm/fig16_08.cpp.s
+
+stream_input_and_output/stream_input_main.o: stream_input_and_output/stream_input_main.cpp.o
+
+.PHONY : stream_input_and_output/stream_input_main.o
+
+# target to build an object file
+stream_input_and_output/stream_input_main.cpp.o:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/stream_input_and_output/stream_input_main.cpp.o
+.PHONY : stream_input_and_output/stream_input_main.cpp.o
+
+stream_input_and_output/stream_input_main.i: stream_input_and_output/stream_input_main.cpp.i
+
+.PHONY : stream_input_and_output/stream_input_main.i
+
+# target to preprocess a source file
+stream_input_and_output/stream_input_main.cpp.i:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/stream_input_and_output/stream_input_main.cpp.i
+.PHONY : stream_input_and_output/stream_input_main.cpp.i
+
+stream_input_and_output/stream_input_main.s: stream_input_and_output/stream_input_main.cpp.s
+
+.PHONY : stream_input_and_output/stream_input_main.s
+
+# target to generate assembly for a file
+stream_input_and_output/stream_input_main.cpp.s:
+	$(MAKE) -f CMakeFiles/stream_input_main.dir/build.make CMakeFiles/stream_input_main.dir/stream_input_and_output/stream_input_main.cpp.s
+.PHONY : stream_input_and_output/stream_input_main.cpp.s
+
+stream_input_and_output/stream_manipulators/widthValue_main.o: stream_input_and_output/stream_manipulators/widthValue_main.cpp.o
+
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.o
+
+# target to build an object file
+stream_input_and_output/stream_manipulators/widthValue_main.cpp.o:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/stream_input_and_output/stream_manipulators/widthValue_main.cpp.o
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.cpp.o
+
+stream_input_and_output/stream_manipulators/widthValue_main.i: stream_input_and_output/stream_manipulators/widthValue_main.cpp.i
+
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.i
+
+# target to preprocess a source file
+stream_input_and_output/stream_manipulators/widthValue_main.cpp.i:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/stream_input_and_output/stream_manipulators/widthValue_main.cpp.i
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.cpp.i
+
+stream_input_and_output/stream_manipulators/widthValue_main.s: stream_input_and_output/stream_manipulators/widthValue_main.cpp.s
+
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.s
+
+# target to generate assembly for a file
+stream_input_and_output/stream_manipulators/widthValue_main.cpp.s:
+	$(MAKE) -f CMakeFiles/manipulator_widthValue.dir/build.make CMakeFiles/manipulator_widthValue.dir/stream_input_and_output/stream_manipulators/widthValue_main.cpp.s
+.PHONY : stream_input_and_output/stream_manipulators/widthValue_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... memory_allignment"
 	@echo "... edit_cache"
-	@echo "... adt_compare"
+	@echo "... ch16_08"
+	@echo "... ch16_02"
+	@echo "... memory_allignment"
+	@echo "... ch16_01"
+	@echo "... rebuild_cache"
+	@echo "... ch15_ex11"
+	@echo "... ch15_ex19"
+	@echo "... ch15_ex10"
+	@echo "... credit_processing_system"
+	@echo "... ch15_ex13"
+	@echo "... stream_input_main"
+	@echo "... fig_14_03"
 	@echo "... overloading_increment_operators"
+	@echo "... manipulator_widthValue"
+	@echo "... ch16_04"
+	@echo "... ch16_03"
+	@echo "... ch15_ex21"
+	@echo "... adt_compare"
+	@echo "... ch15_ex04"
 	@echo "... demo_operator_overloading_with_custom_class"
 	@echo "... test_operator_overloading"
-	@echo "... ADT_implementation_in_C/main_generic_compare.o"
-	@echo "... ADT_implementation_in_C/main_generic_compare.i"
-	@echo "... ADT_implementation_in_C/main_generic_compare.s"
+	@echo "... ch15_ex14"
+	@echo "... fig_14_06"
+	@echo "... basics_prefix_vs_postfix_operator"
+	@echo "... basics/ADT_implementation_in_C/main_generic_compare.o"
+	@echo "... basics/ADT_implementation_in_C/main_generic_compare.i"
+	@echo "... basics/ADT_implementation_in_C/main_generic_compare.s"
 	@echo "... basics/memory_allignment.o"
 	@echo "... basics/memory_allignment.i"
 	@echo "... basics/memory_allignment.s"
+	@echo "... basics/prefix_and_postfix_operator.o"
+	@echo "... basics/prefix_and_postfix_operator.i"
+	@echo "... basics/prefix_and_postfix_operator.s"
+	@echo "... container_and_literator/fig15_04.o"
+	@echo "... container_and_literator/fig15_04.i"
+	@echo "... container_and_literator/fig15_04.s"
+	@echo "... container_and_literator/fig15_10.o"
+	@echo "... container_and_literator/fig15_10.i"
+	@echo "... container_and_literator/fig15_10.s"
+	@echo "... container_and_literator/fig15_11.o"
+	@echo "... container_and_literator/fig15_11.i"
+	@echo "... container_and_literator/fig15_11.s"
+	@echo "... container_and_literator/fig15_13.o"
+	@echo "... container_and_literator/fig15_13.i"
+	@echo "... container_and_literator/fig15_13.s"
+	@echo "... container_and_literator/fig15_14.o"
+	@echo "... container_and_literator/fig15_14.i"
+	@echo "... container_and_literator/fig15_14.s"
+	@echo "... container_and_literator/fig15_19.o"
+	@echo "... container_and_literator/fig15_19.i"
+	@echo "... container_and_literator/fig15_19.s"
+	@echo "... container_and_literator/fig15_21.o"
+	@echo "... container_and_literator/fig15_21.i"
+	@echo "... container_and_literator/fig15_21.s"
+	@echo "... file_processing/credit_processing_program/clientdata.o"
+	@echo "... file_processing/credit_processing_program/clientdata.i"
+	@echo "... file_processing/credit_processing_program/clientdata.s"
+	@echo "... file_processing/credit_processing_program/main.o"
+	@echo "... file_processing/credit_processing_program/main.i"
+	@echo "... file_processing/credit_processing_program/main.s"
+	@echo "... file_processing/fig14_03.o"
+	@echo "... file_processing/fig14_03.i"
+	@echo "... file_processing/fig14_03.s"
+	@echo "... file_processing/fig14_06.o"
+	@echo "... file_processing/fig14_06.i"
+	@echo "... file_processing/fig14_06.s"
 	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.o"
 	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.i"
 	@echo "... operator_overloading/binary_operator_overloading_as_nonmember_function/main.s"
@@ -428,6 +1229,27 @@ help:
 	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.o"
 	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.i"
 	@echo "... operator_overloading/unary_operator_overloading_as_member_function/main.s"
+	@echo "... standard_algorithm/fig16_01.o"
+	@echo "... standard_algorithm/fig16_01.i"
+	@echo "... standard_algorithm/fig16_01.s"
+	@echo "... standard_algorithm/fig16_02.o"
+	@echo "... standard_algorithm/fig16_02.i"
+	@echo "... standard_algorithm/fig16_02.s"
+	@echo "... standard_algorithm/fig16_03.o"
+	@echo "... standard_algorithm/fig16_03.i"
+	@echo "... standard_algorithm/fig16_03.s"
+	@echo "... standard_algorithm/fig16_04.o"
+	@echo "... standard_algorithm/fig16_04.i"
+	@echo "... standard_algorithm/fig16_04.s"
+	@echo "... standard_algorithm/fig16_08.o"
+	@echo "... standard_algorithm/fig16_08.i"
+	@echo "... standard_algorithm/fig16_08.s"
+	@echo "... stream_input_and_output/stream_input_main.o"
+	@echo "... stream_input_and_output/stream_input_main.i"
+	@echo "... stream_input_and_output/stream_input_main.s"
+	@echo "... stream_input_and_output/stream_manipulators/widthValue_main.o"
+	@echo "... stream_input_and_output/stream_manipulators/widthValue_main.i"
+	@echo "... stream_input_and_output/stream_manipulators/widthValue_main.s"
 .PHONY : help
 
 
