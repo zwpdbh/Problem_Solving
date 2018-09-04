@@ -137,7 +137,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Numberical_Methods
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -203,6 +203,12 @@ Numberical_Methods_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_S
 
 //Value Computed by CMake
 Numberical_Methods_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers/build
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Problem_Solving/Numberical_Methods_for_Engineers
 
 
 ########################

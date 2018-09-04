@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ch02_main
+# Target rules for targets named ch03_example
 
 # Build rule for target.
-ch02_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ch02_main
-.PHONY : ch02_main
+ch03_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch03_example
+.PHONY : ch03_example
 
 # fast build rule for target.
-ch02_main/fast:
-	$(MAKE) -f CMakeFiles/ch02_main.dir/build.make CMakeFiles/ch02_main.dir/build
-.PHONY : ch02_main/fast
+ch03_example/fast:
+	$(MAKE) -f CMakeFiles/ch03_example.dir/build.make CMakeFiles/ch03_example.dir/build
+.PHONY : ch03_example/fast
 
-ch02/ch02_main.o: ch02/ch02_main.cpp.o
+ch03_approximation_and_round_off_error/main.o: ch03_approximation_and_round_off_error/main.cpp.o
 
-.PHONY : ch02/ch02_main.o
+.PHONY : ch03_approximation_and_round_off_error/main.o
 
 # target to build an object file
-ch02/ch02_main.cpp.o:
-	$(MAKE) -f CMakeFiles/ch02_main.dir/build.make CMakeFiles/ch02_main.dir/ch02/ch02_main.cpp.o
-.PHONY : ch02/ch02_main.cpp.o
+ch03_approximation_and_round_off_error/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch03_example.dir/build.make CMakeFiles/ch03_example.dir/ch03_approximation_and_round_off_error/main.cpp.o
+.PHONY : ch03_approximation_and_round_off_error/main.cpp.o
 
-ch02/ch02_main.i: ch02/ch02_main.cpp.i
+ch03_approximation_and_round_off_error/main.i: ch03_approximation_and_round_off_error/main.cpp.i
 
-.PHONY : ch02/ch02_main.i
+.PHONY : ch03_approximation_and_round_off_error/main.i
 
 # target to preprocess a source file
-ch02/ch02_main.cpp.i:
-	$(MAKE) -f CMakeFiles/ch02_main.dir/build.make CMakeFiles/ch02_main.dir/ch02/ch02_main.cpp.i
-.PHONY : ch02/ch02_main.cpp.i
+ch03_approximation_and_round_off_error/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch03_example.dir/build.make CMakeFiles/ch03_example.dir/ch03_approximation_and_round_off_error/main.cpp.i
+.PHONY : ch03_approximation_and_round_off_error/main.cpp.i
 
-ch02/ch02_main.s: ch02/ch02_main.cpp.s
+ch03_approximation_and_round_off_error/main.s: ch03_approximation_and_round_off_error/main.cpp.s
 
-.PHONY : ch02/ch02_main.s
+.PHONY : ch03_approximation_and_round_off_error/main.s
 
 # target to generate assembly for a file
-ch02/ch02_main.cpp.s:
-	$(MAKE) -f CMakeFiles/ch02_main.dir/build.make CMakeFiles/ch02_main.dir/ch02/ch02_main.cpp.s
-.PHONY : ch02/ch02_main.cpp.s
+ch03_approximation_and_round_off_error/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch03_example.dir/build.make CMakeFiles/ch03_example.dir/ch03_approximation_and_round_off_error/main.cpp.s
+.PHONY : ch03_approximation_and_round_off_error/main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ch02_main"
-	@echo "... ch02/ch02_main.o"
-	@echo "... ch02/ch02_main.i"
-	@echo "... ch02/ch02_main.s"
+	@echo "... ch03_example"
+	@echo "... ch03_approximation_and_round_off_error/main.o"
+	@echo "... ch03_approximation_and_round_off_error/main.i"
+	@echo "... ch03_approximation_and_round_off_error/main.s"
 .PHONY : help
 
 

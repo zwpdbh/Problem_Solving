@@ -41,20 +41,23 @@ int main() {
     cout << "The relative true error = " << getRelativeError(exp(value), results[num_iter]) << endl;
     cout << endl;
 
-    int column1 = 4;
+    int column1 = 10;
     int column2 = 20;
     int column3 = 20;
     int column4 = 20;
     int precision = 10;
 
-    cout << setw(column1) << "Term" << setw(column2) << "Result" << setw(column3) << "Error_t%" << setw(column4) << "Error_a%" << endl;
+    cout << left << setw(column1) << "Term"
+        << left << setw(column2) << "Result"
+        << left << setw(column3) << "Error_t%"
+        << left << setw(column4) << "Error_a%" << endl;
     /**from 0 to number of iteration inclusively because the iteration method run loop, say 10 times
      * then the series of function has 11 items*/
     for(int i = 0; i <= num_iter; i++) {
-        cout << setw(column1) << i + 1
-            << setw(column2) << setprecision(precision) << results[i]
-            << setw(column3) << setprecision(5) << getRelativeError(exp(value), results[i])
-            << setw(column4) << setprecision(precision) << (i == 0 ? -100 : getRelativeError(results[i], results[i-1]))
+        cout << left << setw(column1) << i + 1
+            << left << setw(column2) << setprecision(precision) << results[i]
+            << left << setw(column3) << setprecision(5) << getRelativeError(exp(value), results[i])
+            << left << setw(column4) << setprecision(precision) << (i == 0 ? -100 : getRelativeError(results[i], results[i-1]))
             << endl;
     }
 
