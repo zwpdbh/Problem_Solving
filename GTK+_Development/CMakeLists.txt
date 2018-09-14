@@ -25,8 +25,15 @@ include_directories("${PROJECT_SOURCE_DIR}")
 #use pkg-config tool to detect gtk headers and link libs
 FIND_PACKAGE(PkgConfig REQUIRED)
 PKG_CHECK_MODULES(GTK3 REQUIRED gtk+-3.0)
+
 #include gtk3 headers
+#pkg-config --cflags gtk+-3.0, returns directory names to the com- piler’s include path.
+#This will make sure that the GTK+ header files are available to the compiler.
 INCLUDE_DIRECTORIES(${GTK3_INCLUDE_DIRS})
+
+#link gtk3 libs
+#pkg-config --libs gtk+-3.0, appends options to the command line used by the linker
+#including library directory path extensions and a list of libraries needed for linking to the executable.
 LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
 
 #add other flags from gtk3
